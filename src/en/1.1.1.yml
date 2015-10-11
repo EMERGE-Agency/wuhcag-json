@@ -1,0 +1,6 @@
+guidelines:
+  1.1.1:
+    id: "text-equiv-all"
+    html: |
+      <h1>Hello World</h1>
+      <a href="/page-name">Link Here</a>
