@@ -106,6 +106,6 @@ guidelines:
         </div>
       </div>
       <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
-  wuhcag_related:
-    - "1.4.5"
-    - "1.4.9"
+    wuhcag_related:
+      - "1.4.5"
+      - "1.4.9"
