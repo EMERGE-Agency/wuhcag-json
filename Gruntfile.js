@@ -15,7 +15,7 @@ module.exports = function(grunt) {
           stripComments: true
         },
         files: {
-          "dist/wuhcag.min.json" : "dist/wuhcag.json"
+          "dist/wcag.min.json" : "dist/wcag.json"
         }
       }
     },
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         space: " "
       },
       your_target: {
-        files: { 'dist/wuhcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
       },
     }, // json_merge
 
