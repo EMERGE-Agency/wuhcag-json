@@ -106,13 +106,6 @@ guidelines:
         </div>
       </div>
       <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
-      <h2>See also</h2>
-      <ul>
-        <li><a href="https://www.wuhcag.com/images-of-text/"><strong>Guideline 1.4.5 – Images of Text</strong></a>
-        </li>
-        <li><a href="https://www.wuhcag.com/images-of-text-no-exception/"><strong>Guideline 1.4.9 – Images of Text (No Exception)</strong></a>
-        </li>
-      </ul>
   wuhcag_related:
     - "1.4.5"
     - "1.4.9"
