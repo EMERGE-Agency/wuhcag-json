@@ -1,6 +1,119 @@
 guidelines:
   1.1.1:
     id: "text-equiv-all"
-    html: |
-      <h1>Hello World</h1>
-      <a href="/page-name">Link Here</a>
+    title: "Non-text Content"
+    description: "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."
+    uri: "http://www.w3.org/TR/WCAG20/#text-equiv-all"
+    techniques:
+      - "C9"
+      - "C18"
+      - "F3"
+      - "F13"
+      - "F20"
+      - "F30"
+      - "F38"
+      - "F39"
+      - "F65"
+      - "F67"
+      - "F71"
+      - "F72"
+      - "FLASH1"
+      - "FLASH2"
+      - "FLASH3"
+      - "FLASH5"
+      - "FLASH6"
+      - "FLASH11"
+      - "FLASH25"
+      - "FLASH27"
+      - "FLASH28"
+      - "FLASH29"
+      - "FLASH30"
+      - "FLASH32"
+      - "G68"
+      - "G73"
+      - "G74"
+      - "G82"
+      - "G92"
+      - "G94"
+      - "G95"
+      - "G100"
+      - "G143"
+      - "G144"
+      - "G196"
+      - "H2"
+      - "H24"
+      - "H27"
+      - "H30"
+      - "H35"
+      - "H36"
+      - "H37"
+      - "H44"
+      - "H45"
+      - "H46"
+      - "H53"
+      - "H65"
+      - "H67"
+      - "H86"
+      - "SL5"
+      - "SL8"
+      - "SL18"
+      - "SL19"
+      - "SL26"
+      - "SL30"
+    wuhcag_summary: ""
+    wuhcag_detail: |
+      <p><strong>Provide text alternatives for non-text content</strong>
+      </p>
+      <p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>
+      <h2>What to do</h2>
+      <ul>
+        <li>Add a text alternative to all of your images.</li>
+        <li>Add a text alternative to your audio and video (a succinct description of the topic).</li>
+        <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>
+      </ul>
+      <h2>Tips</h2>
+      <p>Alternative (or ‘alt’) text is a written replacement for an image, not an addition to it. This means that the text should describe the image and give the same information that the image would if seen. This isn’t always easy and people don’t always agree
+        on what the ‘same’ information is. Ask yourself: what does the picture convey?</p>
+      <p>If the image is your company logo, your company name is a good bet. If the image is of text, replicate the text exactly. For all other images, describe the image helpfully and succinctly: we don’t need to know it’s a picture of 17,387 trees if the word
+        ‘forest’ will serve the same purpose.
+        <br> Whatever you do, alt text is not an opportunity for keyword stuffing. Adding out-of-context keywords as alt text is terrible for accessibility, it does not meet WCAG 2.0 guidelines and it can even harm search engine rankings.</p>
+      <p>Alt text is relatively simple to audit and easy to fix, making this a quick win. One of the best ways is to add the <a href="https://addons.mozilla.org/en-US/firefox/addon/wave-toolbar/">WAVE toolbar to Firefox</a> and check a page. As most sites have
+        a standard template, you can catch your biggest issues with one sweep. Banners, sidebar images and footers only need fixing once to improve every page on your site. After that, you’ll need to check your website page by page.</p>
+      <h2>Exceptions</h2>
+      <p>There are a few types of image that don’t need alt text: spacers, icons, purely decorative, tests and CAPTCHA images.</p>
+      <p>Icons are usually used to complement text, rather than replace it, so there’s no need to duplicate your efforts here. Customers with screen readers would just hear the same thing twice anyway, which is the opposite of what we’re trying to do.</p>
+      <div class="mailmunch-forms-in-post-middle" style="display: none !important;"></div>
+      <p>Spacers are images used for padding, often for ease and not good coding. They are often used to preserve formatting and present no information, so they don’t need alt text.</p>
+      <p>Decorative images are ones used just because they look nice. They have no information or use other than for their aesthetics.</p>
+      <p>Tests and CAPTCHAs that would be undermined by text alternatives don’t need them. Although if you do use CAPTCHA, use one with an audio alternative or add your contact details somewhere close by to help your users if they get stuck.</p>
+      <p>In all these cases, use ‘null’ alt text by simply leaving the alt text out, but do put the quotes in:</p>
+      <div>
+        <div id="highlighter_813367" class="syntaxhighlighter  html">
+          <div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span>
+          </div>
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td class="gutter">
+                  <div class="line number1 index0 alt2">1</div>
+                </td>
+                <td class="code">
+                  <div class="container">
+                    <div class="line number1 index0 alt2"><code class="html plain">&lt;</code><code class="html keyword">img</code> <code class="html color1">src</code><code class="html plain">=</code><code class="html string">"location-of-image.jpg"</code> <code class="html color1">alt</code>
+                      <code class="html plain">=</code><code class="html string">""</code> <code class="html plain">/&gt;</code>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
+      <h2>See also</h2>
+      <ul>
+        <li><a href="https://www.wuhcag.com/images-of-text/"><strong>Guideline 1.4.5 – Images of Text</strong></a>
+        </li>
+        <li><a href="https://www.wuhcag.com/images-of-text-no-exception/"><strong>Guideline 1.4.9 – Images of Text (No Exception)</strong></a>
+        </li>
+      </ul>
