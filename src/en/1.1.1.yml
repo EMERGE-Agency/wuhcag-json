@@ -60,10 +60,9 @@ guidelines:
       - "SL19"
       - "SL26"
       - "SL30"
-    wuhcag_summary: ""
+    wuhcag_summary: "Provide text alternatives for non-text content"
     wuhcag_detail: |
-      <p><strong>Provide text alternatives for non-text content</strong>
-      </p>
+      <p><strong>Provide text alternatives for non-text content</strong></p>
       <p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>
       <h2>What to do</h2>
       <ul>
@@ -72,13 +71,10 @@ guidelines:
         <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>
       </ul>
       <h2>Tips</h2>
-      <p>Alternative (or ‘alt’) text is a written replacement for an image, not an addition to it. This means that the text should describe the image and give the same information that the image would if seen. This isn’t always easy and people don’t always agree
-        on what the ‘same’ information is. Ask yourself: what does the picture convey?</p>
-      <p>If the image is your company logo, your company name is a good bet. If the image is of text, replicate the text exactly. For all other images, describe the image helpfully and succinctly: we don’t need to know it’s a picture of 17,387 trees if the word
-        ‘forest’ will serve the same purpose.
+      <p>Alternative (or ‘alt’) text is a written replacement for an image, not an addition to it. This means that the text should describe the image and give the same information that the image would if seen. This isn’t always easy and people don’t always agree on what the ‘same’ information is. Ask yourself: what does the picture convey?</p>
+      <p>If the image is your company logo, your company name is a good bet. If the image is of text, replicate the text exactly. For all other images, describe the image helpfully and succinctly: we don’t need to know it’s a picture of 17,387 trees if the word ‘forest’ will serve the same purpose.
         <br> Whatever you do, alt text is not an opportunity for keyword stuffing. Adding out-of-context keywords as alt text is terrible for accessibility, it does not meet WCAG 2.0 guidelines and it can even harm search engine rankings.</p>
-      <p>Alt text is relatively simple to audit and easy to fix, making this a quick win. One of the best ways is to add the <a href="https://addons.mozilla.org/en-US/firefox/addon/wave-toolbar/">WAVE toolbar to Firefox</a> and check a page. As most sites have
-        a standard template, you can catch your biggest issues with one sweep. Banners, sidebar images and footers only need fixing once to improve every page on your site. After that, you’ll need to check your website page by page.</p>
+      <p>Alt text is relatively simple to audit and easy to fix, making this a quick win. One of the best ways is to add the <a href="https://addons.mozilla.org/en-US/firefox/addon/wave-toolbar/">WAVE toolbar to Firefox</a> and check a page. As most sites have a standard template, you can catch your biggest issues with one sweep. Banners, sidebar images and footers only need fixing once to improve every page on your site. After that, you’ll need to check your website page by page.</p>
       <h2>Exceptions</h2>
       <p>There are a few types of image that don’t need alt text: spacers, icons, purely decorative, tests and CAPTCHA images.</p>
       <p>Icons are usually used to complement text, rather than replace it, so there’s no need to duplicate your efforts here. Customers with screen readers would just hear the same thing twice anyway, which is the opposite of what we’re trying to do.</p>
@@ -117,3 +113,6 @@ guidelines:
         <li><a href="https://www.wuhcag.com/images-of-text-no-exception/"><strong>Guideline 1.4.9 – Images of Text (No Exception)</strong></a>
         </li>
       </ul>
+  wuhcag_related:
+    - "1.4.5"
+    - "1.4.9"
