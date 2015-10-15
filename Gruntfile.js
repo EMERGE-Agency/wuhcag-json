@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     yaml: {
       your_target: {
         options: {
-          ignored: /^_/,
+          // ignored: /^_/,
           space: 4,
           constructors: {
             '!include': function (node, yaml) {

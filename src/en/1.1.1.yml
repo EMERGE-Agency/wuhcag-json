@@ -1,5 +1,5 @@
 guidelines:
-  1.1.1:
+  1-1-1:
     id: "text-equiv-all"
     title: "Non-text Content"
     description: "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."
