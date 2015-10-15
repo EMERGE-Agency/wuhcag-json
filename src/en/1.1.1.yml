@@ -109,3 +109,6 @@ guidelines:
     wuhcag_related:
       - "1.4.5"
       - "1.4.9"
+    teams:
+      - "t2"
+      - "t4"

@@ -10,6 +10,8 @@ The project is [Grunt](http://gruntjs.com/)-based and leverages YAML partial fil
 
 ***You should only edit `/src/*.yml` files. When ready to build run the `grunt build` command. If you get errors double check your YAML formatting.***
 
+*** spaces in YAML instead of tabs***
+
 ### Setup
 `npm install` will setup the required modules
 `grunt build` will build the JSON files.
