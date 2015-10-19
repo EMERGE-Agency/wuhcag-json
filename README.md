@@ -1,7 +1,7 @@
-WCAG/WUHCAG 2.0 JSON
+Web Content Accessibility Guidelines (WCAG) 2.0 JSON
 ===============
 
-The WCAG 2.0 guidelines in JSON format. This special release of the WCAG Guidelines has been supplemented with content from the [Wuhcag.com checklist](https://www.wuhcag.com/wcag-checklist/). We added this content because it is much easier to understand than the docs as is.
+The WCAG 2.0 guidelines in JSON format. This special release of the WCAG Guidelines in JSON format has been supplemented with content from the [Wuhcag.com checklist](https://www.wuhcag.com/wcag-checklist/) courtesy of [Luke McGrath](https://www.wuhcag.com/about/).
 
 You will find the JSON file in `dist/wcag.json` along with a minified version here `dist/wcag.min.json`
 
@@ -15,6 +15,9 @@ The project is [Grunt](http://gruntjs.com/)-based and leverages YAML partial fil
 ### Setup
 `npm install` will setup the required modules
 `grunt build` will build the JSON files.
+
+### Build
+`grunt build` This task will read all YAML files and convert them
 
 ## Yaml outline:
 ``` yaml
