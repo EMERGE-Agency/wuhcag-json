@@ -56,13 +56,6 @@ module.exports = function(grunt) {
 
   });
 
-  // Linting, mostly to test JSON.
-  grunt.registerTask('yaml_to_json', ['yaml']);
-
-  grunt.registerTask('build_json', ['json_merge']);
-
-  grunt.registerTask('minify_json', ['jsonmin']);
-
   grunt.registerTask('build',['yaml','json_merge','jsonmin']);
 
 
