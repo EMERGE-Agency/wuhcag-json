@@ -8,9 +8,8 @@ You will find the JSON file in `dist/wcag.json` along with a minified version he
 ## Contributing
 The project is [Grunt](http://gruntjs.com/)-based and leverages YAML partial files that are converted to JSON format and then compressed into a single file.
 
-You should only edit `/src/*.yml` files. When ready to build run the `grunt build` command. If you get errors double check your YAML formatting.
+You should only edit `/src/*.yml` files. When ready to build run the `grunt build` command. If you get errors double check your YAML formatting. Be sure to only use **spaces** in the .yml files and NOT tabs.
 
-*** spaces in YAML instead of tabs***
 
 ### Setup
 `npm install` will setup the required modules
