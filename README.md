@@ -1,7 +1,7 @@
 WCAG/WUHCAG 2.0 JSON
 ===============
 
-The WCAG 2.0 guidelines in JSON format. This special release of the WCAG Guidelines has been suplimented with content from the [Wuhcag.com checklist](https://www.wuhcag.com/wcag-checklist/). We added this content because it is much easier to understand than the docs as is.
+The WCAG 2.0 guidelines in JSON format. This special release of the WCAG Guidelines has been supplemented with content from the [Wuhcag.com checklist](https://www.wuhcag.com/wcag-checklist/). We added this content because it is much easier to understand than the docs as is.
 
 You will find the JSON file in `dist/wcag.json` along with a minified version here `dist/wcag.min.json`
 
