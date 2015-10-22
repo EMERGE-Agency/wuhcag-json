@@ -31,6 +31,10 @@ guidelines:
 		wuhcag_summary: "..."
 		wuhcag_detail: |
 			...
+		wuhcag_tips: |
+		  ...
+		wuchcag_exceptions: |
+		  ...
 		wuhcag_related:
 			- "..."
 ```
