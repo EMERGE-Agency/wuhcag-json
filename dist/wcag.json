@@ -97,13 +97,6 @@
    ]
   }
  },
- "teams": {
-  "t1": "ux",
-  "t2": "content",
-  "t3": "design",
-  "t4": "development",
-  "t5": "multimedia"
- },
  "techniques": {
   "ARIA1": "Using the aria-describedby property to provide a descriptive label for input controls",
   "ARIA2": "Identifying required fields with the   aria-required property",
