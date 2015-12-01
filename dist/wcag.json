@@ -412,7 +412,34 @@
    "wuhcag_tips": "<p>Creating accessible instructions is great for everyone. The clearer your instructions are, the more likely users will follow them – this is especially useful for things like buying instructions. Getting this guideline right might just make you more money or get you more users by reducing dropouts.</p>\n<p>A good instruction will use several sensory characteristics. Consider the accessibility of these four examples:</p>\n<ul>\n <li>‘Use the search box’</li>\n <li>‘Use the search box on the right’</li>\n <li>‘Search by using the green rectangle box labelled ‘Search’ on the right’</li>\n <li>‘Search by using the rectangle box at the very top right of this page’</li>\n</ul>\n<p>Web designers often have an aversion to adding words, feeling that it adds to confusion. In this case, the opposite can be true. Of course, ideally you want a website that feels instinctive with clear actions. When you need instructions, get them right.</p>\n<p>It’s best to avoid sound on a website, other than in media. No one likes unexpected sounds. It’s always hard to tell what the sound means and what you did do make it happen. A prime example is if you use sounds to alert users to errors on a form. The user can't tell exactly what made the error, they won't even be sure the sound indicated an error. Your users with hearing impairments have no chance.</p>\n<p>For forms, use a clear visual clue for errors and avoid sounds altogether.</p>\n<p>By making sure you don’t rely only on colour in your instructions, you can work towards Guideline 1.4.1.</p>\n",
    "wuhcag_what_to_do": "<p>Getting sensory characteristics right is mainly a case of using your common sense. There are no technical requirements, just good and sensible copy writing:</p>\n<ul>\n <li>Use more than one sense for instructions.</li>\n <li>Avoid instructions that rely on sound.</li>\n</ul>\n",
    "wuchcag_exceptions": "",
-   "wuhcag_related": null
+   "wuhcag_related": [
+    "1-4-1"
+   ]
+  },
+  "1-4-1": {
+   "id": "visual-audio-contrast-without-color",
+   "title": "Use of Color",
+   "description": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.",
+   "uri": "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color",
+   "techniques": [
+    "C15",
+    "F13",
+    "F73",
+    "F81",
+    "G14",
+    "G111",
+    "G182",
+    "G183",
+    "H92"
+   ],
+   "wuhcag_summary": "Don’t use presentation that relies solely on colour",
+   "wuhcag_detail": "<p>Your users with visual impairment need help when you use colour on your website. As many as <a href=\"http://www.colourblindawareness.org/colour-blindness\">1 in 12 men have some degree of colour blindness</a>. That means that somewhere around 8% of your male users will struggle with your website if you don’t use colour correctly.</p>\n",
+   "wuhcag_tips": "<p>Check for colour issues by printing samples from your website in black and white. Are there any instructions you can’t follow or is there information you can’t understand?</p>\n<p>Making your website accessible to colour blind users is simple. The main area to focus on is giving instructions. Saying things like ‘Click the green button’ or ‘Required fields are red’ is useless to users who can’t see green or red. Back these kinds of instructions up with at least one more identifying remark.</p>\n<p>Another point is to make sure that important graphics are not dependent on colour alone. For example, your users might not understand a pie chart where only colour separates the segments. In this case, you should add clear labelling and patterns to the segments.</p>\n<p>There’s an overlap here with Guideline 1.3.3. Instructions should always be clear and give your customers the detail they need.</p>\n<p>This guideline is not about removing all traces of colour from your website, far from it. It just means that colour must not be the only way of conveying the information or instruction. A common misconception is that web accessibility means making your website black and white, and making it completely boring. Web accessibility is about improving websites, not taking away from them.</p>\n",
+   "wuhcag_what_to_do": "<p>Using colour is mainly a case of using your common sense:</p>\n<ul>\n <li>Instructions must not rely on colour alone.</li>\n <li>Other information (like charts and graphs) must not rely on colour alone.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-3-3"
+   ]
   }
  },
  "techniques": {
