@@ -462,6 +462,32 @@
    "wuhcag_what_to_do": "<ul>\n  <li>Don’t have any audio that plays automatically.</li>\n  <li>Have all the audio you want, just let your users choose when they want to hear it.</li>\n</ul>\n",
    "wuchcag_exceptions": "<p>Although you can pass this guideline by adding a pause, mute or stop function to automatic audio, that’s a bad idea. You don't want your users frantically searching around your website for the audio control.</p>\n<p>Users shouldn't have to take action for a better experience, you need to provide it to them by default.</p>\n<p>There’s a further exception on audio that plays for less than three seconds. Ignore this too. Three seconds of audio can still distract users, especially those who have problems maintaining focus.</p>\n",
    "wuhcag_related": null
+  },
+  "1-4-3": {
+   "id": "visual-audio-contrast-contrast",
+   "title": "Contrast (Minimum)",
+   "description": "The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:",
+   "uri": "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast",
+   "techniques": [
+    "F24",
+    "F83",
+    "G18",
+    "G145",
+    "G148",
+    "G156",
+    "G174",
+    "SL13"
+   ],
+   "wuhcag_summary": "Contrast ratio between your text and background is at least 4.5:1",
+   "wuhcag_detail": "<p>All of your users will benefit from a good contrast between the text on your website and the background colour. Some of your users with visual impairments need a stronger contrast than others, so getting your colours right is essential.</p>\n",
+   "wuhcag_tips": "<ul>\n  <li>Picking a contrast of at least 7:1 will also fulfil Guideline 1.4.6.</li>\n  <li>Remember to ensure that all colours used conform. This includes links that change colour after being used once, and headings in menus and sidebars, as well as main content.</li>\n  <li>Make sure that any embedded charts or images of charts have the minimum contrast between elements (for example, bars, axes and labels).</li>\n  <li>This guideline also applies to images of text (but you shouldn’t be using images of text, see Guideline 1.4.5.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Make sure the contrast ratio between your text and background is at least 4.5:1.</p>\n<p>Do this by:</p>\n<ul>\n <li>Using a light background and dark text; or</li>\n <li>Using a dark background and light text; and</li>\n <li>Using <a href=\"http://webaim.org/resources/contrastchecker/\">WebAim’s colour contrast checker</a> to verify your choice.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<ul>\n  <li>Text that is 18 points or larger (or 14 points or larger, if bold) must have a contrast of at least 3:1.</li>\n  <li>If the text is purely decorative. </li>\n  <li>If the text is an incidental part of an image (for example, a man who is reading a newspaper or a landscape that happens to include a street sign).</li>\n  <li>Brand logos.</li>\n</ul>\n",
+   "wuhcag_related": [
+    "1-4-5",
+    "1-4-6",
+    "1-4-9"
+   ]
   }
  },
  "techniques": {
