@@ -1,0 +1,23 @@
+guidelines:
+  1-2-6:
+    id: "media-equiv-sign"
+    title: "Sign Language (Prerecorded)"
+    description: "Sign language interpretation is provided for all prerecorded audio content in synchronized media."
+    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-sign"
+    techniques:
+      - "G54"
+      - "G81"
+      - "SM13"
+      - "SM14"
+    wuhcag_summary: "Provide sign language translations for videos"
+    wuhcag_detail: |
+      <p>Some of your users will want to view sign language interpretations of your videos. Adding this feature offers those users the same information as others.</p>
+    wuhcag_tips: |
+    wuhcag_what_to_do: |
+      <p>Make an alternative version of your video with a sign language interpreter embedded and link to it from near the original content.</p>
+    wuchcag_exceptions: |
+    wuhcag_related:
+      - "1.1.1"
+      - "1.2.2"
+      - "1.2.3"
+      - ""

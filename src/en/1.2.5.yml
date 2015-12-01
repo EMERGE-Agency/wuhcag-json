@@ -15,7 +15,7 @@ guidelines:
       - "SM2"
       - "SM6"
       - "SM7"
-    wuhcag_summary: ""
+    wuhcag_summary: "Users have access to audio description for video content"
     wuhcag_detail: |
       <p>Some of your users will rely on audio description to help with videos. Adding audio description to your videos means these users have the same information as everyone else.</p>
     wuhcag_tips: |

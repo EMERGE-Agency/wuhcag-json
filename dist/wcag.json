@@ -178,7 +178,7 @@
     "SM6",
     "SM7"
    ],
-   "wuhcag_summary": "",
+   "wuhcag_summary": "Users have access to audio description for video content",
    "wuhcag_detail": "<p>Some of your users will rely on audio description to help with videos. Adding audio description to your videos means these users have the same information as everyone else.</p>\n",
    "wuhcag_tips": "<p>If you have provided audio description for videos to meet Guideline 1.2.3, you have already fulfilled this guideline.</p>\n<p>Your audio description version must include everything that might be lost to a visually impaired user – things like:</p>\n<ul>\n <li>Relevant exposition (location, gestures, lighting, colours).</li>\n <li>Identifying new speakers.</li>\n <li>Marking the passing of time.</li>\n</ul>\n<p>This is by no means an exhaustive list. The key is to think about what information the video provides and ensure a user with a visual impairment gets the same information.</p>\n<p>Remember to use clear words, use the present tense and keep in sync with the video.</p>\n",
    "wuhcag_what_to_do": "<p>Make an alternative version of your video with an audio description soundtrack and link to it from near the original content.</p>\n",
@@ -188,6 +188,29 @@
     "1.2.3",
     "1.2.7",
     "1.2.8"
+   ]
+  },
+  "1-2-6": {
+   "id": "media-equiv-sign",
+   "title": "Sign Language (Prerecorded)",
+   "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-sign",
+   "techniques": [
+    "G54",
+    "G81",
+    "SM13",
+    "SM14"
+   ],
+   "wuhcag_summary": "Provide sign language translations for videos",
+   "wuhcag_detail": "<p>Some of your users will want to view sign language interpretations of your videos. Adding this feature offers those users the same information as others.</p>\n",
+   "wuhcag_tips": "",
+   "wuhcag_what_to_do": "<p>Make an alternative version of your video with a sign language interpreter embedded and link to it from near the original content.</p>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1.1.1",
+    "1.2.2",
+    "1.2.3",
+    ""
    ]
   }
  },
