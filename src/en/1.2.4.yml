@@ -1,0 +1,23 @@
+guidelines:
+  1-2-4:
+    id: "media-equiv-real-time-captions"
+    title: "Captions (Live)"
+    description: "Captions are provided for all live audio content in synchronized media."
+    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions"
+    techniques:
+      - "G9"
+      - "G87"
+      - "G93"
+      - "SM11"
+      - "SM12"
+    wuhcag_summary: "Video with audio has a second alternative"
+    wuhcag_detail: |
+      <p>Your users sometimes rely on captions to enjoy your video content. Adding captions to live videos helps people use your website when you’re streaming live video.</p>
+    wuhcag_tips: |
+      <p>Live video is mainly used by large broadcasting companies, but you might want to provide a live stream of a seminar for people who can’t physically attend, or perhaps you’re working for a University and need to put graduation ceremonies online.</p>
+    wuhcag_what_to_do: |
+      <p>Use a content management system that allows captions to be added live and probably a professional subtitler to do it for you.</p>
+    wuchcag_exceptions: |
+      <p>If the video is an alternative for text.</p>
+    wuhcag_related:
+      - "1.2.2"
