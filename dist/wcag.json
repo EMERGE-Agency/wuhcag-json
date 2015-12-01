@@ -191,26 +191,25 @@
    ]
   },
   "1-2-6": {
-   "id": "media-equiv-sign",
-   "title": "Sign Language (Prerecorded)",
-   "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
-   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-sign",
+   "id": "media-equiv-extended-ad",
+   "title": "Extended Audio Description (Prerecorded)",
+   "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad",
    "techniques": [
-    "G54",
-    "G81",
-    "SM13",
+    "G8",
+    "SM1",
+    "SM2",
     "SM14"
    ],
-   "wuhcag_summary": "Provide sign language translations for videos",
-   "wuhcag_detail": "<p>Some of your users will want to view sign language interpretations of your videos. Adding this feature offers those users the same information as others.</p>\n",
-   "wuhcag_tips": "",
-   "wuhcag_what_to_do": "<p>Make an alternative version of your video with a sign language interpreter embedded and link to it from near the original content.</p>\n",
-   "wuchcag_exceptions": "",
+   "wuhcag_summary": "Provide extended audio description for videos",
+   "wuhcag_detail": "<p>Your users who value audio description need to receive the same information that other users get from your video. Extended audio description can help where your video conveys large amounts of information without enough pauses in the regular soundtrack for audio description to work. Extended audio description is simply pausing the video to give a narrator enough time to convey the information in the video.</p>\n",
+   "wuhcag_tips": "<ul>\n\t<li>Hire a video editor to get the timings right and synchronise the audio and video.</li>\n\t<li>If you chose to use audio description to fulfil Guideline 1.2.3, you may have already satisfied this guideline.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Make an alternative version of your video with an extended audio description soundtrack and link to it from near the original content.</p>\n",
+   "wuchcag_exceptions": "<ul>\n <li>No audio description is needed if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</li>\n <li>You don’t need extended audio description if regular audio description can provide all of the information in the video.</li>\n</ul>\n",
    "wuhcag_related": [
-    "1.1.1",
-    "1.2.2",
     "1.2.3",
-    ""
+    "1.2.5",
+    "1.2.8"
    ]
   }
  },

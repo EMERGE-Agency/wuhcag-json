@@ -1,0 +1,29 @@
+guidelines:
+  1-2-6:
+    id: "media-equiv-extended-ad"
+    title: "Extended Audio Description (Prerecorded)"
+    description: "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media."
+    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad"
+    techniques:
+      - "G8"
+      - "SM1"
+      - "SM2"
+    wuhcag_summary: "Provide extended audio description for videos"
+    wuhcag_detail: |
+      <p>Your users who value audio description need to receive the same information that other users get from your video. Extended audio description can help where your video conveys large amounts of information without enough pauses in the regular soundtrack for audio description to work. Extended audio description is simply pausing the video to give a narrator enough time to convey the information in the video.</p>
+    wuhcag_tips: |
+      <ul>
+      	<li>Hire a video editor to get the timings right and synchronise the audio and video.</li>
+      	<li>If you chose to use audio description to fulfil Guideline 1.2.3, you may have already satisfied this guideline.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>Make an alternative version of your video with an extended audio description soundtrack and link to it from near the original content.</p>
+    wuchcag_exceptions: |
+      <ul>
+       <li>No audio description is needed if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</li>
+       <li>You don’t need extended audio description if regular audio description can provide all of the information in the video.</li>
+      </ul>
+    wuhcag_related:
+      - "1.2.3"
+      - "1.2.5"
+      - "1.2.8"
