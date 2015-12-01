@@ -191,6 +191,28 @@
    ]
   },
   "1-2-6": {
+   "id": "media-equiv-sign",
+   "title": "Sign Language (Prerecorded)",
+   "description": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-sign",
+   "techniques": [
+    "G54",
+    "G81",
+    "SM13",
+    "SM14"
+   ],
+   "wuhcag_summary": "Provide sign language translations for videos",
+   "wuhcag_detail": "<p>Some of your users will want to view sign language interpretations of your videos. Adding this feature offers those users the same information as others.</p>\n",
+   "wuhcag_tips": "",
+   "wuhcag_what_to_do": "<p>Make an alternative version of your video with a sign language interpreter embedded and link to it from near the original content.</p>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1.1.1",
+    "1.2.2",
+    "1.2.3"
+   ]
+  },
+  "1-2-7": {
    "id": "media-equiv-extended-ad",
    "title": "Extended Audio Description (Prerecorded)",
    "description": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.",
@@ -198,8 +220,7 @@
    "techniques": [
     "G8",
     "SM1",
-    "SM2",
-    "SM14"
+    "SM2"
    ],
    "wuhcag_summary": "Provide extended audio description for videos",
    "wuhcag_detail": "<p>Your users who value audio description need to receive the same information that other users get from your video. Extended audio description can help where your video conveys large amounts of information without enough pauses in the regular soundtrack for audio description to work. Extended audio description is simply pausing the video to give a narrator enough time to convey the information in the video.</p>\n",
@@ -210,6 +231,31 @@
     "1.2.3",
     "1.2.5",
     "1.2.8"
+   ]
+  },
+  "1-2-8": {
+   "id": "media-equiv-text-doc",
+   "title": "Media Alternative (Prerecorded)",
+   "description": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-text-doc",
+   "techniques": [
+    "F74",
+    "G58",
+    "G69",
+    "G159",
+    "H46",
+    "H53",
+    "SL17"
+   ],
+   "wuhcag_summary": "Provide a text alternative to your videos",
+   "wuhcag_detail": "<p>While you may have produced captions or audio description to enhance your videos, some users will rely on a text alternative to get the information. Providing a full text transcript of a video, including links to any calls to action, can help make it more accessible.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>You may have fulfilled this Guideline if you chose to meet Guideline 1.2.3 with a text transcript and then fulfilled Guideline 1.2.5 with audio description.</li>\n <li>A good transcript contains all information in the video, such as visual cues, description and dialogue attribution.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Provide a full text transcript for your video and link to it from near the original content.</li>\n <li>If the video needs audio description, make sure that is also in place.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>If the video is itself an alternative, you don’t need to add a transcript.</p>\n",
+   "wuhcag_related": [
+    "1.2.3",
+    "1.2.5",
+    "1.2.7"
    ]
   }
  },
