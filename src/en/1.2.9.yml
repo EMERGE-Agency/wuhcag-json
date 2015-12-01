@@ -1,0 +1,26 @@
+guidelines:
+  1-2-9:
+    id: "media-equiv-live-audio-only"
+    title: "Audio-only (Live)"
+    description: "An alternative for time-based media that presents equivalent information for live audio-only content is provided."
+    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only"
+    techniques:
+      - "G150"
+      - "G151"
+      - "G157"
+    wuhcag_summary: "Provide alternatives for live audio"
+    wuhcag_detail: |
+      <p>When broadcasting live audio-only content, such as a live podcast or radio stream, some users will rely on an alternative to the audio to understand your content.</p>
+    wuhcag_tips: |
+      <ul>
+        <li>To add live captions to an audio broadcast you will need professional software.</li>
+        <li>You may also want to hire a professional subtitler to get the best results.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <ul>
+       <li>Add closed captions to live audio; or</li>
+       <li>If the live broadcast is from a prepared script, make the script text available from near the original content.</li>
+      </ul>
+    wuchcag_exceptions: |
+    wuhcag_related:
+      - "1.2.4"
