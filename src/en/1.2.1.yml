@@ -30,7 +30,8 @@ guidelines:
       <div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
       <p>As an alternative for video-only content, you could also choose to record an audio track that narrates the video.</p>
       <p>For both audio-only and video-only, create your text transcript and place it either directly beneath the content or insert a link next to the content.</p>
-    wuchcag_exceptions: |
+    wuhcag_what_to_do: |
+    wuhcag_exceptions: |
       <p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>
     wuhcag_related:
       - "1.2.2"

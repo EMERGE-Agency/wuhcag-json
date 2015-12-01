@@ -63,9 +63,10 @@
     "SL30"
    ],
    "wuhcag_summary": "Provide text alternatives for non-text content",
-   "wuhcag_detail": "<p>meow</p>\n<p><strong>Provide text alternatives for non-text content</strong></p>\n<p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>\n<h2>What to do</h2>\n<ul>\n  <li>Add a text alternative to all of your images.</li>\n  <li>Add a text alternative to your audio and video (a succinct description of the topic).</li>\n  <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>\n</ul>\n",
+   "wuhcag_detail": "<p><strong>Provide text alternatives for non-text content</strong></p>\n<p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>\n<h2>What to do</h2>\n<ul>\n  <li>Add a text alternative to all of your images.</li>\n  <li>Add a text alternative to your audio and video (a succinct description of the topic).</li>\n  <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>\n</ul>\n",
    "wuhcag_tips": "<p>There are a few types of image that don’t need alt text: spacers, icons, purely decorative, tests and CAPTCHA images.</p>\n<p>Icons are usually used to complement text, rather than replace it, so there’s no need to duplicate your efforts here. Customers with screen readers would just hear the same thing twice anyway, which is the opposite of what we’re trying to do.</p>\n<p>Spacers are images used for padding, often for ease and not good coding. They are often used to preserve formatting and present no information, so they don’t need alt text.</p>\n<p>Tests and CAPTCHAs that would be undermined by text alternatives don’t need them. Although if you do use CAPTCHA, use one with an audio alternative or add your contact details somewhere close by to help your users if they get stuck.</p>\n<p>In all these cases, use ‘null’ alt text by simply leaving the alt text out, but do put the quotes in:</p>\n<pre class=\"brush: html; auto-links: false;\">&lt;img src=&quot;location-of-image.jpg&quot; alt=&quot;&quot; /&gt;</pre>\n<p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>\n",
-   "wuchcag_exceptions": "",
+   "wuhcag_what_to_do": "",
+   "wuhcag_exceptions": "",
    "wuhcag_related": [
     "1.4.5",
     "1.4.9"
@@ -87,13 +88,42 @@
    "wuhcag_summary": "Provide an alternative to video-only and audio-only content",
    "wuhcag_detail": "<p><strong>Provide an alternative to video-only and audio-only content</strong></p>\n<p>Some users will find it difficult to use or understand things like podcasts and silent videos or animations.</p>\n<h2>What to do</h2>\n<ul>\n  <li>Write text transcripts for any audio-only media;</li>\n  <li>Write text transcripts for any video-only media; or</li>\n  <li>Record an audio-track for any video-only media;</li>\n  <li>Place the text transcript, or link to it, close to the media.</li>\n</ul>\n",
    "wuhcag_tips": "<p>Audio-only and video-only content needs to be supported by text transcripts that convey the same information as the media. Sometimes this is quite simple, other times you have to make a judgement call on what that really means. The best bet is, as always,to be honest with your customers: what does the media convey and does your transcript do the same? Could you swap one for the other?</p>\n<p>One of the most common uses for text transcripts is when a podcast is published online. Embedding a podcast in a page is a great way of sharing your content but no good for your customers with hearing impairments. A text transcript should contain everything mentioned in the recording.</p>\n<p>Less commonly, some videos do not have sound. Your customers with visual impairments need help with this kind of content. A text transcript for a video without sound should describe what is going on in the video as clearly as possible. Try to focus on\n  what the video is trying to say rather than getting bogged down with detail.</p>\n<div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>\n<p>As an alternative for video-only content, you could also choose to record an audio track that narrates the video.</p>\n<p>For both audio-only and video-only, create your text transcript and place it either directly beneath the content or insert a link next to the content.</p>\n",
-   "wuchcag_exceptions": "<p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>\n",
+   "wuhcag_what_to_do": "",
+   "wuhcag_exceptions": "<p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>\n",
    "wuhcag_related": [
     "1.2.2",
     "1.2.3",
     "1.2.5",
     "1.2.7",
     "1.2.8"
+   ]
+  },
+  "1-2-2": {
+   "id": "media-equiv-captions",
+   "title": "Captions (Pre-recorded)",
+   "description": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-captions",
+   "techniques": [
+    "F8",
+    "F74",
+    "F75",
+    "FLASH9",
+    "G87",
+    "G93",
+    "SL16",
+    "SL28",
+    "SM11",
+    "SM12"
+   ],
+   "wuhcag_summary": "Provide captions for videos with audio",
+   "wuhcag_detail": "<p>Closed captioning is perhaps the most well known tool for people with disabilities. Often known as subtitles, or abbreviated as CC, closed captions have been around since the 1970s.</p>\n<p>Multimedia is becoming more and more popular as the average home gets faster and faster internet access. Videos are cropping up everywhere, from news websites to product pages. One of the most visited websites in the world, YouTube, is specifically for online videos. As website owners turn to video, you must think of how users process your multimedia content.</p>\n",
+   "wuhcag_tips": "",
+   "wuhcag_what_to_do": "<p>Adding captions to a video is a relatively hard task, compared to something like writing a text transcript or providing alternative text. Captions must be synchronised with the video to be useful, which means marking up the plain text with timestamps.</p>\n<p>There are plenty of paid services out there that will do your closed captioning for you, often at reasonable rates. There are also many free programs that will attempt to create your caption file for you, but none as good as human eyes and ears just yet. Like with many areas of web accessibility, your choice is between spending time (writing your own captions) or money (outsourcing).</p>\n<p>Google has written a very clear how-to guide on adding captions to YouTube videos, which I’m not going to try and better.</p>\n<p>Add captions to all videos with sound.</p>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1.1.1",
+    "1.2.1",
+    "1.2.4"
    ]
   }
  },

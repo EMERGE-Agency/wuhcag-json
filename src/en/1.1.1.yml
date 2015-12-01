@@ -62,7 +62,6 @@ guidelines:
       - "SL30"
     wuhcag_summary: "Provide text alternatives for non-text content"
     wuhcag_detail: |
-      <p>meow</p>
       <p><strong>Provide text alternatives for non-text content</strong></p>
       <p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>
       <h2>What to do</h2>
@@ -79,7 +78,8 @@ guidelines:
       <p>In all these cases, use ‘null’ alt text by simply leaving the alt text out, but do put the quotes in:</p>
       <pre class="brush: html; auto-links: false;">&lt;img src=&quot;location-of-image.jpg&quot; alt=&quot;&quot; /&gt;</pre>
       <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
-    wuchcag_exceptions: |
+    wuhcag_what_to_do: |
+    wuhcag_exceptions: |
     wuhcag_related:
       - "1.4.5"
       - "1.4.9"
