@@ -34,8 +34,8 @@ guidelines:
     wuhcag_exceptions: |
       <p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>
     wuhcag_related:
-      - "1.2.2"
-      - "1.2.3"
-      - "1.2.5"
-      - "1.2.7"
-      - "1.2.8"
+      - "1-2-2"
+      - "1-2-3"
+      - "1-2-5"
+      - "1-2-7"
+      - "1-2-8"

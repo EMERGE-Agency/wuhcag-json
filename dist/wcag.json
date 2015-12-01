@@ -68,8 +68,8 @@
    "wuhcag_what_to_do": "",
    "wuhcag_exceptions": "",
    "wuhcag_related": [
-    "1.4.5",
-    "1.4.9"
+    "1-4-5",
+    "1-4-9"
    ]
   },
   "1-2-1": {
@@ -91,11 +91,11 @@
    "wuhcag_what_to_do": "",
    "wuhcag_exceptions": "<p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>\n",
    "wuhcag_related": [
-    "1.2.2",
-    "1.2.3",
-    "1.2.5",
-    "1.2.7",
-    "1.2.8"
+    "1-2-2",
+    "1-2-3",
+    "1-2-5",
+    "1-2-7",
+    "1-2-8"
    ]
   },
   "1-2-2": {
@@ -121,9 +121,9 @@
    "wuhcag_what_to_do": "<p>Adding captions to a video is a relatively hard task, compared to something like writing a text transcript or providing alternative text. Captions must be synchronised with the video to be useful, which means marking up the plain text with timestamps.</p>\n<p>There are plenty of paid services out there that will do your closed captioning for you, often at reasonable rates. There are also many free programs that will attempt to create your caption file for you, but none as good as human eyes and ears just yet. Like with many areas of web accessibility, your choice is between spending time (writing your own captions) or money (outsourcing).</p>\n<p>Google has written a very clear how-to guide on adding captions to YouTube videos, which I’m not going to try and better.</p>\n<p>Add captions to all videos with sound.</p>\n",
    "wuchcag_exceptions": "",
    "wuhcag_related": [
-    "1.1.1",
-    "1.2.1",
-    "1.2.4"
+    "1-1-1",
+    "1-2-1",
+    "1-2-4"
    ]
   },
   "1-2-3": {
@@ -153,12 +153,12 @@
    "wuhcag_what_to_do": "<ul>\n\t<li>Provide a full text transcript of the video; or</li>\n\t<li>Provide a version of the video with audio description .</li>\n</ul>\n",
    "wuchcag_exceptions": "",
    "wuhcag_related": [
-    "1.1.1",
-    "1.2.1",
-    "1.2.2",
-    "1.2.5",
-    "1.2.7",
-    "1.2.8"
+    "1-1-1",
+    "1-2-1",
+    "1-2-2",
+    "1-2-5",
+    "1-2-7",
+    "1-2-8"
    ]
   },
   "1-2-4": {
@@ -184,10 +184,10 @@
    "wuhcag_what_to_do": "<p>Make an alternative version of your video with an audio description soundtrack and link to it from near the original content.</p>\n",
    "wuchcag_exceptions": "<p>You don’t need an audio description if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</p>\n",
    "wuhcag_related": [
-    "1.2.2",
-    "1.2.3",
-    "1.2.7",
-    "1.2.8"
+    "1-2-2",
+    "1-2-3",
+    "1-2-7",
+    "1-2-8"
    ]
   },
   "1-2-6": {
@@ -207,9 +207,9 @@
    "wuhcag_what_to_do": "<p>Make an alternative version of your video with a sign language interpreter embedded and link to it from near the original content.</p>\n",
    "wuchcag_exceptions": "",
    "wuhcag_related": [
-    "1.1.1",
-    "1.2.2",
-    "1.2.3"
+    "1-1-1",
+    "1-2-2",
+    "1-2-3"
    ]
   },
   "1-2-7": {
@@ -228,9 +228,9 @@
    "wuhcag_what_to_do": "<p>Make an alternative version of your video with an extended audio description soundtrack and link to it from near the original content.</p>\n",
    "wuchcag_exceptions": "<ul>\n <li>No audio description is needed if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</li>\n <li>You don’t need extended audio description if regular audio description can provide all of the information in the video.</li>\n</ul>\n",
    "wuhcag_related": [
-    "1.2.3",
-    "1.2.5",
-    "1.2.8"
+    "1-2-3",
+    "1-2-5",
+    "1-2-8"
    ]
   },
   "1-2-8": {
@@ -253,9 +253,28 @@
    "wuhcag_what_to_do": "<ul>\n <li>Provide a full text transcript for your video and link to it from near the original content.</li>\n <li>If the video needs audio description, make sure that is also in place.</li>\n</ul>\n",
    "wuchcag_exceptions": "<p>If the video is itself an alternative, you don’t need to add a transcript.</p>\n",
    "wuhcag_related": [
-    "1.2.3",
-    "1.2.5",
-    "1.2.7"
+    "1-2-3",
+    "1-2-5",
+    "1-2-7"
+   ]
+  },
+  "1-2-9": {
+   "id": "media-equiv-live-audio-only",
+   "title": "Audio-only (Live)",
+   "description": "An alternative for time-based media that presents equivalent information for live audio-only content is provided.",
+   "uri": "http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only",
+   "techniques": [
+    "G150",
+    "G151",
+    "G157"
+   ],
+   "wuhcag_summary": "Provide alternatives for live audio",
+   "wuhcag_detail": "<p>When broadcasting live audio-only content, such as a live podcast or radio stream, some users will rely on an alternative to the audio to understand your content.</p>\n",
+   "wuhcag_tips": "<ul>\n  <li>To add live captions to an audio broadcast you will need professional software.</li>\n  <li>You may also want to hire a professional subtitler to get the best results.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Add closed captions to live audio; or</li>\n <li>If the live broadcast is from a prepared script, make the script text available from near the original content.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-2-4"
    ]
   }
  },

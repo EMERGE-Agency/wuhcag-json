@@ -33,7 +33,7 @@ guidelines:
     wuchcag_exceptions: |
       <p>You don’t need an audio description if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</p>
     wuhcag_related:
-      - "1.2.2"
-      - "1.2.3"
-      - "1.2.7"
-      - "1.2.8"
+      - "1-2-2"
+      - "1-2-3"
+      - "1-2-7"
+      - "1-2-8"

@@ -28,6 +28,6 @@ guidelines:
     wuchcag_exceptions: |
       <p>If the video is itself an alternative, you don’t need to add a transcript.</p>
     wuhcag_related:
-      - "1.2.3"
-      - "1.2.5"
-      - "1.2.7"
+      - "1-2-3"
+      - "1-2-5"
+      - "1-2-7"
