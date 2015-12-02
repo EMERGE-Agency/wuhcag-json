@@ -29,7 +29,6 @@ guidelines:
     title: ""
     description: ""
     uri: ""
-    techniques:
     wuhcag_summary: ""
     wuhcag_detail: |
     wuhcag_what_to_do: |

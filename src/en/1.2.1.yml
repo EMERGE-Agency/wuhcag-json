@@ -4,13 +4,6 @@ guidelines:
     title: "Audio-only and Video-only (Prerecorded)"
     description: "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:"
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"
-    techniques:
-      - "F30"
-      - "F67"
-      - "G158"
-      - "G159"
-      - "G166"
-      - "SL17"
     wuhcag_summary: "Provide an alternative to video-only and audio-only content"
     wuhcag_detail: |
       <p><strong>Provide an alternative to video-only and audio-only content</strong></p>

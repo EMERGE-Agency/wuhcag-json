@@ -4,12 +4,6 @@ guidelines:
     title: "Captions (Live)"
     description: "Captions are provided for all live audio content in synchronized media."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions"
-    techniques:
-      - "G9"
-      - "G87"
-      - "G93"
-      - "SM11"
-      - "SM12"
     wuhcag_summary: "Video with audio has a second alternative"
     wuhcag_detail: |
       <p>Your users sometimes rely on captions to enjoy your video content. Adding captions to live videos helps people use your website when you’re streaming live video.</p>

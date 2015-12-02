@@ -4,17 +4,6 @@ guidelines:
     title: "Captions (Pre-recorded)"
     description: "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-captions"
-    techniques:
-      - "F8"
-      - "F74"
-      - "F75"
-      - "FLASH9"
-      - "G87"
-      - "G93"
-      - "SL16"
-      - "SL28"
-      - "SM11"
-      - "SM12"
     wuhcag_summary: "Provide captions for videos with audio"
     wuhcag_detail: |
      <p>Closed captioning is perhaps the most well known tool for people with disabilities. Often known as subtitles, or abbreviated as CC, closed captions have been around since the 1970s.</p>

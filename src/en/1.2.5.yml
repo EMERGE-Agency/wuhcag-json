@@ -4,17 +4,6 @@ guidelines:
     title: "Audio Description (Prerecorded)"
     description: "Audio description is provided for all prerecorded video content in synchronized media."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"
-    techniques:
-      - "FLASH26"
-      - "G8"
-      - "G78"
-      - "G173"
-      - "G203"
-      - "SL1"
-      - "SM1"
-      - "SM2"
-      - "SM6"
-      - "SM7"
     wuhcag_summary: "Users have access to audio description for video content"
     wuhcag_detail: |
       <p>Some of your users will rely on audio description to help with videos. Adding audio description to your videos means these users have the same information as everyone else.</p>

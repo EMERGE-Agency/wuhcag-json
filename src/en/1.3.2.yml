@@ -4,20 +4,6 @@ guidelines:
     title: "Meaningful Sequence"
     description: "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
     uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"
-    techniques:
-      - "C6"
-      - "C8"
-      - "C27"
-      - "F1"
-      - "F32"
-      - "F33"
-      - "F34"
-      - "F49"
-      - "FLASH15"
-      - "G57"
-      - "H34"
-      - "H56"
-      - "SL34"
     wuhcag_summary: "Present your website content in a meaningful order"
     wuhcag_detail: |
       <p>The meaning of content on your website relies on the order you present it. For example, in English we read from left to right and read a left-hand column before a right-hand column. Present the content on your website in an order that your users can understand.</p>

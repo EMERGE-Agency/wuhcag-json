@@ -4,8 +4,6 @@ guidelines:
     title: "Low or No Background Audio"
     description: "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:"
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio"
-    techniques:
-      - "G56"
     wuhcag_summary: "Your audio is clear for listeners to hear"
     wuhcag_detail: |
       <p>Some of your users will have difficulties with their hearing. They will not be able to hear your audio content as clearly as other users. You can help by ensuring that all of your audio is clear.</p>

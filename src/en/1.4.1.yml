@@ -4,16 +4,6 @@ guidelines:
     title: "Use of Color"
     description: "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"
-    techniques:
-      - "C15"
-      - "F13"
-      - "F73"
-      - "F81"
-      - "G14"
-      - "G111"
-      - "G182"
-      - "G183"
-      - "H92"
     wuhcag_summary: "Don’t use presentation that relies solely on colour"
     wuhcag_detail: |
       <p>Your users with visual impairment need help when you use colour on your website. As many as <a href="http://www.colourblindawareness.org/colour-blindness">1 in 12 men have some degree of colour blindness</a>. That means that somewhere around 8% of your male users will struggle with your website if you don’t use colour correctly.</p>
