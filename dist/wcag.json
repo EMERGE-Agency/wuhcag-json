@@ -411,6 +411,21 @@
     "2-1-1",
     "2-1-2"
    ]
+  },
+  "2-2-1": {
+   "id": "time-limits-required-behaviors",
+   "title": "Timing Adjustable",
+   "description": "For each time limit that is  set by the content, at least one of the following is true:",
+   "uri": "http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors",
+   "conformance_level": "A",
+   "wuhcag_summary": "Time limits have user controls",
+   "wuhcag_detail": "<p>If any of your content is time-controlled, you risk losing users who need more time read and understand the information on your website.</p>\n<p>Time-controlled content is anything on your website that expires or becomes unusable by your users after a certain time. A common example is giving a user ten minutes to fill in and send a form. There are functional reasons to set time limits, but you must consider all of your users.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Take as much content outside of time limits as possible.</li>\n <li>Make sure any user controls you provide are keyboard accessible.</li>\n <li>If you use a pop-up to give your users the option to extend a time limit, consider Guideline 2.2.4.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n<li>If your website uses a time limit:\n <ul>\n  <li>Give your users an option to turn off the time limit before it begins (for example, a landing page before the time-controlled page can display a message that shows your customers what to do); or</li>\n  <li>Give your users the option to adjust the time limit before it begins, over a range of at least ten times the default setting (you can do this with a landing page too); or</li>\n  <li>Give your users the option to extend the period at least twenty seconds before it expires. This must be a simple action like clicking a button and must be available to use at least ten times.</li>\n </ul>\n</li>\n<li>If your website has moving or animated text, users must be able to pause the movement.</li>\n<li>If your website has a feature that updates automatically (for example, with the latest football scores), you must allow your users to delay the frequency of the updates by at least ten times the default setting.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>There are some valid exceptions to Guideline 2.2.1, because sometimes you must set time limits for your website or business to work.</p>\n<p>You do not need to provide the above controls if:</p>\n<ul>\n <li>The time limit is due to real-time events, like bidding in an auction.</li>\n <li>Your content is a live video stream.</li>\n <li>The time limit is essential for your business. For example, a ticket sales website that saves a reservation for ten minutes because demand is high and giving users unlimited time would undermine the business process.</li>\n <li>The time limit is more than 20 hours.</li>\n</ul>\n",
+   "wuhcag_related": [
+    ""
+   ]
   }
  }
 }
