@@ -4,6 +4,7 @@ guidelines:
     title: "Non-text Content"
     description: "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."
     uri: "http://www.w3.org/TR/WCAG20/#text-equiv-all"
+    conformance_level: "A"
     wuhcag_summary: "Provide text alternatives for non-text content"
     wuhcag_detail: |
       <p><strong>Provide text alternatives for non-text content</strong></p>

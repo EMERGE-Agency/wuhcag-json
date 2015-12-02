@@ -1,0 +1,35 @@
+guidelines:
+  1-4-9:
+    id: "visual-audio-contrast-text-images"
+    title: "Images of Text (No Exception)"
+    description: "Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed."
+    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images"
+    conformance_level: "AAA"
+    wuhcag_summary: "Don't use images of text"
+    wuhcag_detail: |
+      <p>Some of your users will visit your website using a text-only browser, or might have images turned off in a regular browser. Images of text cause problems, as they are harder for those users to understand.</p>
+      <p>Images of text also cause problems for your users if they like to resize websites to read them more clearly, because images do not work well this way. They also add to the time it takes your website to load, another key reason users will leave your website.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>You may already comply with this guideline, depending on how you addressed Guideline 1.4.5.</li>
+       <li>Images of text are subject to guidelines on colour contrast. See Guideline 1.4.3 and Guideline 1.4.6.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <ul>
+       <li>Don't use an image of text when you can use plain text.</li>
+       <li>Display quotes as text rather than images.</li>
+       <li>Use <abbr title="Cascading Style Sheets">CSS</abbr> to style headings.</li>
+       <li>Use CSS to style navigation menus as text.</li>
+      </ul>
+    wuchcag_exceptions: |
+      <p>Despite the title of Guideline 1.4.9, some exceptions allow you to use images of text on your website:</p>
+      <ul>
+       <li>Brand logos.</li>
+       <li>If using an image of text is essential because you can't achieve the effect with text (for example, presenting a particular example of typography).</li>
+       <li>If the text is purely decorative.</li>
+      </ul>
+    wuhcag_related:
+      - "1-1-1"
+      - "1-4-3"
+      - "1-4-5"
+      - "1-4-6"

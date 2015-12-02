@@ -4,6 +4,7 @@ guidelines:
     title: "Meaningful Sequence"
     description: "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
     uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"
+    conformance_level: "A"
     wuhcag_summary: "Present your website content in a meaningful order"
     wuhcag_detail: |
       <p>The meaning of content on your website relies on the order you present it. For example, in English we read from left to right and read a left-hand column before a right-hand column. Present the content on your website in an order that your users can understand.</p>

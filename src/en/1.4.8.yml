@@ -4,6 +4,7 @@ guidelines:
     title: "Visual Presentation"
     description: "For the visual presentation of blocks of text, a mechanism is available to achieve the following:"
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation"
+    conformance_level: "AAA"
     wuhcag_summary: "Offer users a range of presentation options"
     wuhcag_detail: |
       <p>Some of your users will have difficulty viewing your website with the same clarity as others. There's no way you can guess every combination of colours and sizes your users prefer, but you can offer ways for them to customise their view.</p>

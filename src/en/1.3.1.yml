@@ -4,6 +4,7 @@ guidelines:
     title: "Info and Relationships"
     description: "Information, structure,  and relationships conveyed through presentation can be programmatically determined or are available in text."
     uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"
+    conformance_level: "A"
     wuhcag_summary: "Structure your website logically"
     wuhcag_detail: |
       <p>All users benefit when your web page structure is logical. Many of us take things like headings, bullet points, bolding and italics for granted. For your users with disabilities, those elements can make the difference between understanding a website and leaving it. Many forms of assistive technology rely on correct formatting to work correctly, meaning a heading can go a long way for your users.</p>

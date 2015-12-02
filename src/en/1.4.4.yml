@@ -4,6 +4,7 @@ guidelines:
     title: "Resize text"
     description: "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality."
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"
+    conformance_level: "AA"
     wuhcag_summary: "Text can be resized to 200% without loss of content or function"
     wuhcag_detail: |
       <p>Some of your users with visual impairments will need to resize text in order to understand it fully. You should allow for up to a 200% resize of text without dropping any content or functions.</p>

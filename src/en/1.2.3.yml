@@ -4,6 +4,7 @@ guidelines:
     title: "Audio Description or Media Alternative (Prerecorded)"
     description: "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"
+    conformance_level: "A"
     wuhcag_summary: "Video with audio has a second alternative"
     wuhcag_detail: |
       <p>An audio description is an edited version of a video’s soundtrack that adds more information than the regular soundtrack offers. This might mean narrating movements that are not audibly explained in the video, or adding context to visual information.</p>

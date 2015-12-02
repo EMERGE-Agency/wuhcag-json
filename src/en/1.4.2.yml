@@ -4,6 +4,7 @@ guidelines:
     title: "Audio Control"
     description: "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level."
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"
+    conformance_level: "A"
     wuhcag_summary: "Don’t play audio automatically"
     wuhcag_detail: |
       <p>Automatically playing sounds doesn't help your users. Your users don't need audio distractions when visiting your website. You have a hard enough time getting them to do what you want. Some of your users will have problems focusing and unexpected sounds can distract them further.</p>

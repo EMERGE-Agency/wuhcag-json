@@ -4,6 +4,7 @@ guidelines:
     title: "Audio-only (Live)"
     description: "An alternative for time-based media that presents equivalent information for live audio-only content is provided."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only"
+    conformance_level: "AAA"
     wuhcag_summary: "Provide alternatives for live audio"
     wuhcag_detail: |
       <p>When broadcasting live audio-only content, such as a live podcast or radio stream, some users will rely on an alternative to the audio to understand your content.</p>

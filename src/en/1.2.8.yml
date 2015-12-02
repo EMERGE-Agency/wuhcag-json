@@ -4,6 +4,7 @@ guidelines:
     title: "Media Alternative (Prerecorded)"
     description: "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media."
     uri: "http://www.w3.org/TR/WCAG20/#media-equiv-text-doc"
+    conformance_level: "AAA"
     wuhcag_summary: "Provide a text alternative to your videos"
     wuhcag_detail: |
       <p>While you may have produced captions or audio description to enhance your videos, some users will rely on a text alternative to get the information. Providing a full text transcript of a video, including links to any calls to action, can help make it more accessible.</p>

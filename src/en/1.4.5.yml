@@ -4,6 +4,7 @@ guidelines:
     title: "Images of Text"
     description: "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except."
     uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"
+    conformance_level: "AA"
     wuhcag_summary: "Don't use images of text"
     wuhcag_detail: |
       <p>Some of your users will visit your website using a text-only browser, or might have images turned off in a regular browser. Images of text cause problems, as they are harder for those users to understand.</p>

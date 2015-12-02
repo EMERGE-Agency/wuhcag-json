@@ -29,6 +29,7 @@ guidelines:
     title: ""
     description: ""
     uri: ""
+    conformance_level: ""
     wuhcag_summary: ""
     wuhcag_detail: |
     wuhcag_what_to_do: |

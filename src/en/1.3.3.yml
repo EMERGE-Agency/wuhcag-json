@@ -4,6 +4,7 @@ guidelines:
     title: "Sensory Characteristics"
     description: "Instructions provided for understanding\nand operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound."
     uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding"
+    conformance_level: "A"
     wuhcag_summary: "Use more than one sense for instructions"
     wuhcag_detail: |
       <p>Sensory characteristics is an important but ridiculous-sounding phrase in web accessibility. It’s actually far less complicated than it sounds. The sensory characteristics of your website are things like shape, sound, position and size.</p>
