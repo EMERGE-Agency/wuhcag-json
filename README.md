@@ -36,6 +36,4 @@ guidelines:
     wuhcag_related:
 ```
 
-This project is based on the wonderful web accessibility content found at <a href="http://www.wuhcag.com">www.wuhcag.com</a> and written by Luke McGrath.
-
 This project is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
