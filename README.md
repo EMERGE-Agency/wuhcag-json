@@ -24,22 +24,17 @@ You should only edit `/src/*.yml` files. When ready to build run the `grunt buil
 ## Yaml outline:
 ``` yaml
 guidelines:
-	1.1.1:
-		id: "..."
-		title: "..."
-		description: "..."
-		uri: "http://www.w3.org/TR/WCAG20/#text-equiv-all"
-		techniques:
-			- "..."
-		wuhcag_summary: "..."
-		wuhcag_detail: |
-			...
-		wuhcag_tips: |
-		  ...
-		wuchcag_exceptions: |
-		  ...
-		wuhcag_related:
-			- "..."
+  1-1-1:
+    id: ""
+    title: ""
+    description: ""
+    uri: ""
+    techniques:
+    wuhcag_summary: ""
+    wuhcag_detail: |
+    wuhcag_what_to_do: |
+    wuhcag_exceptions: |
+    wuhcag_related:
 ```
 
 This project is based on the wonderful web accessibility content found at <a href="http://www.wuhcag.com">www.wuhcag.com</a> and written by Luke McGrath.
