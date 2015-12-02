@@ -1,0 +1,25 @@
+guidelines:
+  2-1-3:
+    id: "keyboard-operation-all-funcs"
+    title: "Keyboard (No Exception)"
+    description: "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes."
+    uri: "http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs"
+    conformance_level: "AAA"
+    wuhcag_summary: "Your website is accessible by keyboard only, without exception"
+    wuhcag_detail: |
+      <p>Your users have varying degrees of motor skills and may use your website with only their keyboard. Users with motor impairment, including many elderly users, need help to navigate your website.</p>
+      <p>All parts of your website must be accessible by keyboard only. That means, without a mouse or pointing device, your forms, menus, shopping cart and everything between. On top of that, you cannot require specific timings for keystrokes to access any feature.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>Unlike the lower-level Guideline 2.1.1, there are no exceptions here. All aspects of your website must be accessible by keyboard. It’s up to you to decide if Level AAA conformance is worth you removing any mouse-only features.</li>
+       <li>Unplug your mouse and make sure you can fully use your website with your keyboard.</li>
+       <li>Make sure no function on your website requires timed keystrokes (for example, ‘ double tap on enter within two seconds’ to submit).</li>
+       <li>Don’t use ‘access keys’ (assigning a navigation link to a particular key) or page-specific key commands as they can conflict with assistive technology.</li>
+       <li>Be wary of third-party adverts and widgets, often these are not accessible.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>A clean <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> website will often have keyboard accessibility without further work. This is a great example of why you need to invest in web design and development from the outset.</p>
+    wuchcag_exceptions: |
+    wuhcag_related:
+      - "2-1-1"
+      - "2-1-2"

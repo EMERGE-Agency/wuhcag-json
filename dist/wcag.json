@@ -380,6 +380,37 @@
     "2-4-3",
     "2-4-7"
    ]
+  },
+  "2-1-2": {
+   "id": "keyboard-operation-trapping",
+   "title": "No Keyboard Trap",
+   "description": "If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.",
+   "uri": "http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping",
+   "conformance_level": "A",
+   "wuhcag_summary": "Your website must not trap keyboard users",
+   "wuhcag_detail": "<p>Your users have varying degrees of motor skills and may use your website with only their keyboard.\nYou must make sure that keyboard-only users can’t get stuck anywhere on your site. All parts of your website should be reachable by keyboard alone (See Guideline 2.1.1). Your users must also be able to navigate away from all parts of your website. If your users can reach a feature (such as a subscribe form) by keyboard but can’t leave it by keyboard, they are keyboard trapped.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Unplug your mouse and make sure you can fully use your website with your keyboard.</li>\n <li>It’s tempting to use non-standard navigation with a text explanation of what to do, but this isn't worth your time. Stick to the Tab and arrow keys and the majority of your customers will already know how to use your website.</li>\n <li>Be wary of third-party adverts and widgets, often these are not accessible.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Test your website to make sure you can navigate away from, as well as to, all parts of your website by keyboard only.</li>\n <li>Make sure all navigation is controllable by either the ‘Tab’ or arrow keys, which is a standard many people are familiar with.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-1-1"
+   ]
+  },
+  "2-1-3": {
+   "id": "keyboard-operation-all-funcs",
+   "title": "Keyboard (No Exception)",
+   "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.",
+   "uri": "http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Your website is accessible by keyboard only, without exception",
+   "wuhcag_detail": "<p>Your users have varying degrees of motor skills and may use your website with only their keyboard. Users with motor impairment, including many elderly users, need help to navigate your website.</p>\n<p>All parts of your website must be accessible by keyboard only. That means, without a mouse or pointing device, your forms, menus, shopping cart and everything between. On top of that, you cannot require specific timings for keystrokes to access any feature.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Unlike the lower-level Guideline 2.1.1, there are no exceptions here. All aspects of your website must be accessible by keyboard. It’s up to you to decide if Level AAA conformance is worth you removing any mouse-only features.</li>\n <li>Unplug your mouse and make sure you can fully use your website with your keyboard.</li>\n <li>Make sure no function on your website requires timed keystrokes (for example, ‘ double tap on enter within two seconds’ to submit).</li>\n <li>Don’t use ‘access keys’ (assigning a navigation link to a particular key) or page-specific key commands as they can conflict with assistive technology.</li>\n <li>Be wary of third-party adverts and widgets, often these are not accessible.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>A clean <abbr title=\"HyperText Markup Language\">HTML</abbr> and <abbr title=\"Cascading Style Sheets\">CSS</abbr> website will often have keyboard accessibility without further work. This is a great example of why you need to invest in web design and development from the outset.</p>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-1-1",
+    "2-1-2"
+   ]
   }
  }
 }
