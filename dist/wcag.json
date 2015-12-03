@@ -429,6 +429,86 @@
     "2-2-4",
     "2-2-5"
    ]
+  },
+  "2-2-2": {
+   "id": "time-limits-pause",
+   "title": "Pause, Stop, Hide",
+   "description": "For moving, blinking, scrolling, or auto-updating information, all of the following are true:",
+   "uri": "http://www.w3.org/TR/WCAG20/#time-limits-pause",
+   "conformance_level": "A",
+   "wuhcag_summary": "Provide user controls for moving content",
+   "wuhcag_detail": "<p>How many times have you visited a website that tries to get your attention with movement? Your eyes catch the scrolling text or a blinking advert, and you take notice for a second or two. More often than not, what you looked at wasn't why you were visiting the website.</p>\n<p>You try to return to what you were doing, except now it’s harder to focus because the movement is in the corner of your eye. You end up leaving the website because you can't complete what you started.</p>\n<p>That’s the effect of scrolling and blinking content on your average user and that’s enough of a reason to avoid it altogether. Now, consider the effect on your users with reading or concentration difficulties. I hope that you can understand why you must provide your users with controls to pause moving content.</p>\n",
+   "wuhcag_tips": "<p>The guideline is more forgiving than I am. It lets you offer your users a pause option, but I suggest you remove anything that moves, scrolls or blinks altogether.</p>\n<p>It also covers auto-updating content, which is where the strength of the guideline lies. Auto-updating content can be great. You could use it to show the latest sports scores, share prices or your Twitter feed. While the guideline applies to all moving, blinking and scrolling content, I’d love to see you eliminate all but auto-updating content.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Moving, blinking or scrolling content must have an option to pause, stop or hide it; and</li>\n <li>Auto-updating content must have the same options; or</li>\n <li>An option to control frequency (see Guideline 2.2.1 for advice).</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>You can ignore the rules of moving content if:</p>\n<ul>\n <li>The moving content does not start automatically, without user interaction.</li>\n <li>Your moving, scrolling or blinking content lasts less than five seconds.</li>\n <li>The information is not parallel with content but separate (for example, a full-page advert displayed before users reach your webpage).</li>\n <li>The movement is an animation that runs to show your users that something is loading, if it would otherwise look like your website was frozen.</li>\n</ul>\n",
+   "wuhcag_related": [
+    "2-2-1",
+    "2-3-1",
+    "2-3-2"
+   ]
+  },
+  "2-2-3": {
+   "id": "time-limits-no-exceptions",
+   "title": "No Timing",
+   "description": "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.",
+   "uri": "http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "No time limits on your website",
+   "wuhcag_detail": "<p>If any of your content is time-controlled, you risk losing users who need more time to read and understand the information on your website.</p>\n<p>Time-controlled content is anything on your website that expires or becomes unusable by your users after a certain time. A common example is giving a user ten minutes to fill in and send a form. There are functional reasons to set time limits, but you must consider all of your users.</p>\n",
+   "wuhcag_tips": "",
+   "wuhcag_what_to_do": "<p>This guideline builds on Guideline 2.2.1. That guideline (at the lower Level A standard of compliance) requires you to offer users a chance to turn off or extend time limits. At Level AAA, this guideline requires that you do not set time limits at all (with two exceptions below).</p>\n",
+   "wuchcag_exceptions": "<p>You can set a time limit if:</p>\n<ul>\n <li>The time limit is due to real-time events, like bidding in an auction.</li>\n <li>Your content is a live video stream.</li>\n</ul>\n",
+   "wuhcag_related": [
+    "2-2-1",
+    "2-2-5"
+   ]
+  },
+  "2-2-4": {
+   "id": "time-limits-postponed",
+   "title": "Interruptions",
+   "description": "Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.",
+   "uri": "http://www.w3.org/TR/WCAG20/#time-limits-postponed",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Don't interrupt your users",
+   "wuhcag_detail": "<p>Some of your users will have difficulty maintaining their focus and attention; interrupting their experience may impact their understanding of your content. You can avoid this by eliminating interruptions.</p>\n",
+   "wuhcag_tips": "<p>The best thing you can do is eliminate all interruptions by default. Allow your users to interact with webpages naturally and don’t try to surprise or manipulate them. If you can't capture your users’ interest without a pop-up, you have bigger problems than Level AAA.</p>\n<p>If you must use a pop-up, make sure that keyboard focus is on the window-closing ‘X’ icon in the corner that closes the pop-up. This means keyboard users can close the new window. When they do close it, return focus to the place on the page they were at before the pop-up appeared.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Don't use an automatic redirect or refresh function based on a time delay (for example, if a webpage has moved, do not redirect users to the new page after a certain amount of time).</li>\n <li>Provide an option for turning off all but ‘essential’ interruptions (see below).</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>Warnings about a user’s health, safety or the security of their data or property as they are considered ‘essential’ (I’m not sure how a website would know if your house was about to explode, but let’s not ban it from trying to tell you!).</p>\n",
+   "wuhcag_related": [
+    "2-2-1"
+   ]
+  },
+  "2-2-5": {
+   "id": "time-limits-server-timeout",
+   "title": "Re-authenticating",
+   "description": "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.",
+   "uri": "http://www.w3.org/TR/WCAG20/#time-limits-server-timeout",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Save user data when re-authenticating",
+   "wuhcag_detail": "<p>It may be essential for your users to re-authenticate their identity for certain functions. For example, you might set a login to expire after a certain amount of time in case a user leaves their computer unattended in the middle of a purchase.</p>\n<p>While your website will rightly use this function for your users’ security, you can help your users by saving all information entered by the user. When they re-authenticate (such as logging back in) you can display whatever data they had already entered.</p>\n",
+   "wuhcag_tips": "<p>If you do ask your users to re-authenticate after a certain amount of time, consider whether your use of a time limit is justified under Guideline 2.2.1 and Guideline 2.2.3.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>When you ask a user to re-authenticate their identity, the user can continue exactly as before with saved data (for example, their shopping basket contents, input into forms or accessibility options).</li>\n <li>Things like surveys and questionnaires can be saved and completed at a later date.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-2-1",
+    "2-2-3"
+   ]
+  },
+  "2-3-1": {
+   "id": "seizure-does-not-violate",
+   "title": "Three Flashes or Below Threshold",
+   "description": "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.",
+   "uri": "http://www.w3.org/TR/WCAG20/#seizure-does-not-violate",
+   "conformance_level": "A",
+   "wuhcag_summary": "No content flashes more than three times per second",
+   "wuhcag_detail": "<p>To make your website as safe as possible for all users, you must limit the amount of flashing media. Flashing content can harm the health of some users.</p>\n",
+   "wuhcag_tips": "<p>Remember, flashing is different to blinking (see Guideline 2.2.2).</p>\n",
+   "wuhcag_what_to_do": "<p>Don't add anything to your website that flashes more than three times per second.</p>\n",
+   "wuchcag_exceptions": "<p>There is a ridiculously complicated exception based on the user’s visual field. You should just avoid all flashing content, but here it is:</p>\n<blockquote>the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance.<cite><a href=\"http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html\">Understanding WCAG 2.0</a></cite></blockquote>\n<p>If you can work out what that means, I dare you to use it.</p>\n",
+   "wuhcag_related": [
+    "2-2-2",
+    "2-2-3"
+   ]
   }
  }
 }
