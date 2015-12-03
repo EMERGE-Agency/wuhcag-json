@@ -773,6 +773,54 @@
     "3-1-4",
     "3-1-6"
    ]
+  },
+  "3-1-6": {
+   "id": "meaning-pronunciation",
+   "title": "Pronunciation",
+   "description": "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation.",
+   "uri": "http://www.w3.org/TR/WCAG20/#meaning-pronunciation",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Explain any words that are hard to pronounce",
+   "wuhcag_detail": "<p>You can help your users by paying attention to words that are hard or confusing to pronounce. Words like these can make it hard for your users to read your content.</p>\n<p>This includes words that are hard to pronounce (for example, ‘phenomenon’) and words that are spelled the same but pronounced differently (for example, ‘bow’ v ‘bow’). Take extra time to explain these words to your users.</p>\n",
+   "wuhcag_tips": "",
+   "wuhcag_what_to_do": "<ul>\n <li>Avoid using hard-to-pronounce words. </li>\n <li>If you need to use a hard-to-pronounce word, you can explain the meaning to your users by:</li>\n <li>Providing the phonetic pronunciation of words immediately after the word; or</li>\n <li>Linking the word to a pronunciation guide on another page on your website; or</li>\n <li>Linking the word to a pronunciation guide on the same page.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>You don't need to provide pronunciation help if:</p>\n<ul>\n <li>The correct pronunciation is not clear from context, so all users would struggle with it.</li>\n <li>The correct pronunciation is just as likely to be unknown to all users (for example, Latin phrases or scientific words).</li>\n</ul>\n",
+   "wuhcag_related": [
+    "3-1-3",
+    "3-1-4",
+    "3-1-6"
+   ]
+  },
+  "3-2-1": {
+   "id": "consistent-behavior-receive-focus",
+   "title": "On Focus",
+   "description": "When any user interface component receives focus, it does not  initiate a change of context.",
+   "uri": "http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus",
+   "conformance_level": "A",
+   "wuhcag_summary": "Elements do not change when they receive focus",
+   "wuhcag_detail": "<p>If your website doesn’t act as users expect it to, they'll leave and you won't see them again.</p>\n<p>Focus is vital when considering what happens on your website when users reach elements like forms, videos and other interactive elements. Once an element receives focus from users, whether with a mouse or keyboard, the element must not automatically change (known as ‘changing on focus’). This can disorientate users.</p>\n<p>A change of focus is especially troublesome for users who navigate by keyboard.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Most well-made websites will not have any of these errors by default, you would need to choose to add in change on focus.</li>\n <li>A great way to test this guideline is to unplug your mouse and navigate your way round your website. If anything moves, submits or changes on focus, fix it!</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Ensure no element changes purely by receiving focus.</li>\n <li>Avoid both behavioural and visual modifications.</li>\n</ul>\n<p>Ensure that:</p>\n<ul>\n<li>Links don't open automatically on focus; and</li>\n<li>Forms don't submit without the user taking action (such as clicking the ‘Submit’ button); and</li>\n<li>There are no automatic pop-ups; and</li>\n<li>Focus never jumps to another element automatically; and</li>\n<li>No other action that occurs on focus alone causes the page to change.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>Elements can change on focus if the context doesn’t change. For example, you can use a dynamic menu on your website, the kind where navigation options drop down when you hover over an item. This is not a change of context.</p>\n<p>Another example would be a hover status on a link, again, this this isn’t a change of context.</p>\n",
+   "wuhcag_related": [
+    "2-2-2"
+   ]
+  },
+  "3-2-2": {
+   "id": "consistent-behavior-unpredictable-change",
+   "title": "On Input",
+   "description": "Changing the setting of any  user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.",
+   "uri": "http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change",
+   "conformance_level": "A",
+   "wuhcag_summary": "Elements do not change when they receive input",
+   "wuhcag_detail": "<p>If you want your users to return to your website, make sure it acts as users expect it to.\nWhen a form receives input from users (for example, typing in an address or selecting a date of birth), it must not automatically skip to another field or auto-submit – known as ‘changing on input’. This can disorientate users.</p>\n<p>Only submit form data when a user chooses to click a submit button. It's common sense behaviour, but if you get it wrong, your users will be frustrated and leave.</p>\n",
+   "wuhcag_tips": "<p>The easiest way to pass Guideline 3.2.2 is to use submit buttons and avoid jumping your users between fields. It’s all about leaving the control in your users' hands, where it belongs.</p>\n",
+   "wuhcag_what_to_do": "<p>Here are some examples of the kinds of things to look out for:</p>\n<ul>\n <li>Forms must not auto-submit when all fields are filled – this prevents your users from checking and editing what they have written.</li>\n <li>Focus (the field where the user will input next) must not automatically jump to the next field in a form once a field is complete.</li>\n <li>Using a control (like selecting yes or no) must not automatically perform the action (for example, selecting to subscribe to a newsletter in a check box must not automatically subscribe your user, they should be able to click a submit button to confirm their decision).</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>Elements can change on input if you inform the user of the change before they have the chance to input their data or make their selection. For example, you may have seen websites with options in the header to choose a text size. Once you click on the size you want, the website changes without giving you the chance to confirm your choice.</p>\n<p>Controls like that don't need to have a submit button, as long as it’s clear from the text before the element what will happen when you input.</p>\n",
+   "wuhcag_related": [
+    "1-1-1",
+    "3-2-5"
+   ]
   }
  }
 }
