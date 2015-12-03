@@ -1,0 +1,21 @@
+guidelines:
+  3-1-1:
+    id: "meaning-doc-lang-id"
+    title: "Language of Page"
+    description: "The default human language of each Web page can be programmatically determined."
+    uri: "http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"
+    conformance_level: "A"
+    wuhcag_summary: "Every page of your website has a language assigned"
+    wuhcag_detail: |
+      <p>Setting every webpage's <abbr title="HyperText Markup Language">HTML</abbr> language is an easy way to help your users, including those browsing your website with assistive technology. Setting a language is important because the way that screen readers pronounce words depends on the HTML language assigned to your website.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>Set the language in your template and you’ll only need to do this once.</li>
+       <li>If you trade internationally and have different parts of your website in different languages, make sure they are assigned correctly.</li>
+       <li>HTML language codes match the <abbr title="International Organisation for Standardisation">ISO</abbr> language codes standard. W3Schools has a <a href="http://www.w3schools.com/tags/ref_language_codes.asp">full list of language codes</a>.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>Ensure that each page of your website has a language assigned to it.</p>
+    wuchcag_exceptions: |
+    wuhcag_related:
+     - "3-1-3"
