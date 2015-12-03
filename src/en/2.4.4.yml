@@ -1,0 +1,29 @@
+guidelines:
+  2-4-4:
+    id: "navigation-mechanisms-refs"
+    title: "Link Purpose (In Context)"
+    description: "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general."
+    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs"
+    conformance_level: "A"
+    wuhcag_summary: "Every link's purpose is clear from its context"
+    wuhcag_detail: |
+     <p>It's essential that you make your hyperlinks (usually just called ‘links’) clear and easy to understand.
+     Users with assistive technology, like a screen reader, often hear all the links on a page to help them find where they want to go. Others may view your website highly magnified, so the user will only see the link text and a few words around it at any one time.</p>
+     <p>To help your users, your link text (the words that are linked, often called ‘anchor text’) must make the link destination clear, in the context of their surrounding content.</p>
+    wuhcag_tips: |
+      <p>Full disclosure: there is another option, but it’s not an approach I recommend. You could explain the purpose of a link in its title attribute. However, title attributes are not a great solution as they have patchy support across web browsers, screen readers and other types of assistive technology. Leverage your other options to make links clear.</p>
+      <p>A good writer will only ever need the first option, making the link purpose clear for the link text. It is the most accessible solution and the best for your users. There is always a way to make your link accessible using link text alone.  At Level AAA, Guideline 1.4.9 requires you to make links accessible using only the link text anyway.</p>
+    wuhcag_what_to_do: |
+      <p>To comply with this guideline, make sure that for each link on your website:</p>
+      <ul>
+       <li>The purpose of the link is clear from the link text (for example, ‘My blog’); or</li>
+       <li>The purpose of the link is clear from the surrounding content, meaning the same sentence, paragraph or cell in a table (for example, ‘Visit my blog’ ); or</li>
+       <li>If the link is an image, the alt text of the image makes the link purpose clear (for example, ‘Luke McGrath – Visit my blog’); and</li>
+       <li>Links with the same destination have the same description (but links don’t share a description if they point to different places).</li>
+      </ul>
+    wuchcag_exceptions: |
+      <p>You don't need to make the link purpose clear if the purpose is ambiguous to all of your users. For example, if I link the word ‘blog’ in the phrase ‘I have a personal blog’ the link might go to my blog, or it might go to a Wikipedia page explaining what a blog is. No user would reliably know where the link goes before they follow the link.</p>
+      <p>Of course, it’s best to avoid ambiguous links as users should always know where they are going. Although, there are times when you might want to spring a fun surprise on everyone.</p>
+    wuhcag_related:
+     - "1-1-1"
+     - "1-4-9"

@@ -1,0 +1,31 @@
+guidelines:
+  2-4-5:
+    id: "navigation-mechanisms-mult-loc"
+    title: "Multiple Ways"
+    description: "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process."
+    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"
+    conformance_level: "AA"
+    wuhcag_summary: "Offer several ways to find pages on your website"
+    wuhcag_detail: |
+     <p>All of your users benefit from a website designed with them in mind. They need a variety of ways to navigate to the pages they want to visit. Some of your users will have difficulty understanding your website, so will benefit even more from clear navigation and different ways to access your pages.</,p>
+    wuhcag_tips: |
+      <ul>
+       <li>A good HTML sitemap will depend on the structure of your website. Design your sitemap so that it best reflects the structure of your website pages and contains all your pages.</li>
+       <li>A ‘related pages’ section (which shows links to similar pages on your website) is a good way of helping users navigate around your website.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>Provide multiple ways for users to find your website’s pages by:</p>
+      <ul>
+       <li>Adding an <abbr title="HyperText Markup Language">HTML</abbr> sitemap page (which links to every page on your website) and link to it after the ‘Skip to Content’ link from Guideline 2.4.1; and</li>
+       <li>Including a search function on every page (by adding it to the header); and</li>
+       <li>Providing a clear and consistent main navigation menu.</li>
+      </ul>
+    wuchcag_exceptions: |
+      <ul>
+       <li>You don't need to provide multiple ways to access pages that users only reach after a certain process (for example, a receipt or confirmation page).</li>
+       <li>If your website only has a handful of pages, one clear navigation menu may suffice.</li>
+      </ul>
+    wuhcag_related:
+     - "1-4-2"
+     - "2-4-1"
+     - "2-4-8"

@@ -1,0 +1,28 @@
+guidelines:
+  2-4-2:
+    id: "navigation-mechanisms-title"
+    title: "Page Titled"
+    description: "Web pages have titles that describe topic or purpose."
+    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title"
+    conformance_level: "A"
+    wuhcag_summary: "Use helpful and clear page titles"
+    wuhcag_detail: |
+      <p>Web page titles tell your users where they are on your website. A good title tells your users which page they are on and what that page is for.</p>
+      <p>A page title is what users see in the very top bar of your web browser. A good web page title tells users what the page is about without needing to read more. This lets users quickly understand if they are on the right page.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>In many cases, it makes sense to repeat the page title or a variation of it as the top heading on your page. </li>
+       <li>Type all of your page titles into a spreadsheet and review them.  If they make sense out of context, they will work on your website.</li>
+       <li>Use these page titles in your sitemap (See Guideline 2.4.5 and Guideline 2.4.8) to make it more accessible.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>Give each page on your website a unique and descriptive title.</p>
+      <p>Many websites use a Content Management System (CMS) that controls page titles. Don't worry – this isn't as scary as it sounds. You’ve probably already got one, such as the free and popular WordPress. A good CMS will allow you to set individual page titles with no need to touch any code.</p>
+      <p>A useful format for writing page titles is: ‘Page name – Page description – Website name’</p>
+      <p>For example: ‘About Us – Learn our Secrets – ACME Corp’</p>
+    wuchcag_exceptions: |
+    wuhcag_related:
+     - "1-3-1"
+     - "1-3-2"
+     - "2-4-5"
+     - "2-4-8"

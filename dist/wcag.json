@@ -542,6 +542,156 @@
     "2-4-2",
     "3-2-3"
    ]
+  },
+  "2-4-10": {
+   "id": "navigation-mechanisms-headings",
+   "title": "Section Headings",
+   "description": "Section headings are used to organize the content.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Break up content with headings",
+   "wuhcag_detail": "<p>Adding section headings to all content will help your users understand your website. They are useful for users who have difficulty focusing or remembering where they are on a page, as well as users with a visual impairment, who may navigate by skipping between headings.</p>\n<p>You can help these users, and everyone else, by ensuring that all content on your website is broken up by clear and informative headings.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>The <abbr title=\"World Wide Web Consortium\">W3C</abbr> define a <q>section</q> as a <q>self-contained portion of written content that deals with one or more related topics or thoughts.</q><a href=\"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html\"> See 'Understanding WCAG 2.0'</a></li>\n <li>A section may consist of one or more paragraphs and include graphics, tables, lists and sub-sections.</li>\n <li>Beware of making your content harder to read by forcing in too many headings.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Add a heading for every new thought or topic in your content (for example, a travel article may have headings to indicate the distinct sections on dining, transportation, and lodging).</p>\n",
+   "wuchcag_exceptions": "<p>A webpage can be single block of content with only one header if it is about one thought or topic.</p>\n",
+   "wuhcag_related": [
+    "1-3-1",
+    "1-3-2",
+    "2-4-6"
+   ]
+  },
+  "2-4-2": {
+   "id": "navigation-mechanisms-title",
+   "title": "Page Titled",
+   "description": "Web pages have titles that describe topic or purpose.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title",
+   "conformance_level": "A",
+   "wuhcag_summary": "Use helpful and clear page titles",
+   "wuhcag_detail": "<p>Web page titles tell your users where they are on your website. A good title tells your users which page they are on and what that page is for.</p>\n<p>A page title is what users see in the very top bar of your web browser. A good web page title tells users what the page is about without needing to read more. This lets users quickly understand if they are on the right page.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>In many cases, it makes sense to repeat the page title or a variation of it as the top heading on your page. </li>\n <li>Type all of your page titles into a spreadsheet and review them.  If they make sense out of context, they will work on your website.</li>\n <li>Use these page titles in your sitemap (See Guideline 2.4.5 and Guideline 2.4.8) to make it more accessible.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Give each page on your website a unique and descriptive title.</p>\n<p>Many websites use a Content Management System (CMS) that controls page titles. Don't worry – this isn't as scary as it sounds. You’ve probably already got one, such as the free and popular WordPress. A good CMS will allow you to set individual page titles with no need to touch any code.</p>\n<p>A useful format for writing page titles is: ‘Page name – Page description – Website name’</p>\n<p>For example: ‘About Us – Learn our Secrets – ACME Corp’</p>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-3-1",
+    "1-3-2",
+    "2-4-5",
+    "2-4-8"
+   ]
+  },
+  "2-4-3": {
+   "id": "navigation-mechanisms-focus-order",
+   "title": "Focus Order",
+   "description": "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order",
+   "conformance_level": "A",
+   "wuhcag_summary": "Pages work in a logical order",
+   "wuhcag_detail": "<p>Your users need to find their way around your website in a sequential and meaningful order. You can control this with the ‘focus order’ of your website.</p>\n<p>‘Focus order’ is the sequence in which a user accesses elements on your website. For example, some users can't use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. This order is as simple as a bit of logic, such as going from your header to your menu to your page content.</p>\n",
+   "wuhcag_tips": "<p>If you have complied with Guideline 2.1.1, you may have already covered elements of this guideline.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>A well-made HTML website will often comply with this guideline.</li>\n <li>Unplug your mouse and verify that you can use the ‘Tab’ key to navigate to every part of your website and use every function, including search boxes and forms – make sure each page has a sensible focus order.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<ul>\n <li>Complex items like tree diagrams do not have to be exactly programmed to a specific order, as long as your users can reach every element.</li>\n <li>You don't need to set a focus order if your page doesn't need to be navigated in a particular sequence to be understood. For example, a random collage of links or images.</li>\n</ul>\n",
+   "wuhcag_related": [
+    "1-3-2",
+    "2-1-1",
+    "2-4-7"
+   ]
+  },
+  "2-4-4": {
+   "id": "navigation-mechanisms-refs",
+   "title": "Link Purpose (In Context)",
+   "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
+   "conformance_level": "A",
+   "wuhcag_summary": "Every link's purpose is clear from its context",
+   "wuhcag_detail": "<p>It's essential that you make your hyperlinks (usually just called ‘links’) clear and easy to understand.\nUsers with assistive technology, like a screen reader, often hear all the links on a page to help them find where they want to go. Others may view your website highly magnified, so the user will only see the link text and a few words around it at any one time.</p>\n<p>To help your users, your link text (the words that are linked, often called ‘anchor text’) must make the link destination clear, in the context of their surrounding content.</p>\n",
+   "wuhcag_tips": "<p>Full disclosure: there is another option, but it’s not an approach I recommend. You could explain the purpose of a link in its title attribute. However, title attributes are not a great solution as they have patchy support across web browsers, screen readers and other types of assistive technology. Leverage your other options to make links clear.</p>\n<p>A good writer will only ever need the first option, making the link purpose clear for the link text. It is the most accessible solution and the best for your users. There is always a way to make your link accessible using link text alone.  At Level AAA, Guideline 1.4.9 requires you to make links accessible using only the link text anyway.</p>\n",
+   "wuhcag_what_to_do": "<p>To comply with this guideline, make sure that for each link on your website:</p>\n<ul>\n <li>The purpose of the link is clear from the link text (for example, ‘My blog’); or</li>\n <li>The purpose of the link is clear from the surrounding content, meaning the same sentence, paragraph or cell in a table (for example, ‘Visit my blog’ ); or</li>\n <li>If the link is an image, the alt text of the image makes the link purpose clear (for example, ‘Luke McGrath – Visit my blog’); and</li>\n <li>Links with the same destination have the same description (but links don’t share a description if they point to different places).</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>You don't need to make the link purpose clear if the purpose is ambiguous to all of your users. For example, if I link the word ‘blog’ in the phrase ‘I have a personal blog’ the link might go to my blog, or it might go to a Wikipedia page explaining what a blog is. No user would reliably know where the link goes before they follow the link.</p>\n<p>Of course, it’s best to avoid ambiguous links as users should always know where they are going. Although, there are times when you might want to spring a fun surprise on everyone.</p>\n",
+   "wuhcag_related": [
+    "1-1-1",
+    "1-4-9"
+   ]
+  },
+  "2-4-5": {
+   "id": "navigation-mechanisms-mult-loc",
+   "title": "Multiple Ways",
+   "description": "More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc",
+   "conformance_level": "AA",
+   "wuhcag_summary": "Offer several ways to find pages on your website",
+   "wuhcag_detail": "<p>All of your users benefit from a website designed with them in mind. They need a variety of ways to navigate to the pages they want to visit. Some of your users will have difficulty understanding your website, so will benefit even more from clear navigation and different ways to access your pages.</,p>\n",
+   "wuhcag_tips": "<ul>\n <li>A good HTML sitemap will depend on the structure of your website. Design your sitemap so that it best reflects the structure of your website pages and contains all your pages.</li>\n <li>A ‘related pages’ section (which shows links to similar pages on your website) is a good way of helping users navigate around your website.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Provide multiple ways for users to find your website’s pages by:</p>\n<ul>\n <li>Adding an <abbr title=\"HyperText Markup Language\">HTML</abbr> sitemap page (which links to every page on your website) and link to it after the ‘Skip to Content’ link from Guideline 2.4.1; and</li>\n <li>Including a search function on every page (by adding it to the header); and</li>\n <li>Providing a clear and consistent main navigation menu.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<ul>\n <li>You don't need to provide multiple ways to access pages that users only reach after a certain process (for example, a receipt or confirmation page).</li>\n <li>If your website only has a handful of pages, one clear navigation menu may suffice.</li>\n</ul>\n",
+   "wuhcag_related": [
+    "1-4-2",
+    "2-4-1",
+    "2-4-8"
+   ]
+  },
+  "2-4-6": {
+   "id": "navigation-mechanisms-descriptive",
+   "title": "Headings and Labels",
+   "description": "Headings and labels describe topic or purpose.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive",
+   "conformance_level": "AA",
+   "wuhcag_summary": "Use clear headings and labels",
+   "wuhcag_detail": "<p>A well-written page is always broken up with clear and descriptive headings. They make it easier for your users to scan and find the section they are interested in. Headings also break up large sections of text so that your content isn't overwhelming to read.</p>\n<p>Some of your users benefit further from pages with semantic headings and labels. Headings particularly help people with visual impairments, who often skip between headings when using a screen reader.</p>\n<p>Labelling elements on a page will also help these users understand where they are. Elements introduced with <abbr title=\"HyperText Markup Language 5\">HTML5</abbr>, such as 'header', 'footer' and 'aside', will make that even easier to do.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>A single letter of the alphabet can be a good heading (for example, in an alphabetical index).</li>\n <li>If you regularly produce similar content, keep headings consistent (for example, a website about film reviews might have ‘Plot’, ‘Characters’ and ‘Verdict’ on each individual page).</li>\n <li>Headings in HTML range from H1 (the most important) to H6 (the least important). It’s best to reserve Heading1 (H1) on a web page for the title of that page. </li>\n <li>Headings don’t need to decrease from 1 to 6 on every page. While you don’t need to use all of the headings, they should still be sequential. For example, avoid skips from H2 to H4.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Use informative headings and subheadings where appropriate (a change in topic or purpose) to aid navigation through your content.</li>\n <li>Label all elements (for example, sidebar widgets, forms, search boxes, tables).</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-3-1",
+    "2-3-2"
+   ]
+  },
+  "2-4-7": {
+   "id": "navigation-mechanisms-focus-visible",
+   "title": "Focus Visible",
+   "description": "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible",
+   "conformance_level": "AA",
+   "wuhcag_summary": "Ensure keyboard focus is visible and clear",
+   "wuhcag_detail": "<p>Your users need to find their way around your website in a sequential and meaningful order. If they use a keyboard to navigate your website, they should be able to see which element they are on at any time.</p>\n<p>The best way to do this is to style a visible border or outline around the element in use, whether it's a form field, link, menu, content area or any other element. This makes it easier for your users to understand where they are on a page.</p>\n",
+   "wuhcag_tips": "<p>A good <abbr title=\"HyperText Markup Language\">HTML</abbr> and CSS website will often already conform to this guideline. Check yours to be sure.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Make the keyboard focus visible on all elements (menu items, form fields, links, etc…).</li>\n <li>Use <abbr title=\"Cascading Style Sheets\">CSS</abbr> to apply a visual aid to keyboard focus – a border and/or underline is best.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-1-1",
+    "2-4-3"
+   ]
+  },
+  "2-4-8": {
+   "id": "navigation-mechanisms-location",
+   "title": "Location",
+   "description": "Information about the user's location within a set of Web pages is available.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Let users know where they are on your website",
+   "wuhcag_detail": "<p>Some of your users will have problems understanding the structure of your website. They can get lost, especially during interactions like checkouts that take place over a few pages. You can help your users by making it clear where they are on your website.</p>\n<p>This might be as simple as adding breadcrumbs and a sitemap to your website.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Use full page titles for breadcrumbs when they are 1-3 words long (otherwise they get too long to be displayed).</li>\n <li>Abbreviate longer titles to make them easier to read (for example, ‘A Guide To Exotic Fish’ could just as well be ‘Exotic Fish’ for the purpose of a breadcrumb).</li>\n <li>For a process that takes a few pages (like a shopping cart), show all the steps in the process and highlight where the user is.</li>\n <li>If a page has a too many breadcrumbs, perhaps your website could be better organised.</li>\n <li>Use your page titles in your sitemap, organised under subheadings.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Use breadcrumbs to help with navigation. Show the sequence a user is following and where they are in that sequence. For example: You are here: Home > Fish > Bass; and</li>\n <li>Add a sitemap page to your website (see Guideline 2.4.5) so your users have another way of finding what they want. Add a link to the sitemap somewhere prominent like the header.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-4-1",
+    "2-4-5"
+   ]
+  },
+  "2-4-9": {
+   "id": "navigation-mechanisms-link",
+   "title": "Link Purpose (Link Only)",
+   "description": "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general.",
+   "uri": "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Every link's purpose is clear from its text",
+   "wuhcag_detail": "<p>It's essential that you make your hyperlinks (usually just called ‘links’) clear and easy to understand.\nUsers with assistive technology, like a screen reader, often hear all the links on a page to help them find where they want to go. Others may view your website highly magnified, so the user will only see the link text and a few words around it at any one time.</p>\n<p>To help your users, your link text alone (the words that are linked, often called ‘anchor text’) must make the link destination clear.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>This Guideline builds on Guideline 2.4.4 by focusing only on the link text and removing some exceptions.</li>\n <li>Ensure that links with the same destination have the same description (but links don’t share a description if they point to different places).</li>\n <li>‘Click here’ and ‘Read more’ links fail this guideline.</li>\n <li>Avoid using the title attribute (which was an exception in Guideline 2.4.4) as is not sufficient to pass this guideline.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>To comply with this guideline, make sure that for each link on your website:</p>\n<ul>\n <li>The purpose of the link is clear from the link text; or</li>\n <li>If the link is an image, the alt text of the image makes the link purpose clear.</li>\n</ul>\n",
+   "wuchcag_exceptions": "<p>You don't need to make the link purpose clear if the purpose is ambiguous to all of your users. For example, if I link the word ‘blog’ in the phrase ‘I have a personal blog’ the link might go to my blog, or it might go to a Wikipedia page explaining what a blog is. No user would reliably know where the link goes before they follow the link.</p>\n<p>Of course, it’s best to avoid ambiguous links as users should always know where they are going. Although, there are times when you might want to spring a fun surprise on everyone.</p>\n",
+   "wuhcag_related": [
+    "1-1-1",
+    "2-4-4",
+    "3-2-4"
+   ]
   }
  }
 }
