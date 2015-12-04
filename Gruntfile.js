@@ -8,28 +8,8 @@ module.exports = function(grunt) {
 
     pkg: grunt.file.readJSON('package.json'),
 
-    jsonmin: {
-      dev: {
-        options: {
-          stripWhitespace: true,
-          stripComments: true
-        },
-        files: {
-          "dist/wcag.min.json" : "dist/wcag.json"
-        }
-      }
-    },
-
-    json_merge: {
-      options: {
-        replacer: null,
-        space: " "
-      },
-      your_target: {
-        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
-      },
-    }, // json_merge
-
+    // convert YAML to JSON
+    // https://github.com/shiwano/grunt-yaml
     yaml: {
       your_target: {
         options: {
@@ -51,7 +31,33 @@ module.exports = function(grunt) {
           }
         ]
       }
-    }
+    }, // yaml
+
+    // minify JSON
+    // https://www.npmjs.com/package/grunt-jsonmin
+    jsonmin: {
+      dev: {
+        options: {
+          stripWhitespace: true,
+          stripComments: true
+        },
+        files: {
+          "dist/wcag.min.json" : "dist/wcag.json"
+        }
+      }
+    }, // jsonmin
+
+    // combine JSON partial files
+    // https://github.com/ramiel/grunt-json-merge
+    json_merge: {
+      options: {
+        replacer: null,
+        space: " "
+      },
+      your_target: {
+        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+      },
+    } // json_merge
 
 
   });

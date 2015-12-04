@@ -2,3 +2,6 @@ vendor/*
 node_modules/*
 tmp/*
 *.xml
+*/.DS_Store
+.DS_Store
+.DS_Store?
