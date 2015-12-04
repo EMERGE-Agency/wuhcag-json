@@ -1,0 +1,34 @@
+guidelines:
+  3-3-3:
+    id: "minimize-error-suggestions"
+    title: "Error Suggestion"
+    description: "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content."
+    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-suggestions"
+    conformance_level: "AA"
+    wuhcag_summary: "Suggest fixes when users make errors"
+    wuhcag_detail: |
+     <p>All of your users make mistakes – they're only human after all. When they make mistakes on your website (whether it's their fault or not), they get frustrated.</p>
+     <p>Fortunately, it's also a great time to demonstrate to your users how much you care about them. Show suggestions and hints when users make mistakes on things like forms and checkouts.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>This guideline builds on Guideline 3.3.1, by adding a requirement to make a suggestion for user input to fix errors.</li>
+       <li>Be specific.</li>
+       <li>If a user makes an error, provide a list of links that the user can follow to jump back to correct their input.</li>
+       <li>Make it easy to re-submit incorrect forms by retaining all correct data.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>To pass this guideline, you need to make sure that:</p>
+      <ul>
+       <li>Your forms identify input errors.</li>
+       <li>When the error is missing a required field, communicate this to the user with a text suggestion.</li>
+       <li>If the error is in the format of the input, the suggestion shows the correct format (for example, ‘The date must be in the form DD/MM/YYYY’).</li>
+       <li>If the error is because the input needed to be from a limited list of values, provide these values and explain them.</li>
+      </ul>
+    wuchcag_exceptions: |
+      <p>You don't need to provide suggestions if:</p>
+      <ul>
+       <li>Making a suggestion would negatively impact data security.</li>
+       <li>Making a suggestion goes against the purpose of the field.</li>
+      </ul>
+    wuhcag_related:
+     - "3-3-1"

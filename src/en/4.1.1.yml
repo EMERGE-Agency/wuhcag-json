@@ -1,0 +1,24 @@
+guidelines:
+  4-1-1:
+    id: "ensure-compat-parses"
+    title: "Parsing"
+    description: "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features."
+    uri: "http://www.w3.org/TR/WCAG20/#ensure-compat-parses"
+    conformance_level: "A"
+    wuhcag_summary: "Your website has no major code errors"
+    wuhcag_detail: |
+     <p>Parsing is the way software like web browsers and assistive technology read and understand a website. It's important that the different technologies your users use to view your website don’t have trouble parsing your website. Parsing is all about your website's code.</p>
+     <p>All your users will benefit from a website built on clean and modern HTML. Your website will work properly in all web browsers and on all kinds of devices, from computers to tablets to smartphones.</p>
+     <p>Your users who rely on assistive technology will benefit from a well-made website as the technology often relies on HTML parsing. Bad or broken <abbr title="HyperText Markup Language">HTML</abbr> is more likely to cause parsing problems for assistive technology and so increase the chance of users leaving your website.</p>
+    wuhcag_tips: |
+    wuhcag_what_to_do: |
+     <p>This is a wide-ranging guideline, one that changes with time as standards evolve. Your best protection is hiring a web designer who knows parsing well. Find one through recommendations and ask them about their approach to web standards and accessibility.</p>
+     <p>Here are the most common issues to watch out for:</p>
+     <ul>
+      <li>Ensure HTML elements have complete start ( &lt; > ) and end ( &lt;/ > ) tags where needed.</li>
+      <li>Nest all HTML elements correctly (for example, list objects within an ordered or unordered list).</li>
+      <li>Use unique Ids.</li>
+      <li>Check that HTML elements don’t contain duplicate attributes.</li>
+     </ul>
+    wuchcag_exceptions: |
+    wuhcag_related:

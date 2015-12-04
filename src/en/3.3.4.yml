@@ -1,0 +1,32 @@
+guidelines:
+  3-3-4:
+    id: "minimize-error-reversible"
+    title: "Error Prevention (Legal, Financial, Data)"
+    description: "For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:"
+    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-reversible"
+    conformance_level: "AA"
+    wuhcag_summary: "Reduce the risk of input errors for sensitive data"
+    wuhcag_detail: |
+      <p>All users make mistakes when inputting data (for example, into forms and checkouts). You should try to prevent errors occurring, especially when users are committing to legal or financial agreements, or otherwise sharing their data.</p>
+      <p>Users can make costly mistakes if they don't fully understand the implications of their actions or can’t rectify their errors. Error prevention is all about reducing risk to your users by adding in confirmation stages to processes that pose a legal or financial risk.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>Guideline 3.3.6 widens this guideline to include all types of data transfer, not just these high-cost transactions.</li>
+       <li>This guideline applies to deletion of data as well as submission.</li>
+       <li>Legal commitments are transactions where the user incurs a legally binding obligation or benefit.</li>
+       <li><q>User controlled data</q> means things like name and address fields for a user's account.</li>
+       <li>Provide a confirmation webpage that gives the user a chance to read a summary of everything they have input and positively confirm their actions (especially if inputs were spread over several pages in the process).</li>
+       <li>Validate forms inline and add an error message if input is incorrect. Be specific in explaining how to fix mistakes.</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>To pass this guideline, you need to make sure that:</p>
+      <ul>
+       <li>Legal commitments, financial transactions, test responses and changes to user controlled data are reversible; or</li>
+       <li>Legal commitments, financial transactions, test responses and changes to user controlled data are checked for input errors and the user is given a chance to correct any mistakes; or</li>
+       <li>Add a confirmation page to the data input submission process that summarises the input and the outcome, with an option to correct or discontinue. This page has an input field (for example, a confirm button or checkbox) that acts as confirmation of the submission.</li>
+      </ul>
+    wuchcag_exceptions: |
+    wuhcag_related:
+     - "3-3-1"
+     - "3-3-3"
+     - "3-3-6"
