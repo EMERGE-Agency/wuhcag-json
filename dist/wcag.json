@@ -821,6 +821,96 @@
     "1-1-1",
     "3-2-5"
    ]
+  },
+  "3-2-3": {
+   "id": "consistent-behavior-consistent-locations",
+   "title": "Consistent Navigation",
+   "description": "Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
+   "uri": "http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations",
+   "conformance_level": "AA",
+   "wuhcag_summary": "Use menus in the same place across your website",
+   "wuhcag_detail": "<p>When you visit a website these days, it's almost second nature to understand where the main menu is and to expect it to be in the same place on every page. Web designers know that having a consistent navigation menu helps users move around websites.</p>\n<p>Consistent navigation helps users who may have trouble moving around a website and find themselves ‘lost’ more often than others. Your users who rely on spatial navigation, due to impaired sight, or need extra help understanding your website will thank you.</p>\n<p>This consistency also applies to standard parts of your website – things like your search box. Don't move them all over the place, use a consistent template for key elements.</p>\n",
+   "wuhcag_tips": "<p>Using a standard template for your website will help you meet this guideline.</p>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Keep navigation menus in the same location on all pages; and</li>\n <li>Present the options in navigation menus in the same order on all pages; and</li>\n <li>Keep all other standard elements (for example, your search box) in the same location on all pages.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-4-1",
+    "2-4-5",
+    "2-4-8",
+    "3-2-4"
+   ]
+  },
+  "3-2-4": {
+   "id": "consistent-behavior-consistent-functionality",
+   "title": "Consistent Identification",
+   "description": "Components that have the same functionality within a set of Web pages are identified consistently.",
+   "uri": "http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality",
+   "conformance_level": "AA",
+   "wuhcag_summary": "Use menus in the same place across your website",
+   "wuhcag_detail": "<p>It should be obvious that using consistent identification across your website helps your users move around, interact and do what it is you want them to do. Sadly, it’s often overlooked and buttons, icons or links with the same function look completely different.</p>\n<p>Users with screen readers and screen magnifiers benefit even further from consistent identification. They often use familiarity as a means of understanding and selecting functions. Therefore, elements with the same function should be labelled and appear consistent across your website. This includes visually hidden labels for screen readers.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Consistent is not the same as identical (for example, an arrow icon might link to the next page in a series, but depending on the page the text alternative would be ‘Go to page X’).</li>\n <li>An image can have different meanings in different contexts, so require different text alternatives to pass this guideline. For example, a tick icon or check mark can mean both ‘fishing line included with purchase’ and ‘registration form filled in successfully’).</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>Ensure that:</p>\n<ul>\n <li>Any icons used are consistent (for example, ‘Print page’ or Twitter link); and</li>\n <li>Elements with the same function are labelled and named consistently; or</li>\n <li>Elements with the same function have a consistent text alternative.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-1-1",
+    "2-4-4",
+    "2-4-9",
+    "3-2-2",
+    "4-1-2"
+   ]
+  },
+  "3-2-5": {
+   "id": "consistent-behavior-no-extreme-changes-context",
+   "title": "Change on Request",
+   "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes.",
+   "uri": "http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
+   "conformance_level": "AAA",
+   "wuhcag_summary": "Don’t change elements on your website until users ask",
+   "wuhcag_detail": "<p>Some of your users find automatic changes hard to deal with. Unexpected actions can interrupt their concentration and prevent them from reaching their goals. Help your users by keeping them in control and avoiding elements on your website that change automatically.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>This guideline builds on Guideline 3.2.2 and Guideline 2.2.2 by removing some exceptions, so you may already have passed!</li>\n <li>The best way to redirect a user from one webpage to another is to do it without them noticing. One of the simplest ways to do this is to edit a website’s .htaccess file, which is in the root directory (not all servers will allow you to edit this file, so check with your hosting provider).</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<p>To pass this guideline, you need to ensure the following five statements are true:</p>\n<ol>\n <li>If you have an element that updates automatically (like a live news ticker), there is an option to pause this and update only when requested; and</li>\n <li>All links open in the same window, unless it’s essential (for example, opening a transcript to a video); and</li>\n <li>If a link does open in a new window, the user is aware of this (for example, in the anchor text of the link or by an icon); and</li>\n <li>Forms do not auto-submit when fields are filled; and</li>\n <li>Any redirect from one page to another is immediate.</li>\n</ol>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "2-2-2",
+    "3-2-2",
+    "3-3-5"
+   ]
+  },
+  "3-3-1": {
+   "id": "minimize-error-identified",
+   "title": "Error Identification",
+   "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.",
+   "uri": "http://www.w3.org/TR/WCAG20/#minimize-error-identified",
+   "conformance_level": "A",
+   "wuhcag_summary": "Clearly identify input errors",
+   "wuhcag_detail": "<p>Everyone makes mistakes, even you and I. Make it easy for users to understand and correct their mistakes with a bit of guidance. Provide timely and clear error identification guidance when users make mistakes on your website. Using error identification keeps your website running smoothly and keeps your users from getting frustrated.</p>\n<p>One of the worst areas for mistakes websites are forms, including checkouts, newsletter sign-ups and questionnaires. Any of your users can make a simple error that means they can’t submit your form. If users cannot identify their mistakes, they will leave.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>If a form requires input in a certain format, show and describe the required format.</li>\n <li>If a mandatory field is empty, highlight the field and explain what’s required.</li>\n <li>Build forms to be forgiving, accepting variations on the formats you prefer.</li>\n <li>Don't ask for too much information, just what you need.</li>\n <li>Be specific. Use clear, concise instruction and form field labels.</li>\n <li>Highlight mistakes in forms with colours and symbols.</li>\n <li>Don't clear a form if a user makes a mistake. Save the information and allow the user to edit their error and continue.</li>\n <li>Provide extra help by giving your contact details on all pages (the header or footer are great) and especially near forms.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Identify and explain to the user any mistakes that you can detect automatically.</li>\n <li>Add error explanation close to the error, showing what is wrong and how to fix it.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-3-3",
+    "1-4-1",
+    "3-3-2",
+    "3-3-3",
+    "3-3-4"
+   ]
+  },
+  "3-3-2": {
+   "id": "minimize-error-cues",
+   "title": "Labels or Instructions",
+   "description": "Labels or instructions are provided when content requires user input.",
+   "uri": "http://www.w3.org/TR/WCAG20/#minimize-error-cues",
+   "conformance_level": "A",
+   "wuhcag_summary": "Label elements and give instructions",
+   "wuhcag_detail": "<p>Chances are your website will have a feature that requires your users to fill in some information. This might be on a checkout page to buy a product, a contact form to get in touch or a newsletter sign-up to opt in to your mailing list. You need to ensure your users know what’s required of them when they reach one of these elements on your website.</p>\n<p>Without clear labels and instructions, your users won't know what to do.</p>\n",
+   "wuhcag_tips": "<ul>\n <li>Instructions need to take into account how they use sensory characteristics.</li>\n <li>Think about how your use of colour affects things like required fields if you want to highlight them by colour. Don’t highlight by colour alone, pick a symbol too.</li>\n <li>Consider error identification as well, and make sure that you give helpful instructions when your users make mistakes on forms.</li>\n</ul>\n",
+   "wuhcag_what_to_do": "<ul>\n <li>Label all input fields clearly and helpfully.</li>\n <li>Where a field needs a specific format, give an example (For example, for a ‘date’ field in a form you might use ‘Enter the date as dd/mm/yyyy’)</li>\n <li>Mark required fields with an icon and explain what the icon means before the form.</li>\n <li>Keep your labels simple – too much explanation can be counter-productive. Things like ‘First name’, ‘Email’ and ‘Your message’ are fine.</li>\n <li>The same goes for instructions, ‘Required fields are in red and have a * symbol’ works great. So does ‘Fill in this form and click ‘Submit’ to get in touch’.</li>\n</ul>\n",
+   "wuchcag_exceptions": "",
+   "wuhcag_related": [
+    "1-3-3",
+    "1-4-1",
+    "3-3-1"
+   ]
   }
  }
 }

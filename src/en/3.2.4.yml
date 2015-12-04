@@ -1,0 +1,30 @@
+guidelines:
+  3-2-4:
+    id: "consistent-behavior-consistent-functionality"
+    title: "Consistent Identification"
+    description: "Components that have the same functionality within a set of Web pages are identified consistently."
+    uri: "http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality"
+    conformance_level: "AA"
+    wuhcag_summary: "Use menus in the same place across your website"
+    wuhcag_detail: |
+      <p>It should be obvious that using consistent identification across your website helps your users move around, interact and do what it is you want them to do. Sadly, it’s often overlooked and buttons, icons or links with the same function look completely different.</p>
+      <p>Users with screen readers and screen magnifiers benefit even further from consistent identification. They often use familiarity as a means of understanding and selecting functions. Therefore, elements with the same function should be labelled and appear consistent across your website. This includes visually hidden labels for screen readers.</p>
+    wuhcag_tips: |
+      <ul>
+       <li>Consistent is not the same as identical (for example, an arrow icon might link to the next page in a series, but depending on the page the text alternative would be ‘Go to page X’).</li>
+       <li>An image can have different meanings in different contexts, so require different text alternatives to pass this guideline. For example, a tick icon or check mark can mean both ‘fishing line included with purchase’ and ‘registration form filled in successfully’).</li>
+      </ul>
+    wuhcag_what_to_do: |
+      <p>Ensure that:</p>
+      <ul>
+       <li>Any icons used are consistent (for example, ‘Print page’ or Twitter link); and</li>
+       <li>Elements with the same function are labelled and named consistently; or</li>
+       <li>Elements with the same function have a consistent text alternative.</li>
+      </ul>
+    wuchcag_exceptions: |
+    wuhcag_related:
+     - "1-1-1"
+     - "2-4-4"
+     - "2-4-9"
+     - "3-2-2"
+     - "4-1-2"
