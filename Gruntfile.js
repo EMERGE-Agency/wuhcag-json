@@ -33,6 +33,18 @@ module.exports = function(grunt) {
       }
     }, // yaml
 
+    // combine JSON partial files
+    // https://github.com/ramiel/grunt-json-merge
+    json_merge: {
+      options: {
+        replacer: null,
+        space: " "
+      },
+      your_target: {
+        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+      },
+    }, // json_merge
+
     // minify JSON
     // https://www.npmjs.com/package/grunt-jsonmin
     jsonmin: {
@@ -46,18 +58,6 @@ module.exports = function(grunt) {
         }
       }
     }, // jsonmin
-
-    // combine JSON partial files
-    // https://github.com/ramiel/grunt-json-merge
-    json_merge: {
-      options: {
-        replacer: null,
-        space: " "
-      },
-      your_target: {
-        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
-      },
-    } // json_merge
 
 
   });
