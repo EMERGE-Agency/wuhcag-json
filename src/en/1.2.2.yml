@@ -1,22 +1,22 @@
 guidelines:
-  1-2-2:
-    id: "media-equiv-captions"
-    title: "Captions (Pre-recorded)"
-    description: "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
-    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-captions"
-    conformance_level: "A"
-    wuhcag_summary: "Provide captions for videos with audio"
-    wuhcag_detail: |
-     <p>Closed captioning is perhaps the most well known tool for people with disabilities. Often known as subtitles, or abbreviated as CC, closed captions have been around since the 1970s.</p>
-     <p>Multimedia is becoming more and more popular as the average home gets faster and faster internet access. Videos are cropping up everywhere, from news websites to product pages. One of the most visited websites in the world, YouTube, is specifically for online videos. As website owners turn to video, you must think of how users process your multimedia content.</p>
-    wuhcag_tips: |
-    wuhcag_what_to_do: |
-     <p>Adding captions to a video is a relatively hard task, compared to something like writing a text transcript or providing alternative text. Captions must be synchronised with the video to be useful, which means marking up the plain text with timestamps.</p>
-     <p>There are plenty of paid services out there that will do your closed captioning for you, often at reasonable rates. There are also many free programs that will attempt to create your caption file for you, but none as good as human eyes and ears just yet. Like with many areas of web accessibility, your choice is between spending time (writing your own captions) or money (outsourcing).</p>
-     <p>Google has written a very clear how-to guide on adding captions to YouTube videos, which I’m not going to try and better.</p>
-     <p>Add captions to all videos with sound.</p>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "1-1-1"
-      - "1-2-1"
-      - "1-2-4"
+ key: "1-2-2"
+ id: "media-equiv-captions"
+ title: "Captions (Pre-recorded)"
+ description: "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
+ uri: "http://www.w3.org/TR/WCAG20/#media-equiv-captions"
+ conformance_level: "A"
+ wuhcag_summary: "Provide captions for videos with audio"
+ wuhcag_detail: |
+  <p>Closed captioning is perhaps the most well known tool for people with disabilities. Often known as subtitles, or abbreviated as CC, closed captions have been around since the 1970s.</p>
+  <p>Multimedia is becoming more and more popular as the average home gets faster and faster internet access. Videos are cropping up everywhere, from news websites to product pages. One of the most visited websites in the world, YouTube, is specifically for online videos. As website owners turn to video, you must think of how users process your multimedia content.</p>
+ wuhcag_tips: |
+ wuhcag_what_to_do: |
+  <p>Adding captions to a video is a relatively hard task, compared to something like writing a text transcript or providing alternative text. Captions must be synchronised with the video to be useful, which means marking up the plain text with timestamps.</p>
+  <p>There are plenty of paid services out there that will do your closed captioning for you, often at reasonable rates. There are also many free programs that will attempt to create your caption file for you, but none as good as human eyes and ears just yet. Like with many areas of web accessibility, your choice is between spending time (writing your own captions) or money (outsourcing).</p>
+  <p>Google has written a very clear how-to guide on adding captions to YouTube videos, which I’m not going to try and better.</p>
+  <p>Add captions to all videos with sound.</p>
+ wuchcag_exceptions: |
+ wuhcag_related:
+   - "1-1-1"
+   - "1-2-1"
+   - "1-2-4"

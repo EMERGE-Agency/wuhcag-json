@@ -1,31 +1,31 @@
 guidelines:
-  3-1-3:
-    id: "meaning-idioms"
-    title: "Unusual Words"
-    description: "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon."
-    uri: "http://www.w3.org/TR/WCAG20/#meaning-idioms"
-    conformance_level: "AAA"
-    wuhcag_summary: "Explain any strange words"
-    wuhcag_detail: |
-      <p>Some of your users will find it hard to read unusual uses of words on your website. Things like figurative language, idioms and jargon can be difficult to process. Avoid using unusual words where you can and explain the use of words when you need to use them.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>If your use of an unusual word always means the same thing, you only have to define it the first time.</li>
-       <li>If your use of an unusual word changes, you must define the word on every occasion (for example, a <q>bass</q> might be a type of fish in one paragraph and a musical instrument in another).</li>
-       <li>Always define technical terms and jargon that any user might not understand depending on their familiarity with the subject.</li>
-       <li>Wherever possible, avoid using jargon and idioms. These are bad for novices in your industry and users who don't natively speak your language.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Avoid using unusual words and phrases.</li>
-       <li>If you need to use an unusual word or phrase, you can explain the meaning to your users by:</li>
-       <li>Showing the meaning in the text (for example, ‘I like bass. A bass is a fish.’); or</li>
-       <li>Showing the meaning in brackets (for example, ‘I like bass (a type of fish)’; or</li>
-       <li>Linking the word to a definition on a glossary page on your website; or</li>
-       <li>Linking the word to a definition footnote on the same page.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "3-1-4"
-     - "3-1-5"
-     - "3-1-6"
+ key: "3-1-3"
+ id: "meaning-idioms"
+ title: "Unusual Words"
+ description: "A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon."
+ uri: "http://www.w3.org/TR/WCAG20/#meaning-idioms"
+ conformance_level: "AAA"
+ wuhcag_summary: "Explain any strange words"
+ wuhcag_detail: |
+   <p>Some of your users will find it hard to read unusual uses of words on your website. Things like figurative language, idioms and jargon can be difficult to process. Avoid using unusual words where you can and explain the use of words when you need to use them.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>If your use of an unusual word always means the same thing, you only have to define it the first time.</li>
+    <li>If your use of an unusual word changes, you must define the word on every occasion (for example, a <q>bass</q> might be a type of fish in one paragraph and a musical instrument in another).</li>
+    <li>Always define technical terms and jargon that any user might not understand depending on their familiarity with the subject.</li>
+    <li>Wherever possible, avoid using jargon and idioms. These are bad for novices in your industry and users who don't natively speak your language.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Avoid using unusual words and phrases.</li>
+    <li>If you need to use an unusual word or phrase, you can explain the meaning to your users by:</li>
+    <li>Showing the meaning in the text (for example, ‘I like bass. A bass is a fish.’); or</li>
+    <li>Showing the meaning in brackets (for example, ‘I like bass (a type of fish)’; or</li>
+    <li>Linking the word to a definition on a glossary page on your website; or</li>
+    <li>Linking the word to a definition footnote on the same page.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "3-1-4"
+  - "3-1-5"
+  - "3-1-6"

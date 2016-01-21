@@ -1,35 +1,35 @@
 guidelines:
-  3-2-1:
-    id: "consistent-behavior-receive-focus"
-    title: "On Focus"
-    description: "When any user interface component receives focus, it does not  initiate a change of context."
-    uri: "http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus"
-    conformance_level: "A"
-    wuhcag_summary: "Elements do not change when they receive focus"
-    wuhcag_detail: |
-      <p>If your website doesn’t act as users expect it to, they'll leave and you won't see them again.</p>
-      <p>Focus is vital when considering what happens on your website when users reach elements like forms, videos and other interactive elements. Once an element receives focus from users, whether with a mouse or keyboard, the element must not automatically change (known as ‘changing on focus’). This can disorientate users.</p>
-      <p>A change of focus is especially troublesome for users who navigate by keyboard.</p>
-    wuhcag_tips: |
-     <ul>
-      <li>Most well-made websites will not have any of these errors by default, you would need to choose to add in change on focus.</li>
-      <li>A great way to test this guideline is to unplug your mouse and navigate your way round your website. If anything moves, submits or changes on focus, fix it!</li>
-     </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Ensure no element changes purely by receiving focus.</li>
-       <li>Avoid both behavioural and visual modifications.</li>
-      </ul>
-      <p>Ensure that:</p>
-      <ul>
-      <li>Links don't open automatically on focus; and</li>
-      <li>Forms don't submit without the user taking action (such as clicking the ‘Submit’ button); and</li>
-      <li>There are no automatic pop-ups; and</li>
-      <li>Focus never jumps to another element automatically; and</li>
-      <li>No other action that occurs on focus alone causes the page to change.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>Elements can change on focus if the context doesn’t change. For example, you can use a dynamic menu on your website, the kind where navigation options drop down when you hover over an item. This is not a change of context.</p>
-      <p>Another example would be a hover status on a link, again, this this isn’t a change of context.</p>
-    wuhcag_related:
-     - "2-2-2"
+ key: "3-2-1"
+ id: "consistent-behavior-receive-focus"
+ title: "On Focus"
+ description: "When any user interface component receives focus, it does not  initiate a change of context."
+ uri: "http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus"
+ conformance_level: "A"
+ wuhcag_summary: "Elements do not change when they receive focus"
+ wuhcag_detail: |
+   <p>If your website doesn’t act as users expect it to, they'll leave and you won't see them again.</p>
+   <p>Focus is vital when considering what happens on your website when users reach elements like forms, videos and other interactive elements. Once an element receives focus from users, whether with a mouse or keyboard, the element must not automatically change (known as ‘changing on focus’). This can disorientate users.</p>
+   <p>A change of focus is especially troublesome for users who navigate by keyboard.</p>
+ wuhcag_tips: |
+  <ul>
+   <li>Most well-made websites will not have any of these errors by default, you would need to choose to add in change on focus.</li>
+   <li>A great way to test this guideline is to unplug your mouse and navigate your way round your website. If anything moves, submits or changes on focus, fix it!</li>
+  </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Ensure no element changes purely by receiving focus.</li>
+    <li>Avoid both behavioural and visual modifications.</li>
+   </ul>
+   <p>Ensure that:</p>
+   <ul>
+   <li>Links don't open automatically on focus; and</li>
+   <li>Forms don't submit without the user taking action (such as clicking the ‘Submit’ button); and</li>
+   <li>There are no automatic pop-ups; and</li>
+   <li>Focus never jumps to another element automatically; and</li>
+   <li>No other action that occurs on focus alone causes the page to change.</li>
+   </ul>
+ wuchcag_exceptions: |
+   <p>Elements can change on focus if the context doesn’t change. For example, you can use a dynamic menu on your website, the kind where navigation options drop down when you hover over an item. This is not a change of context.</p>
+   <p>Another example would be a hover status on a link, again, this this isn’t a change of context.</p>
+ wuhcag_related:
+  - "2-2-2"

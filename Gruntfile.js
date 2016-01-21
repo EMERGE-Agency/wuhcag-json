@@ -41,7 +41,8 @@ module.exports = function(grunt) {
         space: " "
       },
       your_target: {
-        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+        // files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+        files: { 'dist/wcag.json' : ['tmp/en/1.2.1.json','tmp/en/1.2.2.json'] }
       },
     }, // json_merge
 

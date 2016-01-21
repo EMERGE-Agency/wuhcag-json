@@ -1,23 +1,23 @@
 guidelines:
-  2-2-3:
-    id: "time-limits-no-exceptions"
-    title: "No Timing"
-    description: "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events."
-    uri: "http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions"
-    conformance_level: "AAA"
-    wuhcag_summary: "No time limits on your website"
-    wuhcag_detail: |
-      <p>If any of your content is time-controlled, you risk losing users who need more time to read and understand the information on your website.</p>
-      <p>Time-controlled content is anything on your website that expires or becomes unusable by your users after a certain time. A common example is giving a user ten minutes to fill in and send a form. There are functional reasons to set time limits, but you must consider all of your users.</p>
-    wuhcag_tips: |
-    wuhcag_what_to_do: |
-      <p>This guideline builds on Guideline 2.2.1. That guideline (at the lower Level A standard of compliance) requires you to offer users a chance to turn off or extend time limits. At Level AAA, this guideline requires that you do not set time limits at all (with two exceptions below).</p>
-    wuchcag_exceptions: |
-      <p>You can set a time limit if:</p>
-      <ul>
-       <li>The time limit is due to real-time events, like bidding in an auction.</li>
-       <li>Your content is a live video stream.</li>
-      </ul>
-    wuhcag_related:
-      - "2-2-1"
-      - "2-2-5"
+ key: "2-2-3"
+ id: "time-limits-no-exceptions"
+ title: "No Timing"
+ description: "Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events."
+ uri: "http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions"
+ conformance_level: "AAA"
+ wuhcag_summary: "No time limits on your website"
+ wuhcag_detail: |
+   <p>If any of your content is time-controlled, you risk losing users who need more time to read and understand the information on your website.</p>
+   <p>Time-controlled content is anything on your website that expires or becomes unusable by your users after a certain time. A common example is giving a user ten minutes to fill in and send a form. There are functional reasons to set time limits, but you must consider all of your users.</p>
+ wuhcag_tips: |
+ wuhcag_what_to_do: |
+   <p>This guideline builds on Guideline 2.2.1. That guideline (at the lower Level A standard of compliance) requires you to offer users a chance to turn off or extend time limits. At Level AAA, this guideline requires that you do not set time limits at all (with two exceptions below).</p>
+ wuchcag_exceptions: |
+   <p>You can set a time limit if:</p>
+   <ul>
+    <li>The time limit is due to real-time events, like bidding in an auction.</li>
+    <li>Your content is a live video stream.</li>
+   </ul>
+ wuhcag_related:
+   - "2-2-1"
+   - "2-2-5"

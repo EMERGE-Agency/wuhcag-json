@@ -1,30 +1,30 @@
 guidelines:
-  3-1-6:
-    id: "meaning-pronunciation"
-    title: "Pronunciation"
-    description: "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation."
-    uri: "http://www.w3.org/TR/WCAG20/#meaning-pronunciation"
-    conformance_level: "AAA"
-    wuhcag_summary: "Explain any words that are hard to pronounce"
-    wuhcag_detail: |
-      <p>You can help your users by paying attention to words that are hard or confusing to pronounce. Words like these can make it hard for your users to read your content.</p>
-      <p>This includes words that are hard to pronounce (for example, ‘phenomenon’) and words that are spelled the same but pronounced differently (for example, ‘bow’ v ‘bow’). Take extra time to explain these words to your users.</p>
-    wuhcag_tips: |
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Avoid using hard-to-pronounce words. </li>
-       <li>If you need to use a hard-to-pronounce word, you can explain the meaning to your users by:</li>
-       <li>Providing the phonetic pronunciation of words immediately after the word; or</li>
-       <li>Linking the word to a pronunciation guide on another page on your website; or</li>
-       <li>Linking the word to a pronunciation guide on the same page.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>You don't need to provide pronunciation help if:</p>
-      <ul>
-       <li>The correct pronunciation is not clear from context, so all users would struggle with it.</li>
-       <li>The correct pronunciation is just as likely to be unknown to all users (for example, Latin phrases or scientific words).</li>
-      </ul>
-    wuhcag_related:
-     - "3-1-3"
-     - "3-1-4"
-     - "3-1-6"
+ key: "3-1-6"
+ id: "meaning-pronunciation"
+ title: "Pronunciation"
+ description: "A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation."
+ uri: "http://www.w3.org/TR/WCAG20/#meaning-pronunciation"
+ conformance_level: "AAA"
+ wuhcag_summary: "Explain any words that are hard to pronounce"
+ wuhcag_detail: |
+   <p>You can help your users by paying attention to words that are hard or confusing to pronounce. Words like these can make it hard for your users to read your content.</p>
+   <p>This includes words that are hard to pronounce (for example, ‘phenomenon’) and words that are spelled the same but pronounced differently (for example, ‘bow’ v ‘bow’). Take extra time to explain these words to your users.</p>
+ wuhcag_tips: |
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Avoid using hard-to-pronounce words. </li>
+    <li>If you need to use a hard-to-pronounce word, you can explain the meaning to your users by:</li>
+    <li>Providing the phonetic pronunciation of words immediately after the word; or</li>
+    <li>Linking the word to a pronunciation guide on another page on your website; or</li>
+    <li>Linking the word to a pronunciation guide on the same page.</li>
+   </ul>
+ wuchcag_exceptions: |
+   <p>You don't need to provide pronunciation help if:</p>
+   <ul>
+    <li>The correct pronunciation is not clear from context, so all users would struggle with it.</li>
+    <li>The correct pronunciation is just as likely to be unknown to all users (for example, Latin phrases or scientific words).</li>
+   </ul>
+ wuhcag_related:
+  - "3-1-3"
+  - "3-1-4"
+  - "3-1-6"

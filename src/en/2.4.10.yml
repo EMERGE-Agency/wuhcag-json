@@ -1,25 +1,25 @@
 guidelines:
-  2-4-10:
-    id: "navigation-mechanisms-headings"
-    title: "Section Headings"
-    description: "Section headings are used to organize the content."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings"
-    conformance_level: "AAA"
-    wuhcag_summary: "Break up content with headings"
-    wuhcag_detail: |
-      <p>Adding section headings to all content will help your users understand your website. They are useful for users who have difficulty focusing or remembering where they are on a page, as well as users with a visual impairment, who may navigate by skipping between headings.</p>
-      <p>You can help these users, and everyone else, by ensuring that all content on your website is broken up by clear and informative headings.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>The <abbr title="World Wide Web Consortium">W3C</abbr> define a <q>section</q> as a <q>self-contained portion of written content that deals with one or more related topics or thoughts.</q><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html"> See 'Understanding WCAG 2.0'</a></li>
-       <li>A section may consist of one or more paragraphs and include graphics, tables, lists and sub-sections.</li>
-       <li>Beware of making your content harder to read by forcing in too many headings.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>Add a heading for every new thought or topic in your content (for example, a travel article may have headings to indicate the distinct sections on dining, transportation, and lodging).</p>
-    wuchcag_exceptions: |
-      <p>A webpage can be single block of content with only one header if it is about one thought or topic.</p>
-    wuhcag_related:
-     - "1-3-1"
-     - "1-3-2"
-     - "2-4-6"
+ key: "2-4-10"
+ id: "navigation-mechanisms-headings"
+ title: "Section Headings"
+ description: "Section headings are used to organize the content."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings"
+ conformance_level: "AAA"
+ wuhcag_summary: "Break up content with headings"
+ wuhcag_detail: |
+   <p>Adding section headings to all content will help your users understand your website. They are useful for users who have difficulty focusing or remembering where they are on a page, as well as users with a visual impairment, who may navigate by skipping between headings.</p>
+   <p>You can help these users, and everyone else, by ensuring that all content on your website is broken up by clear and informative headings.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>The <abbr title="World Wide Web Consortium">W3C</abbr> define a <q>section</q> as a <q>self-contained portion of written content that deals with one or more related topics or thoughts.</q><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html"> See 'Understanding WCAG 2.0'</a></li>
+    <li>A section may consist of one or more paragraphs and include graphics, tables, lists and sub-sections.</li>
+    <li>Beware of making your content harder to read by forcing in too many headings.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <p>Add a heading for every new thought or topic in your content (for example, a travel article may have headings to indicate the distinct sections on dining, transportation, and lodging).</p>
+ wuchcag_exceptions: |
+   <p>A webpage can be single block of content with only one header if it is about one thought or topic.</p>
+ wuhcag_related:
+  - "1-3-1"
+  - "1-3-2"
+  - "2-4-6"

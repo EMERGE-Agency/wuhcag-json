@@ -1,32 +1,32 @@
 guidelines:
-  2-4-9:
-    id: "navigation-mechanisms-link"
-    title: "Link Purpose (Link Only)"
-    description: "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link"
-    conformance_level: "AAA"
-    wuhcag_summary: "Every link's purpose is clear from its text"
-    wuhcag_detail: |
-      <p>It's essential that you make your hyperlinks (usually just called ‘links’) clear and easy to understand.
-      Users with assistive technology, like a screen reader, often hear all the links on a page to help them find where they want to go. Others may view your website highly magnified, so the user will only see the link text and a few words around it at any one time.</p>
-      <p>To help your users, your link text alone (the words that are linked, often called ‘anchor text’) must make the link destination clear.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>This Guideline builds on Guideline 2.4.4 by focusing only on the link text and removing some exceptions.</li>
-       <li>Ensure that links with the same destination have the same description (but links don’t share a description if they point to different places).</li>
-       <li>‘Click here’ and ‘Read more’ links fail this guideline.</li>
-       <li>Avoid using the title attribute (which was an exception in Guideline 2.4.4) as is not sufficient to pass this guideline.</li>
-      </ul>
-    wuhcag_what_to_do: |
-     <p>To comply with this guideline, make sure that for each link on your website:</p>
-     <ul>
-      <li>The purpose of the link is clear from the link text; or</li>
-      <li>If the link is an image, the alt text of the image makes the link purpose clear.</li>
-     </ul>
-    wuchcag_exceptions: |
-      <p>You don't need to make the link purpose clear if the purpose is ambiguous to all of your users. For example, if I link the word ‘blog’ in the phrase ‘I have a personal blog’ the link might go to my blog, or it might go to a Wikipedia page explaining what a blog is. No user would reliably know where the link goes before they follow the link.</p>
-      <p>Of course, it’s best to avoid ambiguous links as users should always know where they are going. Although, there are times when you might want to spring a fun surprise on everyone.</p>
-    wuhcag_related:
-     - "1-1-1"
-     - "2-4-4"
-     - "3-2-4"
+ key: "2-4-9"
+ id: "navigation-mechanisms-link"
+ title: "Link Purpose (Link Only)"
+ description: "A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link"
+ conformance_level: "AAA"
+ wuhcag_summary: "Every link's purpose is clear from its text"
+ wuhcag_detail: |
+   <p>It's essential that you make your hyperlinks (usually just called ‘links’) clear and easy to understand.
+   Users with assistive technology, like a screen reader, often hear all the links on a page to help them find where they want to go. Others may view your website highly magnified, so the user will only see the link text and a few words around it at any one time.</p>
+   <p>To help your users, your link text alone (the words that are linked, often called ‘anchor text’) must make the link destination clear.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>This Guideline builds on Guideline 2.4.4 by focusing only on the link text and removing some exceptions.</li>
+    <li>Ensure that links with the same destination have the same description (but links don’t share a description if they point to different places).</li>
+    <li>‘Click here’ and ‘Read more’ links fail this guideline.</li>
+    <li>Avoid using the title attribute (which was an exception in Guideline 2.4.4) as is not sufficient to pass this guideline.</li>
+   </ul>
+ wuhcag_what_to_do: |
+  <p>To comply with this guideline, make sure that for each link on your website:</p>
+  <ul>
+   <li>The purpose of the link is clear from the link text; or</li>
+   <li>If the link is an image, the alt text of the image makes the link purpose clear.</li>
+  </ul>
+ wuchcag_exceptions: |
+   <p>You don't need to make the link purpose clear if the purpose is ambiguous to all of your users. For example, if I link the word ‘blog’ in the phrase ‘I have a personal blog’ the link might go to my blog, or it might go to a Wikipedia page explaining what a blog is. No user would reliably know where the link goes before they follow the link.</p>
+   <p>Of course, it’s best to avoid ambiguous links as users should always know where they are going. Although, there are times when you might want to spring a fun surprise on everyone.</p>
+ wuhcag_related:
+  - "1-1-1"
+  - "2-4-4"
+  - "3-2-4"

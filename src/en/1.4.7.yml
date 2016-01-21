@@ -1,29 +1,29 @@
 guidelines:
-  1-4-7:
-    id: "visual-audio-contrast-noaudio"
-    title: "Low or No Background Audio"
-    description: "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:"
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio"
-    conformance_level: "AAA"
-    wuhcag_summary: "Your audio is clear for listeners to hear"
-    wuhcag_detail: |
-      <p>Some of your users will have difficulties with their hearing. They will not be able to hear your audio content as clearly as other users. You can help by ensuring that all of your audio is clear.</p>
-      <p>If you have pre-recorded audio-only content, keep background noise to a minimum so that the speaking voices can be heard.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>Record your audio in a place you know will be quiet (a room with lots of soft furnishings is best if you haven’t got a studio).</li>
-       <li>Embed good quality audio (you should be doing this anyway if you care about your website).</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Make sure your pre-recorded audio does not contain any background noise; or</li>
-       <li>If there has to be some background noise, it is generally 20 decibels lower than the foreground noise. That’s about four times quieter.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>Background noise is acceptable if:</p>
-      <ul>
-       <li>The audio isn't mainly speech (for example, in an audio play, an action scene might have a helicopter blown up by a car).</li>
-       <li>The audio is part of a CAPTCHA element (CAPTCHA is a test that separates humans from spam bots and is often used in forms).</li>
-       <li>The audio is you <q><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-noaudio.html">singing or rapping</a>.</q></li>
-      </ul>
-    wuhcag_related:
+ key: "1-4-7"
+ id: "visual-audio-contrast-noaudio"
+ title: "Low or No Background Audio"
+ description: "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:"
+ uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio"
+ conformance_level: "AAA"
+ wuhcag_summary: "Your audio is clear for listeners to hear"
+ wuhcag_detail: |
+   <p>Some of your users will have difficulties with their hearing. They will not be able to hear your audio content as clearly as other users. You can help by ensuring that all of your audio is clear.</p>
+   <p>If you have pre-recorded audio-only content, keep background noise to a minimum so that the speaking voices can be heard.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>Record your audio in a place you know will be quiet (a room with lots of soft furnishings is best if you haven’t got a studio).</li>
+    <li>Embed good quality audio (you should be doing this anyway if you care about your website).</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Make sure your pre-recorded audio does not contain any background noise; or</li>
+    <li>If there has to be some background noise, it is generally 20 decibels lower than the foreground noise. That’s about four times quieter.</li>
+   </ul>
+ wuchcag_exceptions: |
+   <p>Background noise is acceptable if:</p>
+   <ul>
+    <li>The audio isn't mainly speech (for example, in an audio play, an action scene might have a helicopter blown up by a car).</li>
+    <li>The audio is part of a CAPTCHA element (CAPTCHA is a test that separates humans from spam bots and is often used in forms).</li>
+    <li>The audio is you <q><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-noaudio.html">singing or rapping</a>.</q></li>
+   </ul>
+ wuhcag_related:

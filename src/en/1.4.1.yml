@@ -1,25 +1,25 @@
 guidelines:
-  1-4-1:
-    id: "visual-audio-contrast-without-color"
-    title: "Use of Color"
-    description: "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"
-    conformance_level: "A"
-    wuhcag_summary: "Don’t use presentation that relies solely on colour"
-    wuhcag_detail: |
-      <p>Your users with visual impairment need help when you use colour on your website. As many as <a href="http://www.colourblindawareness.org/colour-blindness">1 in 12 men have some degree of colour blindness</a>. That means that somewhere around 8% of your male users will struggle with your website if you don’t use colour correctly.</p>
-    wuhcag_tips: |
-     <p>Check for colour issues by printing samples from your website in black and white. Are there any instructions you can’t follow or is there information you can’t understand?</p>
-     <p>Making your website accessible to colour blind users is simple. The main area to focus on is giving instructions. Saying things like ‘Click the green button’ or ‘Required fields are red’ is useless to users who can’t see green or red. Back these kinds of instructions up with at least one more identifying remark.</p>
-     <p>Another point is to make sure that important graphics are not dependent on colour alone. For example, your users might not understand a pie chart where only colour separates the segments. In this case, you should add clear labelling and patterns to the segments.</p>
-     <p>There’s an overlap here with Guideline 1.3.3. Instructions should always be clear and give your customers the detail they need.</p>
-     <p>This guideline is not about removing all traces of colour from your website, far from it. It just means that colour must not be the only way of conveying the information or instruction. A common misconception is that web accessibility means making your website black and white, and making it completely boring. Web accessibility is about improving websites, not taking away from them.</p>
-    wuhcag_what_to_do: |
-      <p>Using colour is mainly a case of using your common sense:</p>
-      <ul>
-       <li>Instructions must not rely on colour alone.</li>
-       <li>Other information (like charts and graphs) must not rely on colour alone.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "1-3-3"
+ key: "1-4-1"
+ id: "visual-audio-contrast-without-color"
+ title: "Use of Color"
+ description: "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
+ uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"
+ conformance_level: "A"
+ wuhcag_summary: "Don’t use presentation that relies solely on colour"
+ wuhcag_detail: |
+   <p>Your users with visual impairment need help when you use colour on your website. As many as <a href="http://www.colourblindawareness.org/colour-blindness">1 in 12 men have some degree of colour blindness</a>. That means that somewhere around 8% of your male users will struggle with your website if you don’t use colour correctly.</p>
+ wuhcag_tips: |
+  <p>Check for colour issues by printing samples from your website in black and white. Are there any instructions you can’t follow or is there information you can’t understand?</p>
+  <p>Making your website accessible to colour blind users is simple. The main area to focus on is giving instructions. Saying things like ‘Click the green button’ or ‘Required fields are red’ is useless to users who can’t see green or red. Back these kinds of instructions up with at least one more identifying remark.</p>
+  <p>Another point is to make sure that important graphics are not dependent on colour alone. For example, your users might not understand a pie chart where only colour separates the segments. In this case, you should add clear labelling and patterns to the segments.</p>
+  <p>There’s an overlap here with Guideline 1.3.3. Instructions should always be clear and give your customers the detail they need.</p>
+  <p>This guideline is not about removing all traces of colour from your website, far from it. It just means that colour must not be the only way of conveying the information or instruction. A common misconception is that web accessibility means making your website black and white, and making it completely boring. Web accessibility is about improving websites, not taking away from them.</p>
+ wuhcag_what_to_do: |
+   <p>Using colour is mainly a case of using your common sense:</p>
+   <ul>
+    <li>Instructions must not rely on colour alone.</li>
+    <li>Other information (like charts and graphs) must not rely on colour alone.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "1-3-3"

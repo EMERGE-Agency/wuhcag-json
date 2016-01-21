@@ -1,27 +1,27 @@
 guidelines:
-  2-4-3:
-    id: "navigation-mechanisms-focus-order"
-    title: "Focus Order"
-    description: "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"
-    conformance_level: "A"
-    wuhcag_summary: "Pages work in a logical order"
-    wuhcag_detail: |
-      <p>Your users need to find their way around your website in a sequential and meaningful order. You can control this with the ‘focus order’ of your website.</p>
-      <p>‘Focus order’ is the sequence in which a user accesses elements on your website. For example, some users can't use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. This order is as simple as a bit of logic, such as going from your header to your menu to your page content.</p>
-    wuhcag_tips: |
-      <p>If you have complied with Guideline 2.1.1, you may have already covered elements of this guideline.</p>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>A well-made HTML website will often comply with this guideline.</li>
-       <li>Unplug your mouse and verify that you can use the ‘Tab’ key to navigate to every part of your website and use every function, including search boxes and forms – make sure each page has a sensible focus order.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <ul>
-       <li>Complex items like tree diagrams do not have to be exactly programmed to a specific order, as long as your users can reach every element.</li>
-       <li>You don't need to set a focus order if your page doesn't need to be navigated in a particular sequence to be understood. For example, a random collage of links or images.</li>
-      </ul>
-    wuhcag_related:
-     - "1-3-2"
-     - "2-1-1"
-     - "2-4-7"
+ key: "2-4-3"
+ id: "navigation-mechanisms-focus-order"
+ title: "Focus Order"
+ description: "If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"
+ conformance_level: "A"
+ wuhcag_summary: "Pages work in a logical order"
+ wuhcag_detail: |
+   <p>Your users need to find their way around your website in a sequential and meaningful order. You can control this with the ‘focus order’ of your website.</p>
+   <p>‘Focus order’ is the sequence in which a user accesses elements on your website. For example, some users can't use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. This order is as simple as a bit of logic, such as going from your header to your menu to your page content.</p>
+ wuhcag_tips: |
+   <p>If you have complied with Guideline 2.1.1, you may have already covered elements of this guideline.</p>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>A well-made HTML website will often comply with this guideline.</li>
+    <li>Unplug your mouse and verify that you can use the ‘Tab’ key to navigate to every part of your website and use every function, including search boxes and forms – make sure each page has a sensible focus order.</li>
+   </ul>
+ wuchcag_exceptions: |
+   <ul>
+    <li>Complex items like tree diagrams do not have to be exactly programmed to a specific order, as long as your users can reach every element.</li>
+    <li>You don't need to set a focus order if your page doesn't need to be navigated in a particular sequence to be understood. For example, a random collage of links or images.</li>
+   </ul>
+ wuhcag_related:
+  - "1-3-2"
+  - "2-1-1"
+  - "2-4-7"

@@ -1,29 +1,29 @@
 guidelines:
-  3-2-5:
-    id: "consistent-behavior-no-extreme-changes-context"
-    title: "Change on Request"
-    description: "Changes of context are initiated only by user request or a mechanism is available to turn off such changes."
-    uri: "http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context"
-    conformance_level: "AAA"
-    wuhcag_summary: "Don’t change elements on your website until users ask"
-    wuhcag_detail: |
-      <p>Some of your users find automatic changes hard to deal with. Unexpected actions can interrupt their concentration and prevent them from reaching their goals. Help your users by keeping them in control and avoiding elements on your website that change automatically.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>This guideline builds on Guideline 3.2.2 and Guideline 2.2.2 by removing some exceptions, so you may already have passed!</li>
-       <li>The best way to redirect a user from one webpage to another is to do it without them noticing. One of the simplest ways to do this is to edit a website’s .htaccess file, which is in the root directory (not all servers will allow you to edit this file, so check with your hosting provider).</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>To pass this guideline, you need to ensure the following five statements are true:</p>
-      <ol>
-       <li>If you have an element that updates automatically (like a live news ticker), there is an option to pause this and update only when requested; and</li>
-       <li>All links open in the same window, unless it’s essential (for example, opening a transcript to a video); and</li>
-       <li>If a link does open in a new window, the user is aware of this (for example, in the anchor text of the link or by an icon); and</li>
-       <li>Forms do not auto-submit when fields are filled; and</li>
-       <li>Any redirect from one page to another is immediate.</li>
-      </ol>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "2-2-2"
-     - "3-2-2"
-     - "3-3-5"
+ key: "3-2-5"
+ id: "consistent-behavior-no-extreme-changes-context"
+ title: "Change on Request"
+ description: "Changes of context are initiated only by user request or a mechanism is available to turn off such changes."
+ uri: "http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context"
+ conformance_level: "AAA"
+ wuhcag_summary: "Don’t change elements on your website until users ask"
+ wuhcag_detail: |
+   <p>Some of your users find automatic changes hard to deal with. Unexpected actions can interrupt their concentration and prevent them from reaching their goals. Help your users by keeping them in control and avoiding elements on your website that change automatically.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>This guideline builds on Guideline 3.2.2 and Guideline 2.2.2 by removing some exceptions, so you may already have passed!</li>
+    <li>The best way to redirect a user from one webpage to another is to do it without them noticing. One of the simplest ways to do this is to edit a website’s .htaccess file, which is in the root directory (not all servers will allow you to edit this file, so check with your hosting provider).</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <p>To pass this guideline, you need to ensure the following five statements are true:</p>
+   <ol>
+    <li>If you have an element that updates automatically (like a live news ticker), there is an option to pause this and update only when requested; and</li>
+    <li>All links open in the same window, unless it’s essential (for example, opening a transcript to a video); and</li>
+    <li>If a link does open in a new window, the user is aware of this (for example, in the anchor text of the link or by an icon); and</li>
+    <li>Forms do not auto-submit when fields are filled; and</li>
+    <li>Any redirect from one page to another is immediate.</li>
+   </ol>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "2-2-2"
+  - "3-2-2"
+  - "3-3-5"

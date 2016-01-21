@@ -1,22 +1,22 @@
 guidelines:
-  2-2-5:
-    id: "time-limits-server-timeout"
-    title: "Re-authenticating"
-    description: "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating."
-    uri: "http://www.w3.org/TR/WCAG20/#time-limits-server-timeout"
-    conformance_level: "AAA"
-    wuhcag_summary: "Save user data when re-authenticating"
-    wuhcag_detail: |
-     <p>It may be essential for your users to re-authenticate their identity for certain functions. For example, you might set a login to expire after a certain amount of time in case a user leaves their computer unattended in the middle of a purchase.</p>
-     <p>While your website will rightly use this function for your users’ security, you can help your users by saving all information entered by the user. When they re-authenticate (such as logging back in) you can display whatever data they had already entered.</p>
-    wuhcag_tips: |
-     <p>If you do ask your users to re-authenticate after a certain amount of time, consider whether your use of a time limit is justified under Guideline 2.2.1 and Guideline 2.2.3.</p>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>When you ask a user to re-authenticate their identity, the user can continue exactly as before with saved data (for example, their shopping basket contents, input into forms or accessibility options).</li>
-       <li>Things like surveys and questionnaires can be saved and completed at a later date.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "2-2-1"
-     - "2-2-3"
+ key: "2-2-5"
+ id: "time-limits-server-timeout"
+ title: "Re-authenticating"
+ description: "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating."
+ uri: "http://www.w3.org/TR/WCAG20/#time-limits-server-timeout"
+ conformance_level: "AAA"
+ wuhcag_summary: "Save user data when re-authenticating"
+ wuhcag_detail: |
+  <p>It may be essential for your users to re-authenticate their identity for certain functions. For example, you might set a login to expire after a certain amount of time in case a user leaves their computer unattended in the middle of a purchase.</p>
+  <p>While your website will rightly use this function for your users’ security, you can help your users by saving all information entered by the user. When they re-authenticate (such as logging back in) you can display whatever data they had already entered.</p>
+ wuhcag_tips: |
+  <p>If you do ask your users to re-authenticate after a certain amount of time, consider whether your use of a time limit is justified under Guideline 2.2.1 and Guideline 2.2.3.</p>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>When you ask a user to re-authenticate their identity, the user can continue exactly as before with saved data (for example, their shopping basket contents, input into forms or accessibility options).</li>
+    <li>Things like surveys and questionnaires can be saved and completed at a later date.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "2-2-1"
+  - "2-2-3"

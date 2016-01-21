@@ -1,35 +1,35 @@
 guidelines:
-  1-2-1:
-    id: "media-equiv-av-only-alt"
-    title: "Audio-only and Video-only (Prerecorded)"
-    description: "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:"
-    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"
-    conformance_level: "A"
-    wuhcag_summary: "Provide an alternative to video-only and audio-only content"
-    wuhcag_detail: |
-      <p><strong>Provide an alternative to video-only and audio-only content</strong></p>
-      <p>Some users will find it difficult to use or understand things like podcasts and silent videos or animations.</p>
-      <h2>What to do</h2>
-      <ul>
-        <li>Write text transcripts for any audio-only media;</li>
-        <li>Write text transcripts for any video-only media; or</li>
-        <li>Record an audio-track for any video-only media;</li>
-        <li>Place the text transcript, or link to it, close to the media.</li>
-      </ul>
-    wuhcag_tips: |
-      <p>Audio-only and video-only content needs to be supported by text transcripts that convey the same information as the media. Sometimes this is quite simple, other times you have to make a judgement call on what that really means. The best bet is, as always,to be honest with your customers: what does the media convey and does your transcript do the same? Could you swap one for the other?</p>
-      <p>One of the most common uses for text transcripts is when a podcast is published online. Embedding a podcast in a page is a great way of sharing your content but no good for your customers with hearing impairments. A text transcript should contain everything mentioned in the recording.</p>
-      <p>Less commonly, some videos do not have sound. Your customers with visual impairments need help with this kind of content. A text transcript for a video without sound should describe what is going on in the video as clearly as possible. Try to focus on
-        what the video is trying to say rather than getting bogged down with detail.</p>
-      <div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
-      <p>As an alternative for video-only content, you could also choose to record an audio track that narrates the video.</p>
-      <p>For both audio-only and video-only, create your text transcript and place it either directly beneath the content or insert a link next to the content.</p>
-    wuhcag_what_to_do: |
-    wuhcag_exceptions: |
-      <p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>
-    wuhcag_related:
-      - "1-2-2"
-      - "1-2-3"
-      - "1-2-5"
-      - "1-2-7"
-      - "1-2-8"
+  key: "1-2-1"
+  id: "media-equiv-av-only-alt"
+  title: "Audio-only and Video-only (Prerecorded)"
+  description: "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:"
+  uri: "http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"
+  conformance_level: "A"
+  wuhcag_summary: "Provide an alternative to video-only and audio-only content"
+  wuhcag_detail: |
+    <p><strong>Provide an alternative to video-only and audio-only content</strong></p>
+    <p>Some users will find it difficult to use or understand things like podcasts and silent videos or animations.</p>
+    <h2>What to do</h2>
+    <ul>
+      <li>Write text transcripts for any audio-only media;</li>
+      <li>Write text transcripts for any video-only media; or</li>
+      <li>Record an audio-track for any video-only media;</li>
+      <li>Place the text transcript, or link to it, close to the media.</li>
+    </ul>
+  wuhcag_tips: |
+    <p>Audio-only and video-only content needs to be supported by text transcripts that convey the same information as the media. Sometimes this is quite simple, other times you have to make a judgement call on what that really means. The best bet is, as always,to be honest with your customers: what does the media convey and does your transcript do the same? Could you swap one for the other?</p>
+    <p>One of the most common uses for text transcripts is when a podcast is published online. Embedding a podcast in a page is a great way of sharing your content but no good for your customers with hearing impairments. A text transcript should contain everything mentioned in the recording.</p>
+    <p>Less commonly, some videos do not have sound. Your customers with visual impairments need help with this kind of content. A text transcript for a video without sound should describe what is going on in the video as clearly as possible. Try to focus on
+      what the video is trying to say rather than getting bogged down with detail.</p>
+    <div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+    <p>As an alternative for video-only content, you could also choose to record an audio track that narrates the video.</p>
+    <p>For both audio-only and video-only, create your text transcript and place it either directly beneath the content or insert a link next to the content.</p>
+  wuhcag_what_to_do: |
+  wuhcag_exceptions: |
+    <p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>
+  wuhcag_related:
+    - "1-2-2"
+    - "1-2-3"
+    - "1-2-5"
+    - "1-2-7"
+    - "1-2-8"

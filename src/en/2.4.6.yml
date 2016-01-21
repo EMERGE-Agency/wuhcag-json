@@ -1,28 +1,28 @@
 guidelines:
-  2-4-6:
-    id: "navigation-mechanisms-descriptive"
-    title: "Headings and Labels"
-    description: "Headings and labels describe topic or purpose."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"
-    conformance_level: "AA"
-    wuhcag_summary: "Use clear headings and labels"
-    wuhcag_detail: |
-      <p>A well-written page is always broken up with clear and descriptive headings. They make it easier for your users to scan and find the section they are interested in. Headings also break up large sections of text so that your content isn't overwhelming to read.</p>
-      <p>Some of your users benefit further from pages with semantic headings and labels. Headings particularly help people with visual impairments, who often skip between headings when using a screen reader.</p>
-      <p>Labelling elements on a page will also help these users understand where they are. Elements introduced with <abbr title="HyperText Markup Language 5">HTML5</abbr>, such as 'header', 'footer' and 'aside', will make that even easier to do.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>A single letter of the alphabet can be a good heading (for example, in an alphabetical index).</li>
-       <li>If you regularly produce similar content, keep headings consistent (for example, a website about film reviews might have ‘Plot’, ‘Characters’ and ‘Verdict’ on each individual page).</li>
-       <li>Headings in HTML range from H1 (the most important) to H6 (the least important). It’s best to reserve Heading1 (H1) on a web page for the title of that page. </li>
-       <li>Headings don’t need to decrease from 1 to 6 on every page. While you don’t need to use all of the headings, they should still be sequential. For example, avoid skips from H2 to H4.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Use informative headings and subheadings where appropriate (a change in topic or purpose) to aid navigation through your content.</li>
-       <li>Label all elements (for example, sidebar widgets, forms, search boxes, tables).</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "1-3-1"
-     - "2-3-2"
+ key: "2-4-6"
+ id: "navigation-mechanisms-descriptive"
+ title: "Headings and Labels"
+ description: "Headings and labels describe topic or purpose."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"
+ conformance_level: "AA"
+ wuhcag_summary: "Use clear headings and labels"
+ wuhcag_detail: |
+   <p>A well-written page is always broken up with clear and descriptive headings. They make it easier for your users to scan and find the section they are interested in. Headings also break up large sections of text so that your content isn't overwhelming to read.</p>
+   <p>Some of your users benefit further from pages with semantic headings and labels. Headings particularly help people with visual impairments, who often skip between headings when using a screen reader.</p>
+   <p>Labelling elements on a page will also help these users understand where they are. Elements introduced with <abbr title="HyperText Markup Language 5">HTML5</abbr>, such as 'header', 'footer' and 'aside', will make that even easier to do.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>A single letter of the alphabet can be a good heading (for example, in an alphabetical index).</li>
+    <li>If you regularly produce similar content, keep headings consistent (for example, a website about film reviews might have ‘Plot’, ‘Characters’ and ‘Verdict’ on each individual page).</li>
+    <li>Headings in HTML range from H1 (the most important) to H6 (the least important). It’s best to reserve Heading1 (H1) on a web page for the title of that page. </li>
+    <li>Headings don’t need to decrease from 1 to 6 on every page. While you don’t need to use all of the headings, they should still be sequential. For example, avoid skips from H2 to H4.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Use informative headings and subheadings where appropriate (a change in topic or purpose) to aid navigation through your content.</li>
+    <li>Label all elements (for example, sidebar widgets, forms, search boxes, tables).</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "1-3-1"
+  - "2-3-2"

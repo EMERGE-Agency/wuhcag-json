@@ -1,31 +1,31 @@
 guidelines:
-  1-2-3:
-    id: "media-equiv-audio-desc"
-    title: "Audio Description or Media Alternative (Prerecorded)"
-    description: "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
-    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"
-    conformance_level: "A"
-    wuhcag_summary: "Video with audio has a second alternative"
-    wuhcag_detail: |
-      <p>An audio description is an edited version of a video’s soundtrack that adds more information than the regular soundtrack offers. This might mean narrating movements that are not audibly explained in the video, or adding context to visual information.</p>
-      <p>The need for audio description isn’t always clear to website owners, yet it is among the most used accessibility feature in the real world. Many cinemas have audio described screenings, where film fans can use earphones that offer a different soundtrack to the regular feature. That soundtrack will be the regular one supplemented with extra information intended to help film lovers with visual impairments.</p>
-      <p>To meet this guideline, it’s easier to provide users with a text transcript instead of audio description. However, the either/or option only covers Level A. To reach Level AA you would need to offer audio description. For Level AAA you need both audio description and text transcript.</p>
-    wuhcag_tips: |
-      <p>A full text transcript is a document that includes all information present in the audio or video source. This means including any visual cues (for example, ‘The fisherman holds up a large bass.’) as well as dialogue attribution and description.</p>
-      <p>Providing audio description at this stage will fulfil Guideline 1.2.5 at Level AA but you will need both audio description and a transcript for Guideline 1.2.8 at Level AAA.</p>
-      <p>If you’re going to the length of audio description for this guideline, you can also satisfy Guideline 1.2.5 and Guideline 1.2.7 by recording extended audio description tracks wherever necessary.</p>
-      <p>Something like a straight face-to-face interview, or a speech-to-camera would probably not need audio description. If your video conveys all its information through sound, an audio description track is not needed. If you have this in your mind when you create videos, you can easily sidestep what could be a lengthy process.</p>
-      <p>If you do need to add audio description, there are a number of options available to you. You can pay a firm to narrate an alternative soundtrack for you, or you can do it yourself. As usual, it’s a case of balancing your resources of time and money.</p>
-    wuhcag_what_to_do: |
-      <ul>
-      	<li>Provide a full text transcript of the video; or</li>
-      	<li>Provide a version of the video with audio description .</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "1-1-1"
-      - "1-2-1"
-      - "1-2-2"
-      - "1-2-5"
-      - "1-2-7"
-      - "1-2-8"
+ key: "1-2-3"
+ id: "media-equiv-audio-desc"
+ title: "Audio Description or Media Alternative (Prerecorded)"
+ description: "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such."
+ uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"
+ conformance_level: "A"
+ wuhcag_summary: "Video with audio has a second alternative"
+ wuhcag_detail: |
+   <p>An audio description is an edited version of a video’s soundtrack that adds more information than the regular soundtrack offers. This might mean narrating movements that are not audibly explained in the video, or adding context to visual information.</p>
+   <p>The need for audio description isn’t always clear to website owners, yet it is among the most used accessibility feature in the real world. Many cinemas have audio described screenings, where film fans can use earphones that offer a different soundtrack to the regular feature. That soundtrack will be the regular one supplemented with extra information intended to help film lovers with visual impairments.</p>
+   <p>To meet this guideline, it’s easier to provide users with a text transcript instead of audio description. However, the either/or option only covers Level A. To reach Level AA you would need to offer audio description. For Level AAA you need both audio description and text transcript.</p>
+ wuhcag_tips: |
+   <p>A full text transcript is a document that includes all information present in the audio or video source. This means including any visual cues (for example, ‘The fisherman holds up a large bass.’) as well as dialogue attribution and description.</p>
+   <p>Providing audio description at this stage will fulfil Guideline 1.2.5 at Level AA but you will need both audio description and a transcript for Guideline 1.2.8 at Level AAA.</p>
+   <p>If you’re going to the length of audio description for this guideline, you can also satisfy Guideline 1.2.5 and Guideline 1.2.7 by recording extended audio description tracks wherever necessary.</p>
+   <p>Something like a straight face-to-face interview, or a speech-to-camera would probably not need audio description. If your video conveys all its information through sound, an audio description track is not needed. If you have this in your mind when you create videos, you can easily sidestep what could be a lengthy process.</p>
+   <p>If you do need to add audio description, there are a number of options available to you. You can pay a firm to narrate an alternative soundtrack for you, or you can do it yourself. As usual, it’s a case of balancing your resources of time and money.</p>
+ wuhcag_what_to_do: |
+   <ul>
+   	<li>Provide a full text transcript of the video; or</li>
+   	<li>Provide a version of the video with audio description .</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+   - "1-1-1"
+   - "1-2-1"
+   - "1-2-2"
+   - "1-2-5"
+   - "1-2-7"
+   - "1-2-8"

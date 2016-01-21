@@ -1,25 +1,25 @@
 guidelines:
-  3-3-5:
-    id: "minimize-error-context-help"
-    title: "Help"
-    description: "Context-sensitive help is available."
-    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-context-help"
-    conformance_level: "AAA"
-    wuhcag_summary: "Your website has detailed help and instructions"
-    wuhcag_detail: |
-      <p>Your users have a range of abilities. Some will instinctively know how to use your website and others will struggle. You can help your users get the most from your website by offering help wherever you can. This is especially relevant to forms, where your users need to input the right information for the form to work.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>A link to further information, such as help for a form, counts as an “essential” exception against opening a link in a new window (see Guideline 3.2.5). Opening a link to help in a new window allows the users to follow the help whilst skipping between windows.</li>
-       <li>An example of when further information would help is beside a free text field to answer the question: ‘Why are you a good candidate for this job?’ The help could offer hints and tips on the correct format for an answer. Make certain, for instance, to note any character or word limit.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>Offer help on your forms by:</p>
-      <ul>
-       <li>Labelling input buttons with the nature of the input (for example, ‘Subscribe’ or ‘Buy’); and</li>
-       <li>Where an input field needs more information than a label provides, add a link to that information near the field (for example ‘Help with this answer’); and</li>
-       <li>Where a field needs a specific format, use a label, adjacent text or placeholder text showing the correct format (for example, ‘Date: DD/MM/YYYY’).</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "3-2-5"
+ key: "3-3-5"
+ id: "minimize-error-context-help"
+ title: "Help"
+ description: "Context-sensitive help is available."
+ uri: "http://www.w3.org/TR/WCAG20/#minimize-error-context-help"
+ conformance_level: "AAA"
+ wuhcag_summary: "Your website has detailed help and instructions"
+ wuhcag_detail: |
+   <p>Your users have a range of abilities. Some will instinctively know how to use your website and others will struggle. You can help your users get the most from your website by offering help wherever you can. This is especially relevant to forms, where your users need to input the right information for the form to work.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>A link to further information, such as help for a form, counts as an “essential” exception against opening a link in a new window (see Guideline 3.2.5). Opening a link to help in a new window allows the users to follow the help whilst skipping between windows.</li>
+    <li>An example of when further information would help is beside a free text field to answer the question: ‘Why are you a good candidate for this job?’ The help could offer hints and tips on the correct format for an answer. Make certain, for instance, to note any character or word limit.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <p>Offer help on your forms by:</p>
+   <ul>
+    <li>Labelling input buttons with the nature of the input (for example, ‘Subscribe’ or ‘Buy’); and</li>
+    <li>Where an input field needs more information than a label provides, add a link to that information near the field (for example ‘Help with this answer’); and</li>
+    <li>Where a field needs a specific format, use a label, adjacent text or placeholder text showing the correct format (for example, ‘Date: DD/MM/YYYY’).</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "3-2-5"

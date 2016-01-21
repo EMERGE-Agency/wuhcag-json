@@ -1,22 +1,22 @@
 guidelines:
-  2-4-7:
-    id: "navigation-mechanisms-focus-visible"
-    title: "Focus Visible"
-    description: "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"
-    conformance_level: "AA"
-    wuhcag_summary: "Ensure keyboard focus is visible and clear"
-    wuhcag_detail: |
-      <p>Your users need to find their way around your website in a sequential and meaningful order. If they use a keyboard to navigate your website, they should be able to see which element they are on at any time.</p>
-      <p>The best way to do this is to style a visible border or outline around the element in use, whether it's a form field, link, menu, content area or any other element. This makes it easier for your users to understand where they are on a page.</p>
-    wuhcag_tips: |
-     <p>A good <abbr title="HyperText Markup Language">HTML</abbr> and CSS website will often already conform to this guideline. Check yours to be sure.</p>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Make the keyboard focus visible on all elements (menu items, form fields, links, etc…).</li>
-       <li>Use <abbr title="Cascading Style Sheets">CSS</abbr> to apply a visual aid to keyboard focus – a border and/or underline is best.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "2-1-1"
-     - "2-4-3"
+ key: "2-4-7"
+ id: "navigation-mechanisms-focus-visible"
+ title: "Focus Visible"
+ description: "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"
+ conformance_level: "AA"
+ wuhcag_summary: "Ensure keyboard focus is visible and clear"
+ wuhcag_detail: |
+   <p>Your users need to find their way around your website in a sequential and meaningful order. If they use a keyboard to navigate your website, they should be able to see which element they are on at any time.</p>
+   <p>The best way to do this is to style a visible border or outline around the element in use, whether it's a form field, link, menu, content area or any other element. This makes it easier for your users to understand where they are on a page.</p>
+ wuhcag_tips: |
+  <p>A good <abbr title="HyperText Markup Language">HTML</abbr> and CSS website will often already conform to this guideline. Check yours to be sure.</p>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Make the keyboard focus visible on all elements (menu items, form fields, links, etc…).</li>
+    <li>Use <abbr title="Cascading Style Sheets">CSS</abbr> to apply a visual aid to keyboard focus – a border and/or underline is best.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "2-1-1"
+  - "2-4-3"

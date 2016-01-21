@@ -1,28 +1,28 @@
 guidelines:
-  2-4-8:
-    id: "navigation-mechanisms-location"
-    title: "Location"
-    description: "Information about the user's location within a set of Web pages is available."
-    uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location"
-    conformance_level: "AAA"
-    wuhcag_summary: "Let users know where they are on your website"
-    wuhcag_detail: |
-      <p>Some of your users will have problems understanding the structure of your website. They can get lost, especially during interactions like checkouts that take place over a few pages. You can help your users by making it clear where they are on your website.</p>
-      <p>This might be as simple as adding breadcrumbs and a sitemap to your website.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>Use full page titles for breadcrumbs when they are 1-3 words long (otherwise they get too long to be displayed).</li>
-       <li>Abbreviate longer titles to make them easier to read (for example, ‘A Guide To Exotic Fish’ could just as well be ‘Exotic Fish’ for the purpose of a breadcrumb).</li>
-       <li>For a process that takes a few pages (like a shopping cart), show all the steps in the process and highlight where the user is.</li>
-       <li>If a page has a too many breadcrumbs, perhaps your website could be better organised.</li>
-       <li>Use your page titles in your sitemap, organised under subheadings.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Use breadcrumbs to help with navigation. Show the sequence a user is following and where they are in that sequence. For example: You are here: Home > Fish > Bass; and</li>
-       <li>Add a sitemap page to your website (see Guideline 2.4.5) so your users have another way of finding what they want. Add a link to the sitemap somewhere prominent like the header.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "2-4-1"
-     - "2-4-5"
+ key: "2-4-8"
+ id: "navigation-mechanisms-location"
+ title: "Location"
+ description: "Information about the user's location within a set of Web pages is available."
+ uri: "http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location"
+ conformance_level: "AAA"
+ wuhcag_summary: "Let users know where they are on your website"
+ wuhcag_detail: |
+   <p>Some of your users will have problems understanding the structure of your website. They can get lost, especially during interactions like checkouts that take place over a few pages. You can help your users by making it clear where they are on your website.</p>
+   <p>This might be as simple as adding breadcrumbs and a sitemap to your website.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>Use full page titles for breadcrumbs when they are 1-3 words long (otherwise they get too long to be displayed).</li>
+    <li>Abbreviate longer titles to make them easier to read (for example, ‘A Guide To Exotic Fish’ could just as well be ‘Exotic Fish’ for the purpose of a breadcrumb).</li>
+    <li>For a process that takes a few pages (like a shopping cart), show all the steps in the process and highlight where the user is.</li>
+    <li>If a page has a too many breadcrumbs, perhaps your website could be better organised.</li>
+    <li>Use your page titles in your sitemap, organised under subheadings.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Use breadcrumbs to help with navigation. Show the sequence a user is following and where they are in that sequence. For example: You are here: Home > Fish > Bass; and</li>
+    <li>Add a sitemap page to your website (see Guideline 2.4.5) so your users have another way of finding what they want. Add a link to the sitemap somewhere prominent like the header.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "2-4-1"
+  - "2-4-5"

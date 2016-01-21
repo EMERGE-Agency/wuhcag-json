@@ -1,30 +1,30 @@
 guidelines:
-  3-3-2:
-    id: "minimize-error-cues"
-    title: "Labels or Instructions"
-    description: "Labels or instructions are provided when content requires user input."
-    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-cues"
-    conformance_level: "A"
-    wuhcag_summary: "Label elements and give instructions"
-    wuhcag_detail: |
-      <p>Chances are your website will have a feature that requires your users to fill in some information. This might be on a checkout page to buy a product, a contact form to get in touch or a newsletter sign-up to opt in to your mailing list. You need to ensure your users know what’s required of them when they reach one of these elements on your website.</p>
-      <p>Without clear labels and instructions, your users won't know what to do.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>Instructions need to take into account how they use sensory characteristics.</li>
-       <li>Think about how your use of colour affects things like required fields if you want to highlight them by colour. Don’t highlight by colour alone, pick a symbol too.</li>
-       <li>Consider error identification as well, and make sure that you give helpful instructions when your users make mistakes on forms.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Label all input fields clearly and helpfully.</li>
-       <li>Where a field needs a specific format, give an example (For example, for a ‘date’ field in a form you might use ‘Enter the date as dd/mm/yyyy’)</li>
-       <li>Mark required fields with an icon and explain what the icon means before the form.</li>
-       <li>Keep your labels simple – too much explanation can be counter-productive. Things like ‘First name’, ‘Email’ and ‘Your message’ are fine.</li>
-       <li>The same goes for instructions, ‘Required fields are in red and have a * symbol’ works great. So does ‘Fill in this form and click ‘Submit’ to get in touch’.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "1-3-3"
-     - "1-4-1"
-     - "3-3-1"
+ key: "3-3-2"
+ id: "minimize-error-cues"
+ title: "Labels or Instructions"
+ description: "Labels or instructions are provided when content requires user input."
+ uri: "http://www.w3.org/TR/WCAG20/#minimize-error-cues"
+ conformance_level: "A"
+ wuhcag_summary: "Label elements and give instructions"
+ wuhcag_detail: |
+   <p>Chances are your website will have a feature that requires your users to fill in some information. This might be on a checkout page to buy a product, a contact form to get in touch or a newsletter sign-up to opt in to your mailing list. You need to ensure your users know what’s required of them when they reach one of these elements on your website.</p>
+   <p>Without clear labels and instructions, your users won't know what to do.</p>
+ wuhcag_tips: |
+   <ul>
+    <li>Instructions need to take into account how they use sensory characteristics.</li>
+    <li>Think about how your use of colour affects things like required fields if you want to highlight them by colour. Don’t highlight by colour alone, pick a symbol too.</li>
+    <li>Consider error identification as well, and make sure that you give helpful instructions when your users make mistakes on forms.</li>
+   </ul>
+ wuhcag_what_to_do: |
+   <ul>
+    <li>Label all input fields clearly and helpfully.</li>
+    <li>Where a field needs a specific format, give an example (For example, for a ‘date’ field in a form you might use ‘Enter the date as dd/mm/yyyy’)</li>
+    <li>Mark required fields with an icon and explain what the icon means before the form.</li>
+    <li>Keep your labels simple – too much explanation can be counter-productive. Things like ‘First name’, ‘Email’ and ‘Your message’ are fine.</li>
+    <li>The same goes for instructions, ‘Required fields are in red and have a * symbol’ works great. So does ‘Fill in this form and click ‘Submit’ to get in touch’.</li>
+   </ul>
+ wuchcag_exceptions: |
+ wuhcag_related:
+  - "1-3-3"
+  - "1-4-1"
+  - "3-3-1"

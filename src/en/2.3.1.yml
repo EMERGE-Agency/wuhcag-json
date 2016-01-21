@@ -1,21 +1,21 @@
 guidelines:
-  2-3-1:
-    id: "seizure-does-not-violate"
-    title: "Three Flashes or Below Threshold"
-    description: "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds."
-    uri: "http://www.w3.org/TR/WCAG20/#seizure-does-not-violate"
-    conformance_level: "A"
-    wuhcag_summary: "No content flashes more than three times per second"
-    wuhcag_detail: |
-      <p>To make your website as safe as possible for all users, you must limit the amount of flashing media. Flashing content can harm the health of some users.</p>
-    wuhcag_tips: |
-      <p>Remember, flashing is different to blinking (see Guideline 2.2.2).</p>
-    wuhcag_what_to_do: |
-      <p>Don't add anything to your website that flashes more than three times per second.</p>
-    wuchcag_exceptions: |
-      <p>There is a ridiculously complicated exception based on the user’s visual field. You should just avoid all flashing content, but here it is:</p>
-      <blockquote>the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance.<cite><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Understanding WCAG 2.0</a></cite></blockquote>
-      <p>If you can work out what that means, I dare you to use it.</p>
-    wuhcag_related:
-     - "2-2-2"
-     - "2-2-3"
+ key: "2-3-1"
+ id: "seizure-does-not-violate"
+ title: "Three Flashes or Below Threshold"
+ description: "Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds."
+ uri: "http://www.w3.org/TR/WCAG20/#seizure-does-not-violate"
+ conformance_level: "A"
+ wuhcag_summary: "No content flashes more than three times per second"
+ wuhcag_detail: |
+   <p>To make your website as safe as possible for all users, you must limit the amount of flashing media. Flashing content can harm the health of some users.</p>
+ wuhcag_tips: |
+   <p>Remember, flashing is different to blinking (see Guideline 2.2.2).</p>
+ wuhcag_what_to_do: |
+   <p>Don't add anything to your website that flashes more than three times per second.</p>
+ wuchcag_exceptions: |
+   <p>There is a ridiculously complicated exception based on the user’s visual field. You should just avoid all flashing content, but here it is:</p>
+   <blockquote>the combined area of flashes occurring concurrently occupies no more than a total of .006 steradians within any 10 degree visual field on the screen (25% of any 10 degree visual field on the screen) at typical viewing distance.<cite><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Understanding WCAG 2.0</a></cite></blockquote>
+   <p>If you can work out what that means, I dare you to use it.</p>
+ wuhcag_related:
+  - "2-2-2"
+  - "2-2-3"

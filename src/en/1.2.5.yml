@@ -1,29 +1,29 @@
 guidelines:
-  1-2-5:
-    id: "media-equiv-audio-desc-only"
-    title: "Audio Description (Prerecorded)"
-    description: "Audio description is provided for all prerecorded video content in synchronized media."
-    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"
-    conformance_level: "AA"
-    wuhcag_summary: "Users have access to audio description for video content"
-    wuhcag_detail: |
-      <p>Some of your users will rely on audio description to help with videos. Adding audio description to your videos means these users have the same information as everyone else.</p>
-    wuhcag_tips: |
-      <p>If you have provided audio description for videos to meet Guideline 1.2.3, you have already fulfilled this guideline.</p>
-      <p>Your audio description version must include everything that might be lost to a visually impaired user – things like:</p>
-      <ul>
-       <li>Relevant exposition (location, gestures, lighting, colours).</li>
-       <li>Identifying new speakers.</li>
-       <li>Marking the passing of time.</li>
-      </ul>
-      <p>This is by no means an exhaustive list. The key is to think about what information the video provides and ensure a user with a visual impairment gets the same information.</p>
-      <p>Remember to use clear words, use the present tense and keep in sync with the video.</p>
-    wuhcag_what_to_do: |
-      <p>Make an alternative version of your video with an audio description soundtrack and link to it from near the original content.</p>
-    wuchcag_exceptions: |
-      <p>You don’t need an audio description if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</p>
-    wuhcag_related:
-      - "1-2-2"
-      - "1-2-3"
-      - "1-2-7"
-      - "1-2-8"
+ key: "1-2-5"
+ id: "media-equiv-audio-desc-only"
+ title: "Audio Description (Prerecorded)"
+ description: "Audio description is provided for all prerecorded video content in synchronized media."
+ uri: "http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"
+ conformance_level: "AA"
+ wuhcag_summary: "Users have access to audio description for video content"
+ wuhcag_detail: |
+   <p>Some of your users will rely on audio description to help with videos. Adding audio description to your videos means these users have the same information as everyone else.</p>
+ wuhcag_tips: |
+   <p>If you have provided audio description for videos to meet Guideline 1.2.3, you have already fulfilled this guideline.</p>
+   <p>Your audio description version must include everything that might be lost to a visually impaired user – things like:</p>
+   <ul>
+    <li>Relevant exposition (location, gestures, lighting, colours).</li>
+    <li>Identifying new speakers.</li>
+    <li>Marking the passing of time.</li>
+   </ul>
+   <p>This is by no means an exhaustive list. The key is to think about what information the video provides and ensure a user with a visual impairment gets the same information.</p>
+   <p>Remember to use clear words, use the present tense and keep in sync with the video.</p>
+ wuhcag_what_to_do: |
+   <p>Make an alternative version of your video with an audio description soundtrack and link to it from near the original content.</p>
+ wuchcag_exceptions: |
+   <p>You don’t need an audio description if all of the information in the video is provided in the regular soundtrack. Something like a straight face-to-face interview, or a speech to-camera would probably not need audio description.</p>
+ wuhcag_related:
+   - "1-2-2"
+   - "1-2-3"
+   - "1-2-7"
+   - "1-2-8"

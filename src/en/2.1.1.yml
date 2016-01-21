@@ -1,32 +1,32 @@
 guidelines:
-  2-1-1:
-    id: "keyboard-operation-keyboard-operable"
-    title: "Keyboard"
-    description: "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints."
-    uri: "http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"
-    conformance_level: "A"
-    wuhcag_summary: "Accessible by keyboard only"
-    wuhcag_detail: |
-      <p>Your customers will have varying degrees of motor skills and will benefit from keyboard accessibility. Customers with motor impairment, including many elderly customers, need your help to navigate your website. Many of these customers will use their keyboard to move around your website.</p>
-      <p>This article explains what you need to do to meet <strong>Guideline 2.1.1 – Keyboard</strong> from the <a href="http://www.wuhcag.com/web-content-accessibility-guidelines/">Web Content Accessibility Guidelines 2.0</a>.</p>
-      <p>All parts of your website must pass keyboard accessibility. That means your forms, menus, shopping cart and everything between. On top of that, you cannot require specific timings for keystrokes to access any feature on your website.</p>
-    wuhcag_tips: |
-    wuhcag_what_to_do: |
-      <ul>
-      	<li>A clean <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> website will often have keyboard accessibility without further work - a great example of why you need to invest in web design and development from the outset</li>
-      </ul>
-      <h2>Auditing keyboard accessibility</h2>
-      <ul>
-      	<li>Unplug your mouse and make sure you can fully use your website with your keyboard</li>
-      	<li>Make sure no function on your website requires timed keystrokes - such as double tap enter/return within two seconds to submit</li>
-      </ul>
-      <h2>A few more things</h2>
-      <p>At the lowest level of accessibility (which <strong>2.1.1 - Keyboard</strong> is), you can get away with functions that require a mouse pointer for input. These are things like free drawing tools and some types of game. Just think carefully about who you are excluding when you use these features.</p>
-      <p>One thing that gets thrown out a lot by keyboard accessibility advocates is ‘Access keys’. You’re already familiar with access keys, which is why people are quick to accept them as useful. Access keys are keyboard shortcuts like ctrl +  p to print pr ctrl + s to save.</p>
-      <p>Access keys work great in programs like Microsoft Word and Adobe Reader because they’re in a controlled environment. Out on the wild wild web, things aren’t so simple. Your customers access your website on a number of web browsers; some use Internet Explorer, some Firefox, some Google Chrome and so on... These web browsers have different levels of support for Access keys.</p>
-      <p>Frustratingly, Access keys are a good idea for keyboard accessibility with bad implementation. If you’re a regular computer user, you probably use ctrl + p  much more often than selecting the menu with your mouse pointer. WebAIM has an <a href="http://webaim.org/techniques/keyboard/accesskey">article about Access keys</a> if you want to know more. My advice: avoid them.</p>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "2-1-2"
-      - "2-4-3"
-      - "2-4-7"
+ key: "2-1-1"
+ id: "keyboard-operation-keyboard-operable"
+ title: "Keyboard"
+ description: "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints."
+ uri: "http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"
+ conformance_level: "A"
+ wuhcag_summary: "Accessible by keyboard only"
+ wuhcag_detail: |
+   <p>Your customers will have varying degrees of motor skills and will benefit from keyboard accessibility. Customers with motor impairment, including many elderly customers, need your help to navigate your website. Many of these customers will use their keyboard to move around your website.</p>
+   <p>This article explains what you need to do to meet <strong>Guideline 2.1.1 – Keyboard</strong> from the <a href="http://www.wuhcag.com/web-content-accessibility-guidelines/">Web Content Accessibility Guidelines 2.0</a>.</p>
+   <p>All parts of your website must pass keyboard accessibility. That means your forms, menus, shopping cart and everything between. On top of that, you cannot require specific timings for keystrokes to access any feature on your website.</p>
+ wuhcag_tips: |
+ wuhcag_what_to_do: |
+   <ul>
+   	<li>A clean <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> website will often have keyboard accessibility without further work - a great example of why you need to invest in web design and development from the outset</li>
+   </ul>
+   <h2>Auditing keyboard accessibility</h2>
+   <ul>
+   	<li>Unplug your mouse and make sure you can fully use your website with your keyboard</li>
+   	<li>Make sure no function on your website requires timed keystrokes - such as double tap enter/return within two seconds to submit</li>
+   </ul>
+   <h2>A few more things</h2>
+   <p>At the lowest level of accessibility (which <strong>2.1.1 - Keyboard</strong> is), you can get away with functions that require a mouse pointer for input. These are things like free drawing tools and some types of game. Just think carefully about who you are excluding when you use these features.</p>
+   <p>One thing that gets thrown out a lot by keyboard accessibility advocates is ‘Access keys’. You’re already familiar with access keys, which is why people are quick to accept them as useful. Access keys are keyboard shortcuts like ctrl +  p to print pr ctrl + s to save.</p>
+   <p>Access keys work great in programs like Microsoft Word and Adobe Reader because they’re in a controlled environment. Out on the wild wild web, things aren’t so simple. Your customers access your website on a number of web browsers; some use Internet Explorer, some Firefox, some Google Chrome and so on... These web browsers have different levels of support for Access keys.</p>
+   <p>Frustratingly, Access keys are a good idea for keyboard accessibility with bad implementation. If you’re a regular computer user, you probably use ctrl + p  much more often than selecting the menu with your mouse pointer. WebAIM has an <a href="http://webaim.org/techniques/keyboard/accesskey">article about Access keys</a> if you want to know more. My advice: avoid them.</p>
+ wuchcag_exceptions: |
+ wuhcag_related:
+   - "2-1-2"
+   - "2-4-3"
+   - "2-4-7"
