@@ -35,15 +35,31 @@ module.exports = function(grunt) {
 
     // combine JSON partial files
     // https://github.com/ramiel/grunt-json-merge
-    json_merge: {
-      options: {
-        replacer: null,
-        space: " "
-      },
-      your_target: {
-        files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
-      },
-    }, // json_merge
+    // json_merge: {
+    //   options: {
+    //     replacer: null,
+    //     space: " "
+    //   },
+    //   your_target: {
+    //     // files: { 'dist/wcag.json': ['tmp/**/*.{json,y{,a}ml}'] },
+    //     files: { 'dist/wcag.json': ['tmp/en/1.1.1.json','tmp/en/1.2.1.json'] },
+    //   },
+    // }, // json_merge
+
+    // THIS WORKED
+    concat: {
+        json: {
+            src: ['tmp/en/1.1.1.json','tmp/en/1.2.1.json'],
+            dest: 'dist/wcag.json',
+            options: {
+                // Added to the top of the file
+                banner: '[',
+                // Will be added at the end of the file
+                footer: "]",
+                separator: ','
+            }
+        }
+    },
 
     // minify JSON
     // https://www.npmjs.com/package/grunt-jsonmin
@@ -62,7 +78,8 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('build',['yaml','json_merge','jsonmin']);
+  // grunt.registerTask('build',['yaml','json_merge','jsonmin']);
+  grunt.registerTask('build',['yaml','concat','jsonmin']);
 
 
 };

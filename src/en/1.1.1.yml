@@ -1,30 +1,31 @@
-guidelines:
-  1-1-1:
-    id: "text-equiv-all"
-    title: "Non-text Content"
-    description: "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."
-    uri: "http://www.w3.org/TR/WCAG20/#text-equiv-all"
+key: "1-1-1"
+id: "text-equiv-all"
+title: "Non-text Content"
+description: "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."
+uri: "http://www.w3.org/TR/WCAG20/#text-equiv-all"
+conformance_level: "A"
+wuhcag_summary: "Provide text alternatives for non-text content"
+wuhcag_detail: |
+  <p><strong>Provide text alternatives for non-text content</strong></p>
+  <p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>
+  <h2>What to do</h2>
+  <ul>
+    <li>Add a text alternative to all of your images.</li>
+    <li>Add a text alternative to your audio and video (a succinct description of the topic).</li>
+    <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>
+  </ul>
+wuhcag_tips: |
+  <p>There are a few types of image that don’t need alt text: spacers, icons, purely decorative, tests and CAPTCHA images.</p>
+  <p>Icons are usually used to complement text, rather than replace it, so there’s no need to duplicate your efforts here. Customers with screen readers would just hear the same thing twice anyway, which is the opposite of what we’re trying to do.</p>
+  <p>Spacers are images used for padding, often for ease and not good coding. They are often used to preserve formatting and present no information, so they don’t need alt text.</p>
+  <p>Tests and CAPTCHAs that would be undermined by text alternatives don’t need them. Although if you do use CAPTCHA, use one with an audio alternative or add your contact details somewhere close by to help your users if they get stuck.</p>
+  <p>In all these cases, use ‘null’ alt text by simply leaving the alt text out, but do put the quotes in:</p>
+  <pre class="brush: html; auto-links: false;">&lt;img src=&quot;location-of-image.jpg&quot; alt=&quot;&quot; /&gt;</pre>
+  <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
+wuhcag_what_to_do: |
+wuhcag_exceptions: |
+wuhcag_related:
+  - key: "1-4-5"
     conformance_level: "A"
-    wuhcag_summary: "Provide text alternatives for non-text content"
-    wuhcag_detail: |
-      <p><strong>Provide text alternatives for non-text content</strong></p>
-      <p>Some users browse websites with images turned off (as do some users with slow internet connections). These must be true alternatives to the content: they must provide the same information.</p>
-      <h2>What to do</h2>
-      <ul>
-        <li>Add a text alternative to all of your images.</li>
-        <li>Add a text alternative to your audio and video (a succinct description of the topic).</li>
-        <li>Add a name to all of your controls (such as ‘Search’ or ‘Submit’).</li>
-      </ul>
-    wuhcag_tips: |
-      <p>There are a few types of image that don’t need alt text: spacers, icons, purely decorative, tests and CAPTCHA images.</p>
-      <p>Icons are usually used to complement text, rather than replace it, so there’s no need to duplicate your efforts here. Customers with screen readers would just hear the same thing twice anyway, which is the opposite of what we’re trying to do.</p>
-      <p>Spacers are images used for padding, often for ease and not good coding. They are often used to preserve formatting and present no information, so they don’t need alt text.</p>
-      <p>Tests and CAPTCHAs that would be undermined by text alternatives don’t need them. Although if you do use CAPTCHA, use one with an audio alternative or add your contact details somewhere close by to help your users if they get stuck.</p>
-      <p>In all these cases, use ‘null’ alt text by simply leaving the alt text out, but do put the quotes in:</p>
-      <pre class="brush: html; auto-links: false;">&lt;img src=&quot;location-of-image.jpg&quot; alt=&quot;&quot; /&gt;</pre>
-      <p>Screen readers will then skip the image rather than reading the filename or trying to substitute an alt text.</p>
-    wuhcag_what_to_do: |
-    wuhcag_exceptions: |
-    wuhcag_related:
-      - "1-4-5"
-      - "1-4-9"
+  - key: "1-4-9"
+    conformance_level: "AA"

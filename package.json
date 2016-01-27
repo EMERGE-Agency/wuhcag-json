@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-contrib-concat": "^0.5.1",
     "grunt-json-merge": "^0.2.2",
     "grunt-jsonmin": "^0.2.4",
     "grunt-merge-data": "^0.4.4",
