@@ -27,8 +27,13 @@ wuhcag_what_to_do: |
 wuhcag_exceptions: |
   <p>If the content is itself an alternative (you don’t have to provide a transcript of the audio track you provided to explain the silent video you used).</p>
 wuhcag_related:
-  - "1-2-2"
-  - "1-2-3"
-  - "1-2-5"
-  - "1-2-7"
-  - "1-2-8"
+  - key: "1-2-2"
+    conformance_level: "A"
+  - key: "1-2-3"
+    conformance_level: "A"
+  - key: "1-2-5"
+    conformance_level: "AA"
+  - key: "1-2-7"
+    conformance_level: "AAA"
+  - key: "1-2-8"
+    conformance_level: "AAA"
