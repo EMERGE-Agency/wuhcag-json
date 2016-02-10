@@ -23,18 +23,20 @@ You should only edit `/src/*.yml` files. When ready to build run the `grunt buil
 
 ## Yaml outline:
 ``` yaml
-guidelines:
-  1-1-1:
-    id: ""
-    title: ""
-    description: ""
-    uri: ""
+key: ""
+id: ""
+title: ""
+description: ""
+uri: ""
+conformance_level: ""
+wuhcag_summary: ""
+wuhcag_detail: |
+wuhcag_tips: |
+wuhcag_what_to_do: |
+wuhcag_exceptions: |
+wuhcag_related:
+  - key: ""
     conformance_level: ""
-    wuhcag_summary: ""
-    wuhcag_detail: |
-    wuhcag_what_to_do: |
-    wuhcag_exceptions: |
-    wuhcag_related:
 ```
 
 This project is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
