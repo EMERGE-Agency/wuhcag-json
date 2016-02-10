@@ -1,33 +1,33 @@
-guidelines:
-  1-3-3:
-    id: "content-structure-separation-understanding"
-    title: "Sensory Characteristics"
-    description: "Instructions provided for understanding\nand operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound."
-    uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding"
+key: "1-3-3"
+id: "content-structure-separation-understanding"
+title: "Sensory Characteristics"
+description: "Instructions provided for understanding\nand operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound."
+uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding"
+conformance_level: "A"
+wuhcag_summary: "Use more than one sense for instructions"
+wuhcag_detail: |
+  <p>Sensory characteristics is an important but ridiculous-sounding phrase in web accessibility. It’s actually far less complicated than it sounds. The sensory characteristics of your website are things like shape, sound, position and size.</p>
+  <p>You'll often come across sensory characteristics in instructions to your users. Saying things like ‘Use the search bar on the right’ isn’t helpful to a user who doesn’t understand what right is. The main solution is to use more than one indicator for instructions.</p>
+wuhcag_tips: |
+  <p>Creating accessible instructions is great for everyone. The clearer your instructions are, the more likely users will follow them – this is especially useful for things like buying instructions. Getting this guideline right might just make you more money or get you more users by reducing dropouts.</p>
+  <p>A good instruction will use several sensory characteristics. Consider the accessibility of these four examples:</p>
+  <ul>
+   <li>‘Use the search box’</li>
+   <li>‘Use the search box on the right’</li>
+   <li>‘Search by using the green rectangle box labelled ‘Search’ on the right’</li>
+   <li>‘Search by using the rectangle box at the very top right of this page’</li>
+  </ul>
+  <p>Web designers often have an aversion to adding words, feeling that it adds to confusion. In this case, the opposite can be true. Of course, ideally you want a website that feels instinctive with clear actions. When you need instructions, get them right.</p>
+  <p>It’s best to avoid sound on a website, other than in media. No one likes unexpected sounds. It’s always hard to tell what the sound means and what you did do make it happen. A prime example is if you use sounds to alert users to errors on a form. The user can't tell exactly what made the error, they won't even be sure the sound indicated an error. Your users with hearing impairments have no chance.</p>
+  <p>For forms, use a clear visual clue for errors and avoid sounds altogether.</p>
+  <p>By making sure you don’t rely only on colour in your instructions, you can work towards Guideline 1.4.1.</p>
+wuhcag_what_to_do: |
+  <p>Getting sensory characteristics right is mainly a case of using your common sense. There are no technical requirements, just good and sensible copy writing:</p>
+  <ul>
+   <li>Use more than one sense for instructions.</li>
+   <li>Avoid instructions that rely on sound.</li>
+  </ul>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "1-4-1"
     conformance_level: "A"
-    wuhcag_summary: "Use more than one sense for instructions"
-    wuhcag_detail: |
-      <p>Sensory characteristics is an important but ridiculous-sounding phrase in web accessibility. It’s actually far less complicated than it sounds. The sensory characteristics of your website are things like shape, sound, position and size.</p>
-      <p>You'll often come across sensory characteristics in instructions to your users. Saying things like ‘Use the search bar on the right’ isn’t helpful to a user who doesn’t understand what right is. The main solution is to use more than one indicator for instructions.</p>
-    wuhcag_tips: |
-      <p>Creating accessible instructions is great for everyone. The clearer your instructions are, the more likely users will follow them – this is especially useful for things like buying instructions. Getting this guideline right might just make you more money or get you more users by reducing dropouts.</p>
-      <p>A good instruction will use several sensory characteristics. Consider the accessibility of these four examples:</p>
-      <ul>
-       <li>‘Use the search box’</li>
-       <li>‘Use the search box on the right’</li>
-       <li>‘Search by using the green rectangle box labelled ‘Search’ on the right’</li>
-       <li>‘Search by using the rectangle box at the very top right of this page’</li>
-      </ul>
-      <p>Web designers often have an aversion to adding words, feeling that it adds to confusion. In this case, the opposite can be true. Of course, ideally you want a website that feels instinctive with clear actions. When you need instructions, get them right.</p>
-      <p>It’s best to avoid sound on a website, other than in media. No one likes unexpected sounds. It’s always hard to tell what the sound means and what you did do make it happen. A prime example is if you use sounds to alert users to errors on a form. The user can't tell exactly what made the error, they won't even be sure the sound indicated an error. Your users with hearing impairments have no chance.</p>
-      <p>For forms, use a clear visual clue for errors and avoid sounds altogether.</p>
-      <p>By making sure you don’t rely only on colour in your instructions, you can work towards Guideline 1.4.1.</p>
-    wuhcag_what_to_do: |
-      <p>Getting sensory characteristics right is mainly a case of using your common sense. There are no technical requirements, just good and sensible copy writing:</p>
-      <ul>
-       <li>Use more than one sense for instructions.</li>
-       <li>Avoid instructions that rely on sound.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "1-4-1"

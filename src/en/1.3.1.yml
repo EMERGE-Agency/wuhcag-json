@@ -1,32 +1,36 @@
-guidelines:
-  1-3-1:
-    id: "content-structure-separation-programmatic"
-    title: "Info and Relationships"
-    description: "Information, structure,  and relationships conveyed through presentation can be programmatically determined or are available in text."
-    uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"
+key: "1-3-1"
+id: "content-structure-separation-programmatic"
+title: "Info and Relationships"
+description: "Information, structure,  and relationships conveyed through presentation can be programmatically determined or are available in text."
+uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"
+conformance_level: "A"
+wuhcag_summary: "Structure your website logically"
+wuhcag_detail: |
+  <p>All users benefit when your web page structure is logical. Many of us take things like headings, bullet points, bolding and italics for granted. For your users with disabilities, those elements can make the difference between understanding a website and leaving it. Many forms of assistive technology rely on correct formatting to work correctly, meaning a heading can go a long way for your users.</p>
+  <p>Because we use formatting elements so often, we can forget how to use them properly. Going back to basics is a great way to improve your content with relatively little effort.</p>
+wuhcag_tips: |
+  <p>Ensuring that your web pages have an accessible structure is at once a simple and complex task. The level of difficulty depends on the complexity of your website; a page with several levels of headings will take more work than a single-topic blog post.</p>
+  <p>An efficient way to check your markup is to use a HTML validator. This will tell you if the web page structure has any HTML errors – these errors won’t always equate to accessibility flaws but the cleaner your code the better. Errors like improperly closed paragraph tags are easily remedied.</p>
+  <p>After using the validator, check pages manually for correctly nested headings and other more visible page elements. Manually check that any forms you use are labelled clearly too, simple things like required field asterisks that lack explanation can cause big problems.</p>
+wuhcag_what_to_do: |
+  <p>Complying with the need for good web page structure and formatting is a wide-ranging target. Half-measures don't work, so you can’t use subheadings properly and then throw random bullet points all over the place.</p>
+  <p>Amongst other things, you must:</p>
+  <ul>
+   <li>Break up content with subheadings for new sections. </li>
+   <li>Mark those headings with HTML header tags. </li>
+   <li>Use the correct HTML for all structural elements. </li>
+   <li>Use valid HTML everywhere else. </li>
+   <li>Use clear labels on forms.</li>
+  </ul>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "1-3-2"
     conformance_level: "A"
-    wuhcag_summary: "Structure your website logically"
-    wuhcag_detail: |
-      <p>All users benefit when your web page structure is logical. Many of us take things like headings, bullet points, bolding and italics for granted. For your users with disabilities, those elements can make the difference between understanding a website and leaving it. Many forms of assistive technology rely on correct formatting to work correctly, meaning a heading can go a long way for your users.</p>
-      <p>Because we use formatting elements so often, we can forget how to use them properly. Going back to basics is a great way to improve your content with relatively little effort.</p>
-    wuhcag_tips: |
-      <p>Ensuring that your web pages have an accessible structure is at once a simple and complex task. The level of difficulty depends on the complexity of your website; a page with several levels of headings will take more work than a single-topic blog post.</p>
-      <p>An efficient way to check your markup is to use a HTML validator. This will tell you if the web page structure has any HTML errors – these errors won’t always equate to accessibility flaws but the cleaner your code the better. Errors like improperly closed paragraph tags are easily remedied.</p>
-      <p>After using the validator, check pages manually for correctly nested headings and other more visible page elements. Manually check that any forms you use are labelled clearly too, simple things like required field asterisks that lack explanation can cause big problems.</p>
-    wuhcag_what_to_do: |
-      <p>Complying with the need for good web page structure and formatting is a wide-ranging target. Half-measures don't work, so you can’t use subheadings properly and then throw random bullet points all over the place.</p>
-      <p>Amongst other things, you must:</p>
-      <ul>
-       <li>Break up content with subheadings for new sections. </li>
-       <li>Mark those headings with HTML header tags. </li>
-       <li>Use the correct HTML for all structural elements. </li>
-       <li>Use valid HTML everywhere else. </li>
-       <li>Use clear labels on forms.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "1-3-2"
-      - "2-4-3"
-      - "2-4-6"
-      - "2-4-10"
-      - "4-1-1"
+  - key: "2-4-3"
+    conformance_level: "A"
+  - key: "2-4-6"
+    conformance_level: "AA"
+  - key: "2-4-10"
+    conformance_level: "AAA"
+  - key: "4-1-1"
+    conformance_level: "A"

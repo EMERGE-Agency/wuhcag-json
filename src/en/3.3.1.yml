@@ -1,34 +1,38 @@
-guidelines:
-  3-3-1:
-    id: "minimize-error-identified"
-    title: "Error Identification"
-    description: "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
-    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-identified"
+key: "3-3-1"
+id: "minimize-error-identified"
+title: "Error Identification"
+description: "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
+uri: "http://www.w3.org/TR/WCAG20/#minimize-error-identified"
+conformance_level: "A"
+wuhcag_summary: "Clearly identify input errors"
+wuhcag_detail: |
+  <p>Everyone makes mistakes, even you and I. Make it easy for users to understand and correct their mistakes with a bit of guidance. Provide timely and clear error identification guidance when users make mistakes on your website. Using error identification keeps your website running smoothly and keeps your users from getting frustrated.</p>
+  <p>One of the worst areas for mistakes websites are forms, including checkouts, newsletter sign-ups and questionnaires. Any of your users can make a simple error that means they can’t submit your form. If users cannot identify their mistakes, they will leave.</p>
+wuhcag_tips: |
+  <ul>
+   <li>If a form requires input in a certain format, show and describe the required format.</li>
+   <li>If a mandatory field is empty, highlight the field and explain what’s required.</li>
+   <li>Build forms to be forgiving, accepting variations on the formats you prefer.</li>
+   <li>Don't ask for too much information, just what you need.</li>
+   <li>Be specific. Use clear, concise instruction and form field labels.</li>
+   <li>Highlight mistakes in forms with colours and symbols.</li>
+   <li>Don't clear a form if a user makes a mistake. Save the information and allow the user to edit their error and continue.</li>
+   <li>Provide extra help by giving your contact details on all pages (the header or footer are great) and especially near forms.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <ul>
+   <li>Identify and explain to the user any mistakes that you can detect automatically.</li>
+   <li>Add error explanation close to the error, showing what is wrong and how to fix it.</li>
+  </ul>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "1-3-3"
     conformance_level: "A"
-    wuhcag_summary: "Clearly identify input errors"
-    wuhcag_detail: |
-      <p>Everyone makes mistakes, even you and I. Make it easy for users to understand and correct their mistakes with a bit of guidance. Provide timely and clear error identification guidance when users make mistakes on your website. Using error identification keeps your website running smoothly and keeps your users from getting frustrated.</p>
-      <p>One of the worst areas for mistakes websites are forms, including checkouts, newsletter sign-ups and questionnaires. Any of your users can make a simple error that means they can’t submit your form. If users cannot identify their mistakes, they will leave.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>If a form requires input in a certain format, show and describe the required format.</li>
-       <li>If a mandatory field is empty, highlight the field and explain what’s required.</li>
-       <li>Build forms to be forgiving, accepting variations on the formats you prefer.</li>
-       <li>Don't ask for too much information, just what you need.</li>
-       <li>Be specific. Use clear, concise instruction and form field labels.</li>
-       <li>Highlight mistakes in forms with colours and symbols.</li>
-       <li>Don't clear a form if a user makes a mistake. Save the information and allow the user to edit their error and continue.</li>
-       <li>Provide extra help by giving your contact details on all pages (the header or footer are great) and especially near forms.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Identify and explain to the user any mistakes that you can detect automatically.</li>
-       <li>Add error explanation close to the error, showing what is wrong and how to fix it.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "1-3-3"
-     - "1-4-1"
-     - "3-3-2"
-     - "3-3-3"
-     - "3-3-4"
+  - key: "1-4-1"
+    conformance_level: "A"
+  - key: "3-3-2"
+    conformance_level: "A"
+  - key: "3-3-3"
+    conformance_level: "AA"
+  - key: "3-3-4"
+    conformance_level: "AA"

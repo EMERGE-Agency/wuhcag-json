@@ -1,24 +1,24 @@
-guidelines:
-  3-1-2:
-    id: "meaning-other-lang-id"
-    title: "Language of Parts"
-    description: "The human language of each passage or phrase in the  content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text."
-    uri: "http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"
-    conformance_level: "AA"
-    wuhcag_summary: "Tell users when the language on a page changes"
-    wuhcag_detail: |
-     <p>If your website has content in a different language to its main language, you should tell your users about the change. This helps those who use assistive technology to read the full content.</p>
-    wuhcag_tips: |
-      <ul>
-       <li><abbr title="HyperText Markup Language">HTML</abbr> language codes match the <abbr title="International Organisation for Standardisation">ISO</abbr> language codes standard.</li>
-       <li>If you have an alternative language version or translation of some content, link to it with the name of the language in that language (for example, ‘Francais’, ‘Deutsch’) and add a language tag to the link.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Set your website's main language by meta tag (see Guideline 3.1.1).</li>
-       <li>Add a language attribute to content that is not in the main language.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>If you are using a single word that has become part of the main language (for example, ‘rendezvous’ is used in English but is of French origin).</p>
-    wuhcag_related:
-     - "3-1-1"
+key: "3-1-2"
+id: "meaning-other-lang-id"
+title: "Language of Parts"
+description: "The human language of each passage or phrase in the  content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text."
+uri: "http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"
+conformance_level: "AA"
+wuhcag_summary: "Tell users when the language on a page changes"
+wuhcag_detail: |
+ <p>If your website has content in a different language to its main language, you should tell your users about the change. This helps those who use assistive technology to read the full content.</p>
+wuhcag_tips: |
+  <ul>
+   <li><abbr title="HyperText Markup Language">HTML</abbr> language codes match the <abbr title="International Organisation for Standardisation">ISO</abbr> language codes standard.</li>
+   <li>If you have an alternative language version or translation of some content, link to it with the name of the language in that language (for example, ‘Francais’, ‘Deutsch’) and add a language tag to the link.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <ul>
+   <li>Set your website's main language by meta tag (see Guideline 3.1.1).</li>
+   <li>Add a language attribute to content that is not in the main language.</li>
+  </ul>
+wuchcag_exceptions: |
+  <p>If you are using a single word that has become part of the main language (for example, ‘rendezvous’ is used in English but is of French origin).</p>
+wuhcag_related:
+  - key: "3-1-1"
+    conformance_level: "A"

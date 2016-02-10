@@ -1,21 +1,22 @@
-guidelines:
-  2-3-2:
-    id: "seizure-three-times"
-    title: "Three Flashes"
-    description: "Web pages do not contain anything that flashes more than three times in any one second period."
-    uri: "http://www.w3.org/TR/WCAG20/#seizure-three-times"
-    conformance_level: "AAA"
-    wuhcag_summary: "No content flashes more than three times per second"
-    wuhcag_detail: |
-      <p>To make websites as safe as possible for all users, you must limit the amount of flashing media. Flashing content can harm the health of some users.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>This builds on Guideline 2.3.1 by removing an exception that I recommend you ignore anyway.</li>
-       <li>Remember, flashing is different to blinking (see Guideline 2.2.2).</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>Don't add anything to your website that flashes more than three times a second.</p>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "2-2-2"
-     - "2-3-1"
+key: "2-3-2"
+id: "seizure-three-times"
+title: "Three Flashes"
+description: "Web pages do not contain anything that flashes more than three times in any one second period."
+uri: "http://www.w3.org/TR/WCAG20/#seizure-three-times"
+conformance_level: "AAA"
+wuhcag_summary: "No content flashes more than three times per second"
+wuhcag_detail: |
+  <p>To make websites as safe as possible for all users, you must limit the amount of flashing media. Flashing content can harm the health of some users.</p>
+wuhcag_tips: |
+  <ul>
+   <li>This builds on Guideline 2.3.1 by removing an exception that I recommend you ignore anyway.</li>
+   <li>Remember, flashing is different to blinking (see Guideline 2.2.2).</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>Don't add anything to your website that flashes more than three times a second.</p>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "2-2-2"
+    conformance_level: "A"
+  - key: "2-3-1"
+    conformance_level: "A"

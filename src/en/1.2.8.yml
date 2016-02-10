@@ -1,26 +1,28 @@
-guidelines:
-  1-2-8:
-    id: "media-equiv-text-doc"
-    title: "Media Alternative (Prerecorded)"
-    description: "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media."
-    uri: "http://www.w3.org/TR/WCAG20/#media-equiv-text-doc"
+key: "1-2-8"
+id: "media-equiv-text-doc"
+title: "Media Alternative (Prerecorded)"
+description: "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media."
+uri: "http://www.w3.org/TR/WCAG20/#media-equiv-text-doc"
+conformance_level: "AAA"
+wuhcag_summary: "Provide a text alternative to your videos"
+wuhcag_detail: |
+  <p>While you may have produced captions or audio description to enhance your videos, some users will rely on a text alternative to get the information. Providing a full text transcript of a video, including links to any calls to action, can help make it more accessible.</p>
+wuhcag_tips: |
+  <ul>
+   <li>You may have fulfilled this Guideline if you chose to meet Guideline 1.2.3 with a text transcript and then fulfilled Guideline 1.2.5 with audio description.</li>
+   <li>A good transcript contains all information in the video, such as visual cues, description and dialogue attribution.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <ul>
+   <li>Provide a full text transcript for your video and link to it from near the original content.</li>
+   <li>If the video needs audio description, make sure that is also in place.</li>
+  </ul>
+wuchcag_exceptions: |
+  <p>If the video is itself an alternative, you don’t need to add a transcript.</p>
+wuhcag_related:
+  - key: "1-2-3"
+    conformance_level: "A"
+  - key: "1-2-5"
+    conformance_level: "AA"
+  - key: "1-2-7"
     conformance_level: "AAA"
-    wuhcag_summary: "Provide a text alternative to your videos"
-    wuhcag_detail: |
-      <p>While you may have produced captions or audio description to enhance your videos, some users will rely on a text alternative to get the information. Providing a full text transcript of a video, including links to any calls to action, can help make it more accessible.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>You may have fulfilled this Guideline if you chose to meet Guideline 1.2.3 with a text transcript and then fulfilled Guideline 1.2.5 with audio description.</li>
-       <li>A good transcript contains all information in the video, such as visual cues, description and dialogue attribution.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Provide a full text transcript for your video and link to it from near the original content.</li>
-       <li>If the video needs audio description, make sure that is also in place.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>If the video is itself an alternative, you don’t need to add a transcript.</p>
-    wuhcag_related:
-      - "1-2-3"
-      - "1-2-5"
-      - "1-2-7"

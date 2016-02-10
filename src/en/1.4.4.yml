@@ -1,26 +1,28 @@
-guidelines:
-  1-4-4:
-    id: "visual-audio-contrast-scale"
-    title: "Resize text"
-    description: "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality."
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"
+key: "1-4-4"
+id: "visual-audio-contrast-scale"
+title: "Resize text"
+description: "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality."
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"
+conformance_level: "AA"
+wuhcag_summary: "Text can be resized to 200% without loss of content or function"
+wuhcag_detail: |
+  <p>Some of your users with visual impairments will need to resize text in order to understand it fully. You should allow for up to a 200% resize of text without dropping any content or functions.</p>
+wuhcag_tips: |
+  <ul>
+   <li>Resizing text is different to zooming (which enlarges text, images and layout without preserving formatting).</li>
+   <li>Check your website by resizing to 200% in a variety of browsers.</li>
+   <li>Make sure your resized text doesn’t require the user to scroll horizontally and you fulfil part of Guideline 1.4.8.</li>
+  </ul>
+wuhcag_what_to_do: |
+wuchcag_exceptions: |
+  <ul>
+   <li>Images of text (but don’t use images of text, because they don’t resize well).</li>
+   <li>Captions.</li>
+  </ul>
+wuhcag_related:
+  - key: "1-4-5"
     conformance_level: "AA"
-    wuhcag_summary: "Text can be resized to 200% without loss of content or function"
-    wuhcag_detail: |
-      <p>Some of your users with visual impairments will need to resize text in order to understand it fully. You should allow for up to a 200% resize of text without dropping any content or functions.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>Resizing text is different to zooming (which enlarges text, images and layout without preserving formatting).</li>
-       <li>Check your website by resizing to 200% in a variety of browsers.</li>
-       <li>Make sure your resized text doesn’t require the user to scroll horizontally and you fulfil part of Guideline 1.4.8.</li>
-      </ul>
-    wuhcag_what_to_do: |
-    wuchcag_exceptions: |
-      <ul>
-       <li>Images of text (but don’t use images of text, because they don’t resize well).</li>
-       <li>Captions.</li>
-      </ul>
-    wuhcag_related:
-      - "1-4-5"
-      - "1-4-8"
-      - "1-4-9"
+  - key: "1-4-8"
+    conformance_level: "AAA"
+  - key: "1-4-9"
+    conformance_level: "AAA"

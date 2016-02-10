@@ -1,21 +1,20 @@
-guidelines:
-  1-4-2:
-    id: "visual-audio-contrast-dis-audio"
-    title: "Audio Control"
-    description: "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level."
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"
-    conformance_level: "A"
-    wuhcag_summary: "Don’t play audio automatically"
-    wuhcag_detail: |
-      <p>Automatically playing sounds doesn't help your users. Your users don't need audio distractions when visiting your website. You have a hard enough time getting them to do what you want. Some of your users will have problems focusing and unexpected sounds can distract them further.</p>
-    wuhcag_tips: |
-    wuhcag_what_to_do: |
-      <ul>
-        <li>Don’t have any audio that plays automatically.</li>
-        <li>Have all the audio you want, just let your users choose when they want to hear it.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>Although you can pass this guideline by adding a pause, mute or stop function to automatic audio, that’s a bad idea. You don't want your users frantically searching around your website for the audio control.</p>
-      <p>Users shouldn't have to take action for a better experience, you need to provide it to them by default.</p>
-      <p>There’s a further exception on audio that plays for less than three seconds. Ignore this too. Three seconds of audio can still distract users, especially those who have problems maintaining focus.</p>
-    wuhcag_related:
+key: "1-4-2"
+id: "visual-audio-contrast-dis-audio"
+title: "Audio Control"
+description: "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level."
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"
+conformance_level: "A"
+wuhcag_summary: "Don’t play audio automatically"
+wuhcag_detail: |
+  <p>Automatically playing sounds doesn't help your users. Your users don't need audio distractions when visiting your website. You have a hard enough time getting them to do what you want. Some of your users will have problems focusing and unexpected sounds can distract them further.</p>
+wuhcag_tips: |
+wuhcag_what_to_do: |
+  <ul>
+    <li>Don’t have any audio that plays automatically.</li>
+    <li>Have all the audio you want, just let your users choose when they want to hear it.</li>
+  </ul>
+wuchcag_exceptions: |
+  <p>Although you can pass this guideline by adding a pause, mute or stop function to automatic audio, that’s a bad idea. You don't want your users frantically searching around your website for the audio control.</p>
+  <p>Users shouldn't have to take action for a better experience, you need to provide it to them by default.</p>
+  <p>There’s a further exception on audio that plays for less than three seconds. Ignore this too. Three seconds of audio can still distract users, especially those who have problems maintaining focus.</p>
+wuhcag_related:

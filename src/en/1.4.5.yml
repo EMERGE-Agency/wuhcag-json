@@ -1,32 +1,35 @@
-guidelines:
-  1-4-5:
-    id: "visual-audio-contrast-text-presentation"
-    title: "Images of Text"
-    description: "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except."
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"
+key: "1-4-5"
+id: "visual-audio-contrast-text-presentation"
+title: "Images of Text"
+description: "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except."
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"
+conformance_level: "AA"
+wuhcag_summary: "Don't use images of text"
+wuhcag_detail: |
+  <p>Some of your users will visit your website using a text-only browser, or might have images turned off in a regular browser. Images of text cause problems, as they are harder for those users to understand.</p>
+  <p>Images of text also cause problems for your users if they like to resize websites to read them more clearly because images do not work well this way. They also add to the time it takes your website to load, another key reason users will leave your website.</p>
+wuhcag_tips: |
+  <p>Images of text are subject to guidelines on colour contrast. See Guideline 1.4.3 and Guideline 1.4.6.</p>
+wuhcag_what_to_do: |
+  <ul>
+   <li>Do not use an image of text when you can use plain text.</li>
+   <li>Display quotes as text rather than images.</li>
+   <li>Use CSS to style headings.</li>
+   <li>Use CSS to style navigation menus as text.</li>
+  </ul>
+wuchcag_exceptions: |
+  <ul>
+   <li>Brand logos.</li>
+   <li>If using an image of text is essential because you can't achieve the effect with text (for example, presenting a particular example of typography).</li>
+   <li>If the presentation can’t be achieved with the technology used to design the website. However, this exception is removed in Level AAA Guideline 1.4.9.</li>
+   <li>Purely decorative text.</li>
+  </ul>
+wuhcag_related:
+  - key: "1-1-1"
+    conformance_level: "A"
+  - key: "1-4-3"
     conformance_level: "AA"
-    wuhcag_summary: "Don't use images of text"
-    wuhcag_detail: |
-      <p>Some of your users will visit your website using a text-only browser, or might have images turned off in a regular browser. Images of text cause problems, as they are harder for those users to understand.</p>
-      <p>Images of text also cause problems for your users if they like to resize websites to read them more clearly because images do not work well this way. They also add to the time it takes your website to load, another key reason users will leave your website.</p>
-    wuhcag_tips: |
-      <p>Images of text are subject to guidelines on colour contrast. See Guideline 1.4.3 and Guideline 1.4.6.</p>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Do not use an image of text when you can use plain text.</li>
-       <li>Display quotes as text rather than images.</li>
-       <li>Use CSS to style headings.</li>
-       <li>Use CSS to style navigation menus as text.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <ul>
-       <li>Brand logos.</li>
-       <li>If using an image of text is essential because you can't achieve the effect with text (for example, presenting a particular example of typography).</li>
-       <li>If the presentation can’t be achieved with the technology used to design the website. However, this exception is removed in Level AAA Guideline 1.4.9.</li>
-       <li>Purely decorative text.</li>
-      </ul>
-    wuhcag_related:
-      - "1-1-1"
-      - "1-4-3"
-      - "1-4-6"
-      - "1-4-9"
+  - key: "1-4-6"
+    conformance_level: "AAA"
+  - key: "1-4-9"
+    conformance_level: "AAA"

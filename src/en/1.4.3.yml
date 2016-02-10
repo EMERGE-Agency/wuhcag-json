@@ -1,36 +1,38 @@
-guidelines:
-  1-4-3:
-    id: "visual-audio-contrast-contrast"
-    title: "Contrast (Minimum)"
-    description: "The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:"
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"
+key: "1-4-3"
+id: "visual-audio-contrast-contrast"
+title: "Contrast (Minimum)"
+description: "The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:"
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"
+conformance_level: "AA"
+wuhcag_summary: "Contrast ratio between your text and background is at least 4.5:1"
+wuhcag_detail: |
+  <p>All of your users will benefit from a good contrast between the text on your website and the background colour. Some of your users with visual impairments need a stronger contrast than others, so getting your colours right is essential.</p>
+wuhcag_tips: |
+  <ul>
+    <li>Picking a contrast of at least 7:1 will also fulfil Guideline 1.4.6.</li>
+    <li>Remember to ensure that all colours used conform. This includes links that change colour after being used once, and headings in menus and sidebars, as well as main content.</li>
+    <li>Make sure that any embedded charts or images of charts have the minimum contrast between elements (for example, bars, axes and labels).</li>
+    <li>This guideline also applies to images of text (but you shouldn’t be using images of text, see Guideline 1.4.5.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>Make sure the contrast ratio between your text and background is at least 4.5:1.</p>
+  <p>Do this by:</p>
+  <ul>
+   <li>Using a light background and dark text; or</li>
+   <li>Using a dark background and light text; and</li>
+   <li>Using <a href="http://webaim.org/resources/contrastchecker/">WebAim’s colour contrast checker</a> to verify your choice.</li>
+  </ul>
+wuchcag_exceptions: |
+  <ul>
+    <li>Text that is 18 points or larger (or 14 points or larger, if bold) must have a contrast of at least 3:1.</li>
+    <li>If the text is purely decorative. </li>
+    <li>If the text is an incidental part of an image (for example, a man who is reading a newspaper or a landscape that happens to include a street sign).</li>
+    <li>Brand logos.</li>
+  </ul>
+wuhcag_related:
+  - key: "1-4-5"
     conformance_level: "AA"
-    wuhcag_summary: "Contrast ratio between your text and background is at least 4.5:1"
-    wuhcag_detail: |
-      <p>All of your users will benefit from a good contrast between the text on your website and the background colour. Some of your users with visual impairments need a stronger contrast than others, so getting your colours right is essential.</p>
-    wuhcag_tips: |
-      <ul>
-        <li>Picking a contrast of at least 7:1 will also fulfil Guideline 1.4.6.</li>
-        <li>Remember to ensure that all colours used conform. This includes links that change colour after being used once, and headings in menus and sidebars, as well as main content.</li>
-        <li>Make sure that any embedded charts or images of charts have the minimum contrast between elements (for example, bars, axes and labels).</li>
-        <li>This guideline also applies to images of text (but you shouldn’t be using images of text, see Guideline 1.4.5.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>Make sure the contrast ratio between your text and background is at least 4.5:1.</p>
-      <p>Do this by:</p>
-      <ul>
-       <li>Using a light background and dark text; or</li>
-       <li>Using a dark background and light text; and</li>
-       <li>Using <a href="http://webaim.org/resources/contrastchecker/">WebAim’s colour contrast checker</a> to verify your choice.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <ul>
-        <li>Text that is 18 points or larger (or 14 points or larger, if bold) must have a contrast of at least 3:1.</li>
-        <li>If the text is purely decorative. </li>
-        <li>If the text is an incidental part of an image (for example, a man who is reading a newspaper or a landscape that happens to include a street sign).</li>
-        <li>Brand logos.</li>
-      </ul>
-    wuhcag_related:
-      - "1-4-5"
-      - "1-4-6"
-      - "1-4-9"
+  - key: "1-4-6"
+    conformance_level: "AAA"
+  - key: "1-4-9"
+    conformance_level: "AAA"

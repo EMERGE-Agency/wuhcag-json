@@ -49,7 +49,7 @@ module.exports = function(grunt) {
     // THIS WORKED
     concat: {
         json: {
-            src: ['tmp/en/1.1.1.json','tmp/en/1.2.1.json'],
+            src: ['tmp/**/*.json'],
             dest: 'dist/wcag.json',
             options: {
                 // Added to the top of the file

@@ -1,33 +1,35 @@
-guidelines:
-  2-2-2:
-    id: "time-limits-pause"
-    title: "Pause, Stop, Hide"
-    description: "For moving, blinking, scrolling, or auto-updating information, all of the following are true:"
-    uri: "http://www.w3.org/TR/WCAG20/#time-limits-pause"
+key: "2-2-2"
+id: "time-limits-pause"
+title: "Pause, Stop, Hide"
+description: "For moving, blinking, scrolling, or auto-updating information, all of the following are true:"
+uri: "http://www.w3.org/TR/WCAG20/#time-limits-pause"
+conformance_level: "A"
+wuhcag_summary: "Provide user controls for moving content"
+wuhcag_detail: |
+  <p>How many times have you visited a website that tries to get your attention with movement? Your eyes catch the scrolling text or a blinking advert, and you take notice for a second or two. More often than not, what you looked at wasn't why you were visiting the website.</p>
+  <p>You try to return to what you were doing, except now it’s harder to focus because the movement is in the corner of your eye. You end up leaving the website because you can't complete what you started.</p>
+  <p>That’s the effect of scrolling and blinking content on your average user and that’s enough of a reason to avoid it altogether. Now, consider the effect on your users with reading or concentration difficulties. I hope that you can understand why you must provide your users with controls to pause moving content.</p>
+wuhcag_tips: |
+ <p>The guideline is more forgiving than I am. It lets you offer your users a pause option, but I suggest you remove anything that moves, scrolls or blinks altogether.</p>
+ <p>It also covers auto-updating content, which is where the strength of the guideline lies. Auto-updating content can be great. You could use it to show the latest sports scores, share prices or your Twitter feed. While the guideline applies to all moving, blinking and scrolling content, I’d love to see you eliminate all but auto-updating content.</p>
+wuhcag_what_to_do: |
+  <ul>
+   <li>Moving, blinking or scrolling content must have an option to pause, stop or hide it; and</li>
+   <li>Auto-updating content must have the same options; or</li>
+   <li>An option to control frequency (see Guideline 2.2.1 for advice).</li>
+  </ul>
+wuchcag_exceptions: |
+  <p>You can ignore the rules of moving content if:</p>
+  <ul>
+   <li>The moving content does not start automatically, without user interaction.</li>
+   <li>Your moving, scrolling or blinking content lasts less than five seconds.</li>
+   <li>The information is not parallel with content but separate (for example, a full-page advert displayed before users reach your webpage).</li>
+   <li>The movement is an animation that runs to show your users that something is loading, if it would otherwise look like your website was frozen.</li>
+  </ul>
+wuhcag_related:
+  - key: "2-2-1"
     conformance_level: "A"
-    wuhcag_summary: "Provide user controls for moving content"
-    wuhcag_detail: |
-      <p>How many times have you visited a website that tries to get your attention with movement? Your eyes catch the scrolling text or a blinking advert, and you take notice for a second or two. More often than not, what you looked at wasn't why you were visiting the website.</p>
-      <p>You try to return to what you were doing, except now it’s harder to focus because the movement is in the corner of your eye. You end up leaving the website because you can't complete what you started.</p>
-      <p>That’s the effect of scrolling and blinking content on your average user and that’s enough of a reason to avoid it altogether. Now, consider the effect on your users with reading or concentration difficulties. I hope that you can understand why you must provide your users with controls to pause moving content.</p>
-    wuhcag_tips: |
-     <p>The guideline is more forgiving than I am. It lets you offer your users a pause option, but I suggest you remove anything that moves, scrolls or blinks altogether.</p>
-     <p>It also covers auto-updating content, which is where the strength of the guideline lies. Auto-updating content can be great. You could use it to show the latest sports scores, share prices or your Twitter feed. While the guideline applies to all moving, blinking and scrolling content, I’d love to see you eliminate all but auto-updating content.</p>
-    wuhcag_what_to_do: |
-      <ul>
-       <li>Moving, blinking or scrolling content must have an option to pause, stop or hide it; and</li>
-       <li>Auto-updating content must have the same options; or</li>
-       <li>An option to control frequency (see Guideline 2.2.1 for advice).</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>You can ignore the rules of moving content if:</p>
-      <ul>
-       <li>The moving content does not start automatically, without user interaction.</li>
-       <li>Your moving, scrolling or blinking content lasts less than five seconds.</li>
-       <li>The information is not parallel with content but separate (for example, a full-page advert displayed before users reach your webpage).</li>
-       <li>The movement is an animation that runs to show your users that something is loading, if it would otherwise look like your website was frozen.</li>
-      </ul>
-    wuhcag_related:
-      - "2-2-1"
-      - "2-3-1"
-      - "2-3-2"
+  - key: "2-3-1"
+    conformance_level: "A"
+  - key: "2-3-2"
+    conformance_level: "AA"

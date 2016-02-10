@@ -1,39 +1,41 @@
-guidelines:
-  3-1-5:
-    id: "meaning-located"
-    title: "Abbreviations"
-    description: "A mechanism for identifying the expanded form or meaning of abbreviations is available."
-    uri: "http://www.w3.org/TR/WCAG20/#meaning-located"
+key: "3-1-5"
+id: "meaning-located"
+title: "Abbreviations"
+description: "A mechanism for identifying the expanded form or meaning of abbreviations is available."
+uri: "http://www.w3.org/TR/WCAG20/#meaning-located"
+conformance_level: "AAA"
+wuhcag_summary: "Users with nine years of school can read your content"
+wuhcag_detail: |
+  <p>All of your users need to read your website. That means you need to write with a range of people in mind, from your College Professor to someone straight out of school.</p>
+  <p>The key is to write as simply as you can, in clear and plain language.</p>
+wuhcag_tips: |
+  <ul>
+   <li>You can never write something that every human on the planet will understand. </li>
+   <li>Short sentences are easiest to understand.</li>
+   <li>Stick to one topic per paragraph and one thought per sentence.</li>
+   <li>Avoid slang, jargon and idioms.</li>
+   <li>Use common words and contractions.</li>
+   <li>Write how people speak.</li>
+   <li>Use bullet points.</li>
+   <li>Use active, not passive, language (for example, ‘The words were written by Luke’ is passive, but ‘Luke wrote the words’ is active).</li>
+   <li>Microsoft Word and some online services can check for readability against the Flesch Reading Ease test – aim for a score over 60.</li>
+   <li>BUT don’t rely solely on automated tests, use common sense too.</li>
+   <li><a href="https://www.gov.uk/government-digital-guidance/content-publishing">GOV.UK has a useful style guide</a> for content producers.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>The <abbr title="World Wide Web Consortium">W3C</abbr> (the writers of the Guidelines), set a benchmark you can test against. The suggested standard is to write so that a person with 7-9 years of schooling can understand you.</p>
+  <p>You can get your content to this standard by:</p>
+  <ul>
+   <li>Writing so that someone with no more than nine years of school can understand you (that’s nine years from their first day at school, so no college or further education).</li>
+   <li>Adding summaries, images and diagrams to content to help explain meaning.</li>
+   <li>Breaking up content with well-organised sections and headings.</li>
+  </ul>
+wuchcag_exceptions: |
+  <p>You don't need to worry about using correct names, even if they are complicated or hard to read. Names of things like people, films, books and companies all might be hard to read, but they are beyond your control.</p>
+wuhcag_related:
+  - key: "3-1-3"
     conformance_level: "AAA"
-    wuhcag_summary: "Users with nine years of school can read your content"
-    wuhcag_detail: |
-      <p>All of your users need to read your website. That means you need to write with a range of people in mind, from your College Professor to someone straight out of school.</p>
-      <p>The key is to write as simply as you can, in clear and plain language.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>You can never write something that every human on the planet will understand. </li>
-       <li>Short sentences are easiest to understand.</li>
-       <li>Stick to one topic per paragraph and one thought per sentence.</li>
-       <li>Avoid slang, jargon and idioms.</li>
-       <li>Use common words and contractions.</li>
-       <li>Write how people speak.</li>
-       <li>Use bullet points.</li>
-       <li>Use active, not passive, language (for example, ‘The words were written by Luke’ is passive, but ‘Luke wrote the words’ is active).</li>
-       <li>Microsoft Word and some online services can check for readability against the Flesch Reading Ease test – aim for a score over 60.</li>
-       <li>BUT don’t rely solely on automated tests, use common sense too.</li>
-       <li><a href="https://www.gov.uk/government-digital-guidance/content-publishing">GOV.UK has a useful style guide</a> for content producers.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>The <abbr title="World Wide Web Consortium">W3C</abbr> (the writers of the Guidelines), set a benchmark you can test against. The suggested standard is to write so that a person with 7-9 years of schooling can understand you.</p>
-      <p>You can get your content to this standard by:</p>
-      <ul>
-       <li>Writing so that someone with no more than nine years of school can understand you (that’s nine years from their first day at school, so no college or further education).</li>
-       <li>Adding summaries, images and diagrams to content to help explain meaning.</li>
-       <li>Breaking up content with well-organised sections and headings.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <p>You don't need to worry about using correct names, even if they are complicated or hard to read. Names of things like people, films, books and companies all might be hard to read, but they are beyond your control.</p>
-    wuhcag_related:
-     - "3-1-3"
-     - "3-1-4"
-     - "3-1-6"
+  - key: "3-1-4"
+    conformance_level: "AAA"
+  - key: "3-1-6"
+    conformance_level: "AAA"

@@ -1,29 +1,29 @@
-guidelines:
-  3-3-6:
-    id: "minimize-error-reversible-all"
-    title: "Error Prevention (All)"
-    description: "For Web pages that require the user to submit information, at least one of the following is true:"
-    uri: "http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all"
-    conformance_level: "AAA"
-    wuhcag_summary: "Reduce the risk of all input errors"
-    wuhcag_detail: |
-      <p>All users make mistakes when inputting data (for example, into forms and checkouts). Aim to prevent these errors occurring, but make it easy for users to correct errors as they occur.</p>
-      <p>Users can make costly mistakes if they don't fully understand the implications of their actions or can’t rectify their errors. Error prevention is all about reducing risk to your users.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>This guideline expands on Guideline 3.3.4.</li>
-       <li>This guideline applies to deletion of data as well as submission.</li>
-       <li>Although each technique alone is enough to pass this guideline, add as many of the techniques to your process as possible. </li>
-       <li>Provide a confirmation webpage that gives the user a chance to read a summary of everything they have input, and positively confirm their actions (especially if inputs were spread over several pages in the process).</li>
-       <li>Validate forms inline and add error messages if input is incorrect. Be specific in explaining how to fix mistakes.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>To pass this guideline, you need to make sure that:</p>
-      <ul>
-       <li>All data input submissions are reversible; or</li>
-       <li>All data input submissions are checked for input errors and the user is given a chance to correct any mistakes; or</li>
-       <li>Add a confirmation page to the data input submission process that summarises the input and the outcome, with an option to correct or discontinue. This page has an input field (for example, a confirm button or checkbox) that acts as confirmation of the submission.</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-     - "3-3-4"
+key: "3-3-6"
+id: "minimize-error-reversible-all"
+title: "Error Prevention (All)"
+description: "For Web pages that require the user to submit information, at least one of the following is true:"
+uri: "http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all"
+conformance_level: "AAA"
+wuhcag_summary: "Reduce the risk of all input errors"
+wuhcag_detail: |
+  <p>All users make mistakes when inputting data (for example, into forms and checkouts). Aim to prevent these errors occurring, but make it easy for users to correct errors as they occur.</p>
+  <p>Users can make costly mistakes if they don't fully understand the implications of their actions or can’t rectify their errors. Error prevention is all about reducing risk to your users.</p>
+wuhcag_tips: |
+  <ul>
+   <li>This guideline expands on Guideline 3.3.4.</li>
+   <li>This guideline applies to deletion of data as well as submission.</li>
+   <li>Although each technique alone is enough to pass this guideline, add as many of the techniques to your process as possible. </li>
+   <li>Provide a confirmation webpage that gives the user a chance to read a summary of everything they have input, and positively confirm their actions (especially if inputs were spread over several pages in the process).</li>
+   <li>Validate forms inline and add error messages if input is incorrect. Be specific in explaining how to fix mistakes.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>To pass this guideline, you need to make sure that:</p>
+  <ul>
+   <li>All data input submissions are reversible; or</li>
+   <li>All data input submissions are checked for input errors and the user is given a chance to correct any mistakes; or</li>
+   <li>Add a confirmation page to the data input submission process that summarises the input and the outcome, with an option to correct or discontinue. This page has an input field (for example, a confirm button or checkbox) that acts as confirmation of the submission.</li>
+  </ul>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "3-3-4"
+    conformance_level: "AA"

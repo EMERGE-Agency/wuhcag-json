@@ -1,29 +1,29 @@
-guidelines:
-  1-4-8:
-    id: "visual-audio-contrast-visual-presentation"
-    title: "Visual Presentation"
-    description: "For the visual presentation of blocks of text, a mechanism is available to achieve the following:"
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation"
-    conformance_level: "AAA"
-    wuhcag_summary: "Offer users a range of presentation options"
-    wuhcag_detail: |
-      <p>Some of your users will have difficulty viewing your website with the same clarity as others. There's no way you can guess every combination of colours and sizes your users prefer, but you can offer ways for them to customise their view.</p>
-      <p>Allowing your users to select from a range of visual presentation options will help them to get the best from your website.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>The <a href="http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/working-examples/G175/index.php">W3C’s in-depth colour picker</a> will cover feature number 1 noted prior.</li>
-       <li>The <a href="http://www.bbc.co.uk/accessibility">BBC’s accessibility page</a> has a good range of colour and spacing options.</li>
-       <li>Add all visual presentation options to the header of your website, so they are some of the first things that your users see.</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>The following five features are cumulative, as all must be in place to pass Guideline 1.4.8:</p>
-      <ol>
-       <li>Provide a tool that enables your customers to select from a number of background and foreground colours; and</li>
-       <li>Text blocks must be no wider than 80 characters (make sure resized browser windows do not need horizontal scrolling); and</li>
-       <li>Text is not justified to both sides of the webpage; and</li>
-       <li>Provide a tool that enables your users to select from a number of line and paragraph spacing options – one of the options must give line spacing that is at least 1.5 in text blocks and spaces between paragraphs are at least 1.5x line spacing; and</li>
-       <li>Text can be resized in a browser up to 200% without requiring the user to scroll horizontally (you may have fulfilled this when you complied with Guideline 1.4.4).</li>
-      </ol>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "1-4-4"
+key: "1-4-8"
+id: "visual-audio-contrast-visual-presentation"
+title: "Visual Presentation"
+description: "For the visual presentation of blocks of text, a mechanism is available to achieve the following:"
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation"
+conformance_level: "AAA"
+wuhcag_summary: "Offer users a range of presentation options"
+wuhcag_detail: |
+  <p>Some of your users will have difficulty viewing your website with the same clarity as others. There's no way you can guess every combination of colours and sizes your users prefer, but you can offer ways for them to customise their view.</p>
+  <p>Allowing your users to select from a range of visual presentation options will help them to get the best from your website.</p>
+wuhcag_tips: |
+  <ul>
+   <li>The <a href="http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/working-examples/G175/index.php">W3C’s in-depth colour picker</a> will cover feature number 1 noted prior.</li>
+   <li>The <a href="http://www.bbc.co.uk/accessibility">BBC’s accessibility page</a> has a good range of colour and spacing options.</li>
+   <li>Add all visual presentation options to the header of your website, so they are some of the first things that your users see.</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>The following five features are cumulative, as all must be in place to pass Guideline 1.4.8:</p>
+  <ol>
+   <li>Provide a tool that enables your customers to select from a number of background and foreground colours; and</li>
+   <li>Text blocks must be no wider than 80 characters (make sure resized browser windows do not need horizontal scrolling); and</li>
+   <li>Text is not justified to both sides of the webpage; and</li>
+   <li>Provide a tool that enables your users to select from a number of line and paragraph spacing options – one of the options must give line spacing that is at least 1.5 in text blocks and spaces between paragraphs are at least 1.5x line spacing; and</li>
+   <li>Text can be resized in a browser up to 200% without requiring the user to scroll horizontally (you may have fulfilled this when you complied with Guideline 1.4.4).</li>
+  </ol>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "1-4-4"
+    conformance_level: "AA"

@@ -1,35 +1,35 @@
-guidelines:
-  1-4-6:
-    id: "visual-audio-contrast7"
-    title: "Contrast (Enhanced)"
-    description: "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:"
-    uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast7"
-    conformance_level: "AAA"
-    wuhcag_summary: "Contrast ratio between your text and background is at least 7:1"
-    wuhcag_detail: |
-      <p>All of your users will benefit from a good contrast between the text on your website and the background colour. Some of your users with visual impairments need a stronger contrast than others, so getting your colours right is essential.</p>
-      <p>While the minimum contrast for Level AA was 4.5:1, for Level AAA it’s 7:1. This higher level of contrast makes it even easier for everyone to read your content.</p>
-    wuhcag_tips: |
-      <ul>
-       <li>You may have fulfilled this guideline when you complied with Guideline 1.4.3.</li>
-       <li>Remember to ensure that all colours used conform. This includes links that change colour after being used once, and headings in menus and sidebars, as well as main content.</li>
-       <li>Make sure that any embedded charts or images of charts have the minimum contrast between elements (for example, bars, axes and labels).</li>
-       <li>This guideline also applies to images of text (but you shouldn't be using images of text – see Guideline 1.4.5).</li>
-      </ul>
-    wuhcag_what_to_do: |
-      <p>Make sure the contrast ratio between your text and background is at least 7:1.</p>
-      <p>Do this by:</p>
-      <ul>
-       <li>Using a light background and dark text; or</li>
-       <li>Using a dark background and light text; and</li>
-       <li>Using a colour contrast checker to verify your choice.</li>
-      </ul>
-    wuchcag_exceptions: |
-      <ul>
-       <li>Text that is 18 points or larger (or 14 points or larger, if bold) must have a contrast of at least 4.5:1.</li>
-       <li>Where text is purely decorative – so you could have a block of different coloured words on a blue background if it didn't mean anything to your users and their order was random.</li>
-       <li>Where the text is an incidental part of an image (for example, a man who is reading a newspaper or a landscape that happens to include a street sign).</li>
-       <li>Brand logos.</li>
-      </ul>
-    wuhcag_related:
-      - "1-4-3"
+key: "1-4-6"
+id: "visual-audio-contrast7"
+title: "Contrast (Enhanced)"
+description: "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:"
+uri: "http://www.w3.org/TR/WCAG20/#visual-audio-contrast7"
+conformance_level: "AAA"
+wuhcag_summary: "Contrast ratio between your text and background is at least 7:1"
+wuhcag_detail: |
+  <p>All of your users will benefit from a good contrast between the text on your website and the background colour. Some of your users with visual impairments need a stronger contrast than others, so getting your colours right is essential.</p>
+  <p>While the minimum contrast for Level AA was 4.5:1, for Level AAA it’s 7:1. This higher level of contrast makes it even easier for everyone to read your content.</p>
+wuhcag_tips: |
+  <ul>
+   <li>You may have fulfilled this guideline when you complied with Guideline 1.4.3.</li>
+   <li>Remember to ensure that all colours used conform. This includes links that change colour after being used once, and headings in menus and sidebars, as well as main content.</li>
+   <li>Make sure that any embedded charts or images of charts have the minimum contrast between elements (for example, bars, axes and labels).</li>
+   <li>This guideline also applies to images of text (but you shouldn't be using images of text – see Guideline 1.4.5).</li>
+  </ul>
+wuhcag_what_to_do: |
+  <p>Make sure the contrast ratio between your text and background is at least 7:1.</p>
+  <p>Do this by:</p>
+  <ul>
+   <li>Using a light background and dark text; or</li>
+   <li>Using a dark background and light text; and</li>
+   <li>Using a colour contrast checker to verify your choice.</li>
+  </ul>
+wuchcag_exceptions: |
+  <ul>
+   <li>Text that is 18 points or larger (or 14 points or larger, if bold) must have a contrast of at least 4.5:1.</li>
+   <li>Where text is purely decorative – so you could have a block of different coloured words on a blue background if it didn't mean anything to your users and their order was random.</li>
+   <li>Where the text is an incidental part of an image (for example, a man who is reading a newspaper or a landscape that happens to include a street sign).</li>
+   <li>Brand logos.</li>
+  </ul>
+wuhcag_related:
+  - key: "1-4-3"
+    conformance_level: "AA"

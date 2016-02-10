@@ -1,36 +1,39 @@
-guidelines:
-  1-3-2:
-    id: "content-structure-separation-sequence"
-    title: "Meaningful Sequence"
-    description: "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
-    uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"
+key: "1-3-2"
+id: "content-structure-separation-sequence"
+title: "Meaningful Sequence"
+description: "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
+uri: "http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"
+conformance_level: "A"
+wuhcag_summary: "Present your website content in a meaningful order"
+wuhcag_detail: |
+  <p>The meaning of content on your website relies on the order you present it. For example, in English we read from left to right and read a left-hand column before a right-hand column. Present the content on your website in an order that your users can understand.</p>
+  <p>Some of your users rely on assistive technology (like a screen reader) to interpret content. By sequencing content correctly, you can make sure that your users with disabilities can understand your website and improve your overall web accessibility.</p>
+wuhcag_tips: |
+  <p>Invest in some assistive technology and use it to browse your website. <a href="http://www.nvaccess.org/">NVDA is a free screen reader</a> you can try to get started.</p>
+  <p>Turn off the site’s Cascading Style Sheet (CSS) and check that your web page displays in the correct order. You can use an extension like <a href="http://www.chromeextensions.org/webmaster-seo/pendule/">Pendule for Chrome</a> to easily toggle CSS on and off.</p>
+  <p>Using headings to show importance isn’t always straightforward. Headings on a web page are a great way to break up content and show your users the relative importance of each section. Headings in HTML range from 1 (the most important) to 6 (the least important). It’s best to have just one Heading1 (H1) on a web page, to show the title of that page.</p>
+  <p>However, headings don’t need to descend from 1 to 6 each time you use one. As well as headings that share levels, you can skip levels altogether if that fits your content.</p>
+wuhcag_what_to_do: |
+  <p>Ensuring you present your content in a meaningful sequence is a wide-ranging part of web accessibility. It applies to all elements of all pages, so is as big or as small a task as your website.</p>
+  <p>Make sure you:</p>
+  <ul>
+   <li>Present content in a meaningful order.</li>
+   <li>Separate navigation menus from content.</li>
+  </ul>
+  <p>Always present your content so that it preserves your meaning. That way, it’s great for anyone reading it. The main things to look out for are:</p>
+  <ul>
+   <li>Use paragraphs in order.</li>
+   <li>Use headings to show importance.</li>
+   <li>Choose whether a list needs numbering or not.</li>
+   <li>Use valid HTML and check it with the W3C’s markup validator.15</li>
+  </ul>
+wuchcag_exceptions: |
+wuhcag_related:
+  - key: "1-3-1"
     conformance_level: "A"
-    wuhcag_summary: "Present your website content in a meaningful order"
-    wuhcag_detail: |
-      <p>The meaning of content on your website relies on the order you present it. For example, in English we read from left to right and read a left-hand column before a right-hand column. Present the content on your website in an order that your users can understand.</p>
-      <p>Some of your users rely on assistive technology (like a screen reader) to interpret content. By sequencing content correctly, you can make sure that your users with disabilities can understand your website and improve your overall web accessibility.</p>
-    wuhcag_tips: |
-      <p>Invest in some assistive technology and use it to browse your website. <a href="http://www.nvaccess.org/">NVDA is a free screen reader</a> you can try to get started.</p>
-      <p>Turn off the site’s Cascading Style Sheet (CSS) and check that your web page displays in the correct order. You can use an extension like <a href="http://www.chromeextensions.org/webmaster-seo/pendule/">Pendule for Chrome</a> to easily toggle CSS on and off.</p>
-      <p>Using headings to show importance isn’t always straightforward. Headings on a web page are a great way to break up content and show your users the relative importance of each section. Headings in HTML range from 1 (the most important) to 6 (the least important). It’s best to have just one Heading1 (H1) on a web page, to show the title of that page.</p>
-      <p>However, headings don’t need to descend from 1 to 6 each time you use one. As well as headings that share levels, you can skip levels altogether if that fits your content.</p>
-    wuhcag_what_to_do: |
-      <p>Ensuring you present your content in a meaningful sequence is a wide-ranging part of web accessibility. It applies to all elements of all pages, so is as big or as small a task as your website.</p>
-      <p>Make sure you:</p>
-      <ul>
-       <li>Present content in a meaningful order.</li>
-       <li>Separate navigation menus from content.</li>
-      </ul>
-      <p>Always present your content so that it preserves your meaning. That way, it’s great for anyone reading it. The main things to look out for are:</p>
-      <ul>
-       <li>Use paragraphs in order.</li>
-       <li>Use headings to show importance.</li>
-       <li>Choose whether a list needs numbering or not.</li>
-       <li>Use valid HTML and check it with the W3C’s markup validator.15</li>
-      </ul>
-    wuchcag_exceptions: |
-    wuhcag_related:
-      - "1-3-1"
-      - "2-4-2"
-      - "2-4-3"
-      - "2-4-6"
+  - key: "2-4-2"
+    conformance_level: "A"
+  - key: "2-4-3"
+    conformance_level: "A"
+  - key: "2-4-6"
+    conformance_level: "AA"
