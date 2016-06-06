@@ -12,7 +12,7 @@ wuhcag_detail: |
 wuhcag_tips: |
 wuhcag_what_to_do: |
   <p>Add a ‘Skip to Content’ link to all pages on your website. It’s best if you make the link visible.</p>
-  <p>The easiest way to add a ‘Skip to Content’ link to your website is to use of a great piece of code from the guys on the PayPal Accessibility Team. They produced something called <code>&lt;a href=&quote;https://github.com/paypal/skipto&quote;&gt;SkipTo&lt/a&gt;</code>, which adds a link for you. Best of all if you’re using WordPress or Drupal, there are plugins you can use.</p>
+  <p>The easiest way to add a ‘Skip to Content’ link to your website is to use of a great piece of code from the guys on the PayPal Accessibility Team. They produced something called <a href="https://github.com/paypal/skipto">skipto</a>, which adds a link for you. Best of all if you’re using WordPress or Drupal, there are plugins you can use.</p>
 wuchcag_exceptions: |
 wuhcag_related:
   - key: "1-3-2"
