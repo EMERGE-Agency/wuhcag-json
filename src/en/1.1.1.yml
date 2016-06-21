@@ -26,6 +26,6 @@ wuhcag_what_to_do: |
 wuhcag_exceptions: |
 wuhcag_related:
   - key: "1-4-5"
-    conformance_level: "A"
+    conformance_level: "AA"
   - key: "1-4-9"
     conformance_level: "AA"
